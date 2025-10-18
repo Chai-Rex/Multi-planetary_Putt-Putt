@@ -7,8 +7,6 @@ public class HasGravity : MonoBehaviour {
     [Header("References")]
     [SerializeField] private Rigidbody2D rigidbody2d;
 
-    private bool isFriction = false;
-
     void Start() {
         //GravityManager.attractors.Add(rigidbody2d);
     }
@@ -27,21 +25,12 @@ public class HasGravity : MonoBehaviour {
     }
 
     private void OnCollisionEnter2D(Collision2D collision) {
-        if (isFriction) return;
-        isFriction = true;
-        FrictionAsync(collision.rigidbody);
+        collision.rigidbody.linearDamping = rigidbody2d.sharedMaterial.friction;
+
     }
 
     private void OnCollisionExit(Collision collision) {
-        isFriction = false;
+        collision.rigidbody.linearDamping = 0;
     }
 
-    private async void FrictionAsync(Rigidbody2D ballRigidbody2D) {
-        while (isFriction) {
-
-            ballRigidbody2D.linearDamping = rigidbody2d.sharedMaterial.friction;
-            await Awaitable.FixedUpdateAsync();
-        }
-        ballRigidbody2D.linearDamping = 0;
-    }
 }

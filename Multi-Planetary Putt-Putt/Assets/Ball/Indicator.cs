@@ -4,6 +4,7 @@ using UnityEngine;
 public class Indicator : MonoBehaviour {
 
     [SerializeField] private float rotationSpeed = 100f;
+    [SerializeField] private float scaleSpeed = 100f;
     private bool isMoving = false;
 
     private void OnEnable() {
@@ -33,6 +34,9 @@ public class Indicator : MonoBehaviour {
 
             if (input.x != 0) {
                 transform.Rotate(0f, 0f, -input.x * rotationSpeed * Time.deltaTime);
+            }
+            if (input.y != 0) {
+                transform.localScale += new Vector3(0f, input.y * scaleSpeed * Time.deltaTime, 0f);
             }
 
             await Task.Yield();

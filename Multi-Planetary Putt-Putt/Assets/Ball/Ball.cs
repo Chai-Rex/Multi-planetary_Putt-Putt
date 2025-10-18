@@ -1,67 +1,102 @@
 using System.Threading.Tasks;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class Ball : MonoBehaviour {
 
-
     [SerializeField] private float force = 1f;
+    [SerializeField] private float outOfBoundsPadding = 0.1f;
+    [SerializeField] private float stoppingVelocityThreshold = 0.1f;
     [SerializeField] private Indicator indicator;
+    [SerializeField] private Rigidbody2D rb;
 
-
-    [SerializeField] private Rigidbody2D rigidbody2d;
-
-    private Vector3 savePosition;
+    private Vector3 _lastStablePosition;
+    private bool _isHitRoutineRunning;
 
     private void Start() {
-        savePosition = transform.position;
-
-        GravityManager.attractees.Add(rigidbody2d);
-
-        indicator.transform.position = transform.position;
-
-        InputManager.Instance.InteractAction.started += InteractAction_started;
+        InitializeBall();
+        InputManager.Instance.InteractAction.started += OnInteract;
     }
 
-    private void InteractAction_started(UnityEngine.InputSystem.InputAction.CallbackContext obj) {
-        HitBallRoutine();
+    private void OnDestroy() {
+        if (InputManager.Instance != null) {
+            InputManager.Instance.InteractAction.started -= OnInteract;
+        }
+        GravityManager.attractees.Remove(rb);
+        _isHitRoutineRunning = false;
     }
 
+    private void InitializeBall() {
+        rb.bodyType = RigidbodyType2D.Kinematic;
+        _lastStablePosition = transform.position;
+        GravityManager.attractees.Add(rb);
+        UpdateIndicatorPosition();
+    }
 
-    private async void HitBallRoutine() {
-        indicator.gameObject.SetActive(false);
-        rigidbody2d.AddForce(indicator.transform.up * force);
+    private void OnInteract(UnityEngine.InputSystem.InputAction.CallbackContext obj) {
+        if (!_isHitRoutineRunning) {
+            HitBallAsync();
+        }
+    }
+
+    private async void HitBallAsync() {
+        _isHitRoutineRunning = true;
+
+        LaunchBall();
         await Awaitable.FixedUpdateAsync();
-        while (rigidbody2d.linearVelocity.magnitude > .1f) {
+
+        bool shouldReset = await WaitForBallToStop();
+
+        if (shouldReset) {
+            ResetBall();
+        } else {
+            StabilizeBall();
+        }
+
+        _isHitRoutineRunning = false;
+    }
+
+    private void LaunchBall() {
+        rb.bodyType = RigidbodyType2D.Dynamic;
+        indicator.gameObject.SetActive(false);
+
+        Vector2 launchDirection = indicator.transform.up * indicator.transform.localScale.y;
+        rb.AddForce(launchDirection * force);
+    }
+
+    private async Task<bool> WaitForBallToStop() {
+        while (rb.linearVelocity.magnitude > stoppingVelocityThreshold) {
             if (IsOutOfBounds()) {
-                rigidbody2d.linearVelocity = Vector2.zero;
-                await Awaitable.FixedUpdateAsync();
-                transform.position = savePosition;
-                indicator.gameObject.SetActive(true);
-                indicator.transform.position = transform.position;
-                return;
+                return true; // Signal to reset
             }
             await Task.Yield();
         }
-        rigidbody2d.linearVelocity = Vector2.zero;
-        await Awaitable.FixedUpdateAsync();
-        indicator.transform.position = transform.position;
-        indicator.gameObject.SetActive(true);
-        savePosition = transform.position;
+        return false; // Ball stopped naturally
     }
 
+    private void ResetBall() {
+        rb.linearVelocity = Vector2.zero;
+        transform.position = _lastStablePosition;
+        rb.bodyType = RigidbodyType2D.Kinematic;
+        UpdateIndicatorPosition();
+        indicator.gameObject.SetActive(true);
+    }
 
-    private bool IsOutOfBounds(float padding = 0.5f) {
+    private void StabilizeBall() {
+        rb.linearVelocity = Vector2.zero;
+        _lastStablePosition = transform.position;
+        rb.bodyType = RigidbodyType2D.Kinematic;
+        UpdateIndicatorPosition();
+        indicator.gameObject.SetActive(true);
+    }
+
+    private void UpdateIndicatorPosition() {
+        indicator.transform.position = transform.position;
+    }
+
+    private bool IsOutOfBounds() {
         Vector3 viewportPos = Camera.main.WorldToViewportPoint(transform.position);
 
-        // Viewport coordinates: (0,0) is bottom-left, (1,1) is top-right
-        // Add padding in viewport space (0.1 = 10% of screen)
-        if (viewportPos.x < -padding || viewportPos.x > 1 + padding ||
-            viewportPos.y < -padding || viewportPos.y > 1 + padding) {
-            // Object is off screen
-            Debug.Log("Object left the screen!");
-            return true;
-        }
-        return false;
+        return viewportPos.x < -outOfBoundsPadding || viewportPos.x > 1 + outOfBoundsPadding ||
+               viewportPos.y < -outOfBoundsPadding || viewportPos.y > 1 + outOfBoundsPadding;
     }
 }
