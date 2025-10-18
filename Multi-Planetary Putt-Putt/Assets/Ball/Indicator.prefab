@@ -46,7 +46,60 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc9f54cf6b9e5e943902bf70e810079a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Indicator
-  rotationSpeed: 100
+  rotationMaxSpeed: 100
+  rotationTime: 0.5
+  rotationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  scaleMaxSpeed: 1
+  scaleTime: 0.5
+  scaleCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  minScale: 0.5
+  maxScale: 3
 --- !u!1 &4041006512731965196
 GameObject:
   m_ObjectHideFlags: 0
@@ -73,8 +126,8 @@ Transform:
   m_GameObject: {fileID: 4041006512731965196}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.75, z: 0}
-  m_LocalScale: {x: 0.46, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 1.3, z: 0}
+  m_LocalScale: {x: 0.3, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 183887107672380473}
@@ -163,7 +216,7 @@ Transform:
   m_GameObject: {fileID: 7656957126703186422}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 0.09, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
