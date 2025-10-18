@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Hole : MonoBehaviour {
     public event Action OnBallCompleted;
@@ -12,6 +13,9 @@ public class Hole : MonoBehaviour {
                 Debug.Log($"Ball completed!");
             }
             OnBallCompleted?.Invoke();
+
+            //REMOVE
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 }
