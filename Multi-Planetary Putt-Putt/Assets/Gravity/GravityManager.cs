@@ -43,7 +43,7 @@ public class GravityManager : MonoBehaviour {
         float distance = difference.magnitude; // r = Mathf.Sqrt((x*x)+(y*y))
 
         //F = G * ((m1*m2)/r^2)
-        float unScaledforceMagnitude = massProduct / Mathf.Pow(distance, 2);
+        float unScaledforceMagnitude = massProduct / distance;
         float forceMagnitude = G * unScaledforceMagnitude;
 
         Vector3 forceDirection = difference.normalized;
