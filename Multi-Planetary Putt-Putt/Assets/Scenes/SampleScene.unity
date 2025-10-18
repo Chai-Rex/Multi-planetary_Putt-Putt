@@ -475,17 +475,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8699369756154491150, guid: e3c5cd86141f2d841a7ddd60b2d447ad, type: 3}
-      propertyPath: force
-      value: 1000
-      objectReference: {fileID: 0}
-    - target: {fileID: 8699369756154491150, guid: e3c5cd86141f2d841a7ddd60b2d447ad, type: 3}
       propertyPath: indicator
       value: 
       objectReference: {fileID: 820014922}
-    - target: {fileID: 8699369756154491150, guid: e3c5cd86141f2d841a7ddd60b2d447ad, type: 3}
-      propertyPath: stoppingVelocityThreshold
-      value: 0.3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
