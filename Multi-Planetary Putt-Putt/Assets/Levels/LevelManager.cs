@@ -38,7 +38,14 @@ public class LevelManager : MonoBehaviour
 
     private List<string> levelNames = new List<string>
     {
-        "SampleScene"
+        "Level1",
+        "Level2",
+        "Level3",
+        "Level4",
+        "Level5",
+        "Level6",
+        "Level7",
+        "Level8"
     };
 
     private void Awake()
@@ -83,6 +90,15 @@ public class LevelManager : MonoBehaviour
             case ELevel.LevelFive:
                 UpdateLevelCompletedProgress(5);
                 break;
+            case ELevel.LevelSix:
+                UpdateLevelCompletedProgress(6);
+                break;
+            case ELevel.LevelSeven:
+                UpdateLevelCompletedProgress(7);
+                break;
+            case ELevel.LevelEight:
+                UpdateLevelCompletedProgress(8);
+                break;
         }
     }
 
@@ -106,6 +122,15 @@ public class LevelManager : MonoBehaviour
             case ELevel.LevelFive:
                 LoadLevel(4);
                 break;
+            case ELevel.LevelSix:
+                LoadLevel(5);
+                break;
+            case ELevel.LevelSeven:
+                LoadLevel(6);
+                break;
+            case ELevel.LevelEight:
+                LoadLevel(7);
+                break;
         }
     }
 
@@ -116,8 +141,15 @@ public class LevelManager : MonoBehaviour
 
     private void LoadLevel(int levelNumber)
     {
-        if (!(levelNumber >= 0 && levelNumber < levelNames.Count)) { return; }
-        SceneManager.LoadScene(levelNames[levelNumber]);
+        if (!(levelNumber >= 0 && levelNumber < levelNames.Count)) 
+        {
+            LoadMainMenu();
+        }
+        else
+        {
+            SceneManager.LoadScene(levelNames[levelNumber]);
+        }
+            
     }
 
     private void UpdateLevelCompletedProgress(int levelCompleted)
@@ -169,6 +201,7 @@ public class LevelManager : MonoBehaviour
 
     private void DisableAllLevelButtons()
     {
+        if (levelButtons.Count == 0) { return; }
         foreach (Button levelButton in levelButtons)
         {
             levelButton.gameObject.SetActive(false);
@@ -195,6 +228,9 @@ public class LevelManager : MonoBehaviour
 
     public void ShowSelectionArrows()
     {
+        if (leftArrowButton == null) { return; }
+        if (rightArrowButton == null) { return; }
+
         if (currentLevelsList > 0)
         {
             leftArrowButton.gameObject.SetActive(true);
@@ -212,7 +248,6 @@ public class LevelManager : MonoBehaviour
         {
             rightArrowButton.gameObject.SetActive(false);
         }
-
     }
 
     private void CreatePlayerPrefs()
@@ -228,10 +263,45 @@ public class LevelManager : MonoBehaviour
         {
             PlayerPrefs.SetInt("LevelOneResult", 0);
         }
+
+        if (!PlayerPrefs.HasKey("LevelTwoResult"))
+        {
+            PlayerPrefs.SetInt("LevelTwoResult", 0);
+        }
+
+        if (!PlayerPrefs.HasKey("LevelThreeResult"))
+        {
+            PlayerPrefs.SetInt("LevelThreeResult", 0);
+        }
+
+        if (!PlayerPrefs.HasKey("LevelFourResult"))
+        {
+            PlayerPrefs.SetInt("LevelFourResult", 0);
+        }
+
+        if (!PlayerPrefs.HasKey("LevelFiveResult"))
+        {
+            PlayerPrefs.SetInt("LevelFiveResult", 0);
+        }
+
+        if (!PlayerPrefs.HasKey("LevelSixResult"))
+        {
+            PlayerPrefs.SetInt("LevelSixResult", 0);
+        }
+
+        if (!PlayerPrefs.HasKey("LevelSevenResult"))
+        {
+            PlayerPrefs.SetInt("LevelSevenResult", 0);
+        }
+
+        if (!PlayerPrefs.HasKey("LevelEightResult"))
+        {
+            PlayerPrefs.SetInt("LevelEightResult", 0);
+        }
     }
 
     public void LoadMainMenu()
     {
-
+        SceneManager.LoadScene("MainMenu");
     }
 }

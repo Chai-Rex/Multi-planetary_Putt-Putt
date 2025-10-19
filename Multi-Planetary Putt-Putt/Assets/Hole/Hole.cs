@@ -14,8 +14,12 @@ public class Hole : MonoBehaviour {
             }
             OnBallCompleted?.Invoke();
 
-            //REMOVE
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            Ball ball;
+            if (ball = other.gameObject.GetComponent<Ball>())
+            {
+                ResultsManager.Instance.SetNumberOfPutts(ball.GetNumberOfPutts());
+                ResultsManager.Instance.ShowResultsScreen(ResultsManager.Instance.GetCurrentLevel());
+            }     
         }
     }
 }
