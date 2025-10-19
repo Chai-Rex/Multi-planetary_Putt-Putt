@@ -90,7 +90,17 @@ public class Ball : MonoBehaviour {
 
     private async Task<bool> WaitForBallToStop() {
         while (rb.linearVelocity.magnitude > stoppingVelocityThreshold) {
-            if (IsOutOfBounds() || forceReset) {
+            if (IsOutOfBounds()) {
+                if (audioSource)
+                {
+                    audioSource.resource = outOfBoundsSound;
+                    audioSource.Play();
+                }
+                forceReset = false;
+                return true; // Signal to reset
+            }
+            if(forceReset)
+            {
                 forceReset = false;
                 return true; // Signal to reset
             }
@@ -100,11 +110,6 @@ public class Ball : MonoBehaviour {
     }
 
     private void ResetBall() {
-        if (audioSource)
-        {
-            audioSource.resource = outOfBoundsSound;
-            audioSource.Play();
-        }
         rb.linearVelocity = Vector2.zero;
         rb.totalForce = Vector2.zero;
         transform.position = _lastStablePosition;
