@@ -67,13 +67,17 @@ PrefabInstance:
       propertyPath: OutputAudioMixerGroup
       value: 
       objectReference: {fileID: 24300002, guid: bba73db82f5cce0489678d9046228d54, type: 2}
+    - target: {fileID: 719849553629463767, guid: 846b37c9f0538b54c8f5e266be921b88, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2228995776117730580, guid: 846b37c9f0538b54c8f5e266be921b88, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.19901
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2228995776117730580, guid: 846b37c9f0538b54c8f5e266be921b88, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.2558
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2228995776117730580, guid: 846b37c9f0538b54c8f5e266be921b88, type: 3}
       propertyPath: m_LocalPosition.z
