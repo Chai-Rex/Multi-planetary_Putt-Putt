@@ -2,10 +2,11 @@ using UnityEngine;
 
 public class AtmosphereShaderTweaker : MonoBehaviour {
 
-    [SerializeField] private Renderer spriteRenderer;
+    [SerializeField] private Renderer spriteVisualRenderer;
     [SerializeField] private Color atmosphereColor = Color.green;
     [SerializeField] private Color planetColor = Color.red;
     [SerializeField] private Transform planetTransform;
+    [SerializeField] private CircleCollider2D atmosphereCollider;
     [SerializeField, Range(0f, 1f)] private float atmosphereStrength = 0.15f;
 
     private MaterialPropertyBlock _materialPropertyBlock;
@@ -15,15 +16,17 @@ public class AtmosphereShaderTweaker : MonoBehaviour {
     }
 
     void Start() {
-        spriteRenderer.GetPropertyBlock(_materialPropertyBlock);
+        spriteVisualRenderer.GetPropertyBlock(_materialPropertyBlock);
 
-        float fullRadius = transform.localScale.x;
-        float planetRadius = planetTransform.localScale.x;
+        float fullRadius = atmosphereCollider.radius;
+        float planetRadius = planetTransform.localScale.x * 0.5f;
         float planetRadiusNormalized = planetRadius / fullRadius * 0.5f;
         float atmospherThicknessNormalized = (fullRadius - planetRadius) / fullRadius * 0.5f;
 
-        Debug.Log($"{gameObject.name}: planet {planetRadiusNormalized}");
-        Debug.Log($"{gameObject.name}: atmo {atmospherThicknessNormalized}");
+
+        spriteVisualRenderer.gameObject.transform.localScale = fullRadius * 2 * Vector3.one;
+        //Debug.Log($"{gameObject.name}: planet {planetRadiusNormalized}");
+        //Debug.Log($"{gameObject.name}: atmo {atmospherThicknessNormalized}");
 
 
         _materialPropertyBlock.SetColor("_AtmosphereColor", atmosphereColor);
@@ -31,7 +34,8 @@ public class AtmosphereShaderTweaker : MonoBehaviour {
         _materialPropertyBlock.SetFloat("_Radius", planetRadiusNormalized);
         _materialPropertyBlock.SetFloat("_Thickness", atmospherThicknessNormalized);
         _materialPropertyBlock.SetFloat("_Strength", atmosphereStrength);
+        _materialPropertyBlock.SetFloat("_RingRadius", fullRadius);
 
-        spriteRenderer.SetPropertyBlock(_materialPropertyBlock);
+        spriteVisualRenderer.SetPropertyBlock(_materialPropertyBlock);
     }
 }

@@ -4,13 +4,13 @@ using UnityEngine;
 public class Ball : MonoBehaviour {
 
     [SerializeField] private float force = 1f;
-    public float LaunchForce {  get { return force; } }
+    public float LaunchForce { get { return force; } }
     [SerializeField] private float outOfBoundsPadding = 0.1f;
     [SerializeField] private float stoppingVelocityThreshold = 0.1f;
     public float StopVelocity { get { return stoppingVelocityThreshold; } }
     [SerializeField] private Indicator indicator;
     [SerializeField] private Rigidbody2D rb;
-    public Rigidbody2D RB {  get { return rb; } }
+    public Rigidbody2D RB { get { return rb; } }
 
     private Vector3 _lastStablePosition;
     private bool _isHitRoutineRunning;
@@ -37,9 +37,8 @@ public class Ball : MonoBehaviour {
     }
 
     private void OnInteract(UnityEngine.InputSystem.InputAction.CallbackContext obj) {
-        if (!_isHitRoutineRunning) {
-            HitBallAsync();
-        }
+        if (_isHitRoutineRunning) return;
+        HitBallAsync();
     }
 
     private async void HitBallAsync() {

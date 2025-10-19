@@ -68,10 +68,13 @@ Material:
     m_Ints: []
     m_Floats:
     - _EnableExternalAlpha: 0
-    - _Falloff: 1
+    - _Falloff: 0.25
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Radius: 0
+    - _RingOpacity: 0.03
+    - _RingRadius: 0.5
+    - _RingThickness: 0.1
     - _Strength: 0.15
     - _Thickness: 0.5
     - _ZWrite: 0

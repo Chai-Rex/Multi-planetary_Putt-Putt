@@ -18,8 +18,6 @@ public class Gravity : MonoBehaviour {
         } 
     }
 
-    private float atmosphereDrag = 0;
-
     void Start() {
         GravityManager.gravityObjects.Add(this);
 

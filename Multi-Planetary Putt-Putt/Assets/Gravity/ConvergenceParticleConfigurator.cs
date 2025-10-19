@@ -5,6 +5,7 @@ public class ConverganceParticleConfigurator : MonoBehaviour {
 
     [SerializeField] private CircleCollider2D circleCollider;
     [SerializeField] private Rigidbody2D rigidbody2d;
+    [SerializeField] private Transform outlineTransform;
     [SerializeField] private float maxMass = 1000f;
 
 
@@ -28,10 +29,10 @@ public class ConverganceParticleConfigurator : MonoBehaviour {
         main = _particleSystem.main;
         shape = _particleSystem.shape;
 
-
-
         ringRadius = circleCollider.radius;
         startSpeed = rigidbody2d.mass / maxMass * -maxSpeed;
+
+        outlineTransform.localScale = ringRadius * 2 * Vector3.one;
 
         UpdateParticleParams();
 
