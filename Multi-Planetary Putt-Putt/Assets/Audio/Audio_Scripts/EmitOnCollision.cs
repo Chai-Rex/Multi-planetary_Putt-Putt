@@ -10,6 +10,8 @@ public class EmitOnCollision : MonoBehaviour
     public float cd = 0.5f;
     private float lastPlayedTime = 0;
 
+    public float minMagnitude = 0;
+
     private void Awake()
     {
         emitter = GetComponentInChildren<SoundEmitter>();
@@ -20,10 +22,14 @@ public class EmitOnCollision : MonoBehaviour
     {
         if (collision.gameObject.tag == "Ball")
         {
-            if (emitter && Time.timeSinceLevelLoad - lastPlayedTime >= cd)
+            if (emitter && Time.timeSinceLevelLoad - lastPlayedTime >= cd && minMagnitude < collision.relativeVelocity.magnitude)
             {
                 lastPlayedTime = Time.timeSinceLevelLoad;
-                source.Play();
+                if(source)
+                {
+                    source.Play();
+                }
+               
             }
         }
     }

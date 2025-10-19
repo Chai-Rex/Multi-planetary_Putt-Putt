@@ -1,5 +1,7 @@
 using System.Threading.Tasks;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class Ball : MonoBehaviour {
 
@@ -17,6 +19,16 @@ public class Ball : MonoBehaviour {
 
     private bool forceReset = false;
     public bool ForceReset { set { forceReset = value; } }
+
+    [SerializeField]
+    private AudioResource outOfBoundsSound;
+    [SerializeField]
+    private AudioResource hitBallSound;
+    AudioSource audioSource;
+    private void Awake()
+    {
+        audioSource = GetComponentInChildren<AudioSource>();
+    }
 
     private void Start() {
         InitializeBall();
@@ -62,6 +74,12 @@ public class Ball : MonoBehaviour {
     }
 
     private void LaunchBall() {
+        if(audioSource)
+        {
+            audioSource.resource = hitBallSound;
+            audioSource.Play();
+        }
+
         rb.bodyType = RigidbodyType2D.Dynamic;
         indicator.gameObject.SetActive(false);
         indicator.SetPredictionLineVisible(false);
@@ -82,6 +100,11 @@ public class Ball : MonoBehaviour {
     }
 
     private void ResetBall() {
+        if (audioSource)
+        {
+            audioSource.resource = outOfBoundsSound;
+            audioSource.Play();
+        }
         rb.linearVelocity = Vector2.zero;
         rb.totalForce = Vector2.zero;
         transform.position = _lastStablePosition;
