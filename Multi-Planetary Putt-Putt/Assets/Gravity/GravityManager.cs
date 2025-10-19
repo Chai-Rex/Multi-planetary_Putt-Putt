@@ -43,7 +43,7 @@ public class GravityManager : MonoBehaviour {
         target.AddForce(GetGravityForce(attractor.position, attractor.mass, target.position, target.mass));
     }
 
-    public static Vector3 PredictGravityForceAtLocation(Vector2 location, float targetMass)
+    public static Vector2 PredictGravityForceAtLocation(Vector2 location, float targetMass)
     {
         Vector2 totalForce = Vector2.zero;
 

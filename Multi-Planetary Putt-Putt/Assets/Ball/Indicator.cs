@@ -124,7 +124,7 @@ public class Indicator : MonoBehaviour {
         Vector2 appliedForce = transform.up * transform.localScale.y * targetBall.LaunchForce;
         
         Vector2 predictedLocation = targetBall.RB.position;
-        Vector2 predictedVelocity = appliedForce / targetBall.RB.mass;
+        Vector2 predictedVelocity = (appliedForce + GravityManager.PredictGravityForceAtLocation(predictedLocation, targetBall.RB.mass) ) / targetBall.RB.mass;
         Vector2 nextLocation;
         Vector2 nextVelocity;
 
@@ -167,7 +167,7 @@ public class Indicator : MonoBehaviour {
 
     private void PredictLocation(Vector2 startLocation, Vector2 startVelocity, Vector2 acceleration, float damping, float timeStep, out Vector2 resultLocation, out Vector2 resultVelocity)
     {
-        float dampFactor = Mathf.Clamp01(1f - damping * timeStep);
+        float dampFactor = Mathf.Max(1f - damping * timeStep, 0);
 
         resultVelocity = startVelocity + acceleration * timeStep;
         Vector2 dragForce = (startVelocity - (resultVelocity * dampFactor)) / timeStep;
