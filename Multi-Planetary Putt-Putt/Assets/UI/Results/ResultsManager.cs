@@ -164,4 +164,9 @@ public class ResultsManager : MonoBehaviour
                 break;
         }
     }
+
+    public ELevel GetCurrentLevel()
+    {
+        return CURRENTLEVEL;
+    }
 }
