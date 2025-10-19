@@ -169,6 +169,7 @@ public class LevelManager : MonoBehaviour
         foreach (Button levelButton in levelButtons)
         {
             levelButton.gameObject.SetActive(false);
+            levelButton.onClick.RemoveAllListeners();
         }
     }
 
