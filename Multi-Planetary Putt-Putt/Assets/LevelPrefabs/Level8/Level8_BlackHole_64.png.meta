@@ -1,0 +1,6788 @@
+fileFormatVersion: 2
+guid: da9fe29fa1f6ba34d919b254881e053d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1377351719391204848
+    second: Level8_BlackHole_64_0
+  - first:
+      213: 4110028802958329879
+    second: Level8_BlackHole_64_1
+  - first:
+      213: -6622077635746604635
+    second: Level8_BlackHole_64_2
+  - first:
+      213: 598957803456063922
+    second: Level8_BlackHole_64_3
+  - first:
+      213: 1897626313438632697
+    second: Level8_BlackHole_64_4
+  - first:
+      213: -252839548670902707
+    second: Level8_BlackHole_64_5
+  - first:
+      213: -6423282336803721526
+    second: Level8_BlackHole_64_6
+  - first:
+      213: -1405137331290860154
+    second: Level8_BlackHole_64_7
+  - first:
+      213: 5819998183936861912
+    second: Level8_BlackHole_64_8
+  - first:
+      213: 2059991968127910988
+    second: Level8_BlackHole_64_9
+  - first:
+      213: -7732394465691920092
+    second: Level8_BlackHole_64_10
+  - first:
+      213: 2438028403518541390
+    second: Level8_BlackHole_64_11
+  - first:
+      213: -3810564135758673597
+    second: Level8_BlackHole_64_12
+  - first:
+      213: -6713127479485842506
+    second: Level8_BlackHole_64_13
+  - first:
+      213: 4524036267796497511
+    second: Level8_BlackHole_64_14
+  - first:
+      213: 6413283959181639519
+    second: Level8_BlackHole_64_15
+  - first:
+      213: -8802857513952498694
+    second: Level8_BlackHole_64_16
+  - first:
+      213: 4575100128594997822
+    second: Level8_BlackHole_64_17
+  - first:
+      213: 7910078847411101493
+    second: Level8_BlackHole_64_18
+  - first:
+      213: -8284523068255016485
+    second: Level8_BlackHole_64_19
+  - first:
+      213: 6627966546664210026
+    second: Level8_BlackHole_64_20
+  - first:
+      213: -8434228908746719797
+    second: Level8_BlackHole_64_21
+  - first:
+      213: -4170388008736499767
+    second: Level8_BlackHole_64_22
+  - first:
+      213: -8445875542707963372
+    second: Level8_BlackHole_64_23
+  - first:
+      213: -938374549462436779
+    second: Level8_BlackHole_64_24
+  - first:
+      213: -7064150596234669500
+    second: Level8_BlackHole_64_25
+  - first:
+      213: -2562538195657017351
+    second: Level8_BlackHole_64_26
+  - first:
+      213: -3256876911821711842
+    second: Level8_BlackHole_64_27
+  - first:
+      213: 6277067154489619167
+    second: Level8_BlackHole_64_28
+  - first:
+      213: 5878040069090949865
+    second: Level8_BlackHole_64_29
+  - first:
+      213: 3324323588747475335
+    second: Level8_BlackHole_64_30
+  - first:
+      213: -7308812148187996205
+    second: Level8_BlackHole_64_31
+  - first:
+      213: -1503181459159161789
+    second: Level8_BlackHole_64_32
+  - first:
+      213: -8770815336473101080
+    second: Level8_BlackHole_64_33
+  - first:
+      213: 645892067175845231
+    second: Level8_BlackHole_64_34
+  - first:
+      213: 5781102200411564065
+    second: Level8_BlackHole_64_35
+  - first:
+      213: -6126862291268234206
+    second: Level8_BlackHole_64_36
+  - first:
+      213: -7515066756177660102
+    second: Level8_BlackHole_64_37
+  - first:
+      213: 8905005081438036463
+    second: Level8_BlackHole_64_38
+  - first:
+      213: -7845201770563948811
+    second: Level8_BlackHole_64_39
+  - first:
+      213: 788520250403206473
+    second: Level8_BlackHole_64_40
+  - first:
+      213: 2233212821167679901
+    second: Level8_BlackHole_64_41
+  - first:
+      213: -2171059960293642168
+    second: Level8_BlackHole_64_42
+  - first:
+      213: 8959345423928011023
+    second: Level8_BlackHole_64_43
+  - first:
+      213: -7969771921602235119
+    second: Level8_BlackHole_64_44
+  - first:
+      213: -4783981465576966154
+    second: Level8_BlackHole_64_45
+  - first:
+      213: -7469357885598005536
+    second: Level8_BlackHole_64_46
+  - first:
+      213: -203545267496566899
+    second: Level8_BlackHole_64_47
+  - first:
+      213: -8008166036309613380
+    second: Level8_BlackHole_64_48
+  - first:
+      213: 4669749114340528958
+    second: Level8_BlackHole_64_49
+  - first:
+      213: 7147673381009929010
+    second: Level8_BlackHole_64_50
+  - first:
+      213: -5330401854452959733
+    second: Level8_BlackHole_64_51
+  - first:
+      213: 6842606095316232917
+    second: Level8_BlackHole_64_52
+  - first:
+      213: -7351759649344135589
+    second: Level8_BlackHole_64_53
+  - first:
+      213: 9129672959190091138
+    second: Level8_BlackHole_64_54
+  - first:
+      213: 7143480829602768296
+    second: Level8_BlackHole_64_55
+  - first:
+      213: 6908629652372547087
+    second: Level8_BlackHole_64_56
+  - first:
+      213: 4523026976450623641
+    second: Level8_BlackHole_64_57
+  - first:
+      213: -6097367612341966059
+    second: Level8_BlackHole_64_58
+  - first:
+      213: -2179013499684791231
+    second: Level8_BlackHole_64_59
+  - first:
+      213: -6664656117916172434
+    second: Level8_BlackHole_64_60
+  - first:
+      213: -431105631477593647
+    second: Level8_BlackHole_64_61
+  - first:
+      213: 331365552422773446
+    second: Level8_BlackHole_64_62
+  - first:
+      213: -7835209741334522396
+    second: Level8_BlackHole_64_63
+  - first:
+      213: 1456206435360655080
+    second: Level8_BlackHole_64_64
+  - first:
+      213: -472686315560556081
+    second: Level8_BlackHole_64_65
+  - first:
+      213: -8101414743969171028
+    second: Level8_BlackHole_64_66
+  - first:
+      213: 3530205418707012647
+    second: Level8_BlackHole_64_67
+  - first:
+      213: -8206644585970150633
+    second: Level8_BlackHole_64_68
+  - first:
+      213: 4739663349233368583
+    second: Level8_BlackHole_64_69
+  - first:
+      213: -647858671120316914
+    second: Level8_BlackHole_64_70
+  - first:
+      213: 7399549902324486842
+    second: Level8_BlackHole_64_71
+  - first:
+      213: -963324155100299369
+    second: Level8_BlackHole_64_72
+  - first:
+      213: 1669145304306222844
+    second: Level8_BlackHole_64_73
+  - first:
+      213: 7530810849711169929
+    second: Level8_BlackHole_64_74
+  - first:
+      213: -5431687824832012413
+    second: Level8_BlackHole_64_75
+  - first:
+      213: -6538378879708762255
+    second: Level8_BlackHole_64_76
+  - first:
+      213: 8559656227543185257
+    second: Level8_BlackHole_64_77
+  - first:
+      213: -5176943520918314181
+    second: Level8_BlackHole_64_78
+  - first:
+      213: 2470962072623911902
+    second: Level8_BlackHole_64_79
+  - first:
+      213: -3621301199577543350
+    second: Level8_BlackHole_64_80
+  - first:
+      213: 2989660236253459623
+    second: Level8_BlackHole_64_81
+  - first:
+      213: -6435308578645120179
+    second: Level8_BlackHole_64_82
+  - first:
+      213: -8562589815712320868
+    second: Level8_BlackHole_64_83
+  - first:
+      213: 1284427689219234195
+    second: Level8_BlackHole_64_84
+  - first:
+      213: 1841007349695848026
+    second: Level8_BlackHole_64_85
+  - first:
+      213: -5589984557447648339
+    second: Level8_BlackHole_64_86
+  - first:
+      213: -3926467212437871681
+    second: Level8_BlackHole_64_87
+  - first:
+      213: 9053404801406095408
+    second: Level8_BlackHole_64_88
+  - first:
+      213: 8374929248716824653
+    second: Level8_BlackHole_64_89
+  - first:
+      213: 4646625141511161074
+    second: Level8_BlackHole_64_90
+  - first:
+      213: 8813655149299410585
+    second: Level8_BlackHole_64_91
+  - first:
+      213: 5879014104682927734
+    second: Level8_BlackHole_64_92
+  - first:
+      213: -7991308559545731115
+    second: Level8_BlackHole_64_93
+  - first:
+      213: -1588204080830039914
+    second: Level8_BlackHole_64_94
+  - first:
+      213: -4007889899352247245
+    second: Level8_BlackHole_64_95
+  - first:
+      213: 8709741385937900135
+    second: Level8_BlackHole_64_96
+  - first:
+      213: 3235932115250865057
+    second: Level8_BlackHole_64_97
+  - first:
+      213: -5471745187903606278
+    second: Level8_BlackHole_64_98
+  - first:
+      213: -1852574629327491178
+    second: Level8_BlackHole_64_99
+  - first:
+      213: 8446898376272186760
+    second: Level8_BlackHole_64_100
+  - first:
+      213: -5348291676476747265
+    second: Level8_BlackHole_64_101
+  - first:
+      213: 6305330561350692398
+    second: Level8_BlackHole_64_102
+  - first:
+      213: -4006015916508453847
+    second: Level8_BlackHole_64_103
+  - first:
+      213: 3781757632100985780
+    second: Level8_BlackHole_64_104
+  - first:
+      213: -7494798464592046264
+    second: Level8_BlackHole_64_105
+  - first:
+      213: 8818998126293314496
+    second: Level8_BlackHole_64_106
+  - first:
+      213: -6915737688682722324
+    second: Level8_BlackHole_64_107
+  - first:
+      213: -2285273939188326839
+    second: Level8_BlackHole_64_108
+  - first:
+      213: 23632376592383702
+    second: Level8_BlackHole_64_109
+  - first:
+      213: 612878822356991710
+    second: Level8_BlackHole_64_110
+  - first:
+      213: 1833878935540245271
+    second: Level8_BlackHole_64_111
+  - first:
+      213: -1812805331549612090
+    second: Level8_BlackHole_64_112
+  - first:
+      213: -2217431018594477902
+    second: Level8_BlackHole_64_113
+  - first:
+      213: 1414897845621203747
+    second: Level8_BlackHole_64_114
+  - first:
+      213: -7042074055056044282
+    second: Level8_BlackHole_64_115
+  - first:
+      213: 2826611617769573487
+    second: Level8_BlackHole_64_116
+  - first:
+      213: 3295528969069448804
+    second: Level8_BlackHole_64_117
+  - first:
+      213: -1807018853659588210
+    second: Level8_BlackHole_64_118
+  - first:
+      213: 7791328885900337806
+    second: Level8_BlackHole_64_119
+  - first:
+      213: -6897565116425603325
+    second: Level8_BlackHole_64_120
+  - first:
+      213: -2955708273680339444
+    second: Level8_BlackHole_64_121
+  - first:
+      213: -574101785533936013
+    second: Level8_BlackHole_64_122
+  - first:
+      213: 2839393910091214040
+    second: Level8_BlackHole_64_123
+  - first:
+      213: -3512779941069118947
+    second: Level8_BlackHole_64_124
+  - first:
+      213: -5741398462466061733
+    second: Level8_BlackHole_64_125
+  - first:
+      213: -5596741512733256106
+    second: Level8_BlackHole_64_126
+  - first:
+      213: 336160724942931577
+    second: Level8_BlackHole_64_127
+  - first:
+      213: -406717452740569939
+    second: Level8_BlackHole_64_128
+  - first:
+      213: 1691783695984798382
+    second: Level8_BlackHole_64_129
+  - first:
+      213: 7691685773716074454
+    second: Level8_BlackHole_64_130
+  - first:
+      213: 1420777634010883256
+    second: Level8_BlackHole_64_131
+  - first:
+      213: 1410596443503045245
+    second: Level8_BlackHole_64_132
+  - first:
+      213: 4121237161430683789
+    second: Level8_BlackHole_64_133
+  - first:
+      213: 3025213868717240312
+    second: Level8_BlackHole_64_134
+  - first:
+      213: 3323751299967069404
+    second: Level8_BlackHole_64_135
+  - first:
+      213: -3279761091725484651
+    second: Level8_BlackHole_64_136
+  - first:
+      213: 5271764546989681597
+    second: Level8_BlackHole_64_137
+  - first:
+      213: -8253556009695852928
+    second: Level8_BlackHole_64_138
+  - first:
+      213: -5186920827543690415
+    second: Level8_BlackHole_64_139
+  - first:
+      213: 6513340510926253704
+    second: Level8_BlackHole_64_140
+  - first:
+      213: 2262284241525394013
+    second: Level8_BlackHole_64_141
+  - first:
+      213: -319950110313144933
+    second: Level8_BlackHole_64_142
+  - first:
+      213: -3129625048274905916
+    second: Level8_BlackHole_64_143
+  - first:
+      213: 5932026772194034538
+    second: Level8_BlackHole_64_144
+  - first:
+      213: 6697490039889765332
+    second: Level8_BlackHole_64_145
+  - first:
+      213: -7174135490458430765
+    second: Level8_BlackHole_64_146
+  - first:
+      213: -8580706755583327891
+    second: Level8_BlackHole_64_147
+  - first:
+      213: -9152302095087824160
+    second: Level8_BlackHole_64_148
+  - first:
+      213: -7606604290480866410
+    second: Level8_BlackHole_64_149
+  - first:
+      213: -5972428883034325620
+    second: Level8_BlackHole_64_150
+  - first:
+      213: -1961950100336557941
+    second: Level8_BlackHole_64_151
+  - first:
+      213: -3486684006175616320
+    second: Level8_BlackHole_64_152
+  - first:
+      213: -5137562251038062617
+    second: Level8_BlackHole_64_153
+  - first:
+      213: -7291607527318939134
+    second: Level8_BlackHole_64_154
+  - first:
+      213: 8826934839965422558
+    second: Level8_BlackHole_64_155
+  - first:
+      213: -867481768687514789
+    second: Level8_BlackHole_64_156
+  - first:
+      213: 1299118726154982348
+    second: Level8_BlackHole_64_157
+  - first:
+      213: 7073263032278540221
+    second: Level8_BlackHole_64_158
+  - first:
+      213: 1349918033752607036
+    second: Level8_BlackHole_64_159
+  - first:
+      213: 4158658333430708949
+    second: Level8_BlackHole_64_160
+  - first:
+      213: 2908740857096093131
+    second: Level8_BlackHole_64_161
+  - first:
+      213: -2716977933130814737
+    second: Level8_BlackHole_64_162
+  - first:
+      213: -5369317789307375780
+    second: Level8_BlackHole_64_163
+  - first:
+      213: -3986443020463877331
+    second: Level8_BlackHole_64_164
+  - first:
+      213: -8399131290170311056
+    second: Level8_BlackHole_64_165
+  - first:
+      213: -5865141706157374718
+    second: Level8_BlackHole_64_166
+  - first:
+      213: 8335954446999891462
+    second: Level8_BlackHole_64_167
+  - first:
+      213: 7157112361379986867
+    second: Level8_BlackHole_64_168
+  - first:
+      213: 6990399492889254674
+    second: Level8_BlackHole_64_169
+  - first:
+      213: 7215833024537851383
+    second: Level8_BlackHole_64_170
+  - first:
+      213: -1221223570569092447
+    second: Level8_BlackHole_64_171
+  - first:
+      213: 1377704104998764857
+    second: Level8_BlackHole_64_172
+  - first:
+      213: 2304964675386607454
+    second: Level8_BlackHole_64_173
+  - first:
+      213: 4620999490529780186
+    second: Level8_BlackHole_64_174
+  - first:
+      213: 35637759276044239
+    second: Level8_BlackHole_64_175
+  - first:
+      213: -5198469494520841941
+    second: Level8_BlackHole_64_176
+  - first:
+      213: -2359758429237031596
+    second: Level8_BlackHole_64_177
+  - first:
+      213: -5139534213380102434
+    second: Level8_BlackHole_64_178
+  - first:
+      213: 1116502655105744600
+    second: Level8_BlackHole_64_179
+  - first:
+      213: -8214776478685097756
+    second: Level8_BlackHole_64_180
+  - first:
+      213: -8152720200366104076
+    second: Level8_BlackHole_64_181
+  - first:
+      213: -6998585898934514146
+    second: Level8_BlackHole_64_182
+  - first:
+      213: 7239596415665076914
+    second: Level8_BlackHole_64_183
+  - first:
+      213: -4974782936970722497
+    second: Level8_BlackHole_64_184
+  - first:
+      213: 1432364780728802168
+    second: Level8_BlackHole_64_185
+  - first:
+      213: 4019636804137875685
+    second: Level8_BlackHole_64_186
+  - first:
+      213: 796208290816767783
+    second: Level8_BlackHole_64_187
+  - first:
+      213: 5297944439836743271
+    second: Level8_BlackHole_64_188
+  - first:
+      213: -3675966475596941968
+    second: Level8_BlackHole_64_189
+  - first:
+      213: 6703594492488074287
+    second: Level8_BlackHole_64_190
+  - first:
+      213: -4206010478541183045
+    second: Level8_BlackHole_64_191
+  - first:
+      213: 1174218104691476319
+    second: Level8_BlackHole_64_192
+  - first:
+      213: 2270988274689499866
+    second: Level8_BlackHole_64_193
+  - first:
+      213: -1743477369373154321
+    second: Level8_BlackHole_64_194
+  - first:
+      213: 4477140563265852056
+    second: Level8_BlackHole_64_195
+  - first:
+      213: 8519160643868148207
+    second: Level8_BlackHole_64_196
+  - first:
+      213: 4516725172441006142
+    second: Level8_BlackHole_64_197
+  - first:
+      213: -7337157137749127963
+    second: Level8_BlackHole_64_198
+  - first:
+      213: 5971792319129996060
+    second: Level8_BlackHole_64_199
+  - first:
+      213: -5250816978492911771
+    second: Level8_BlackHole_64_200
+  - first:
+      213: -2148366994859407692
+    second: Level8_BlackHole_64_201
+  - first:
+      213: 2153878402518134940
+    second: Level8_BlackHole_64_202
+  - first:
+      213: 2557619247856865847
+    second: Level8_BlackHole_64_203
+  - first:
+      213: -7992811461761879746
+    second: Level8_BlackHole_64_204
+  - first:
+      213: -7255614539428141916
+    second: Level8_BlackHole_64_205
+  - first:
+      213: -799161521036088389
+    second: Level8_BlackHole_64_206
+  - first:
+      213: 8451010437400157214
+    second: Level8_BlackHole_64_207
+  - first:
+      213: 5197578356009507384
+    second: Level8_BlackHole_64_208
+  - first:
+      213: -5661821967860416373
+    second: Level8_BlackHole_64_209
+  - first:
+      213: 6660508951729978077
+    second: Level8_BlackHole_64_210
+  - first:
+      213: 7582482184335327576
+    second: Level8_BlackHole_64_211
+  - first:
+      213: 2000544031846574469
+    second: Level8_BlackHole_64_212
+  - first:
+      213: -1479528819768215002
+    second: Level8_BlackHole_64_213
+  - first:
+      213: 4492684103160547886
+    second: Level8_BlackHole_64_214
+  - first:
+      213: -1930361611533600799
+    second: Level8_BlackHole_64_215
+  - first:
+      213: 2332633398094124744
+    second: Level8_BlackHole_64_216
+  - first:
+      213: 822070896177680700
+    second: Level8_BlackHole_64_217
+  - first:
+      213: 153626495859409846
+    second: Level8_BlackHole_64_218
+  - first:
+      213: 961081755450273319
+    second: Level8_BlackHole_64_219
+  - first:
+      213: 3844051453087749826
+    second: Level8_BlackHole_64_220
+  - first:
+      213: 2496889985088481118
+    second: Level8_BlackHole_64_221
+  - first:
+      213: 5041172340357483250
+    second: Level8_BlackHole_64_222
+  - first:
+      213: 7993100348233524511
+    second: Level8_BlackHole_64_223
+  - first:
+      213: 6601701934963589252
+    second: Level8_BlackHole_64_224
+  - first:
+      213: -1410635411219568240
+    second: Level8_BlackHole_64_225
+  - first:
+      213: -8323263525624672218
+    second: Level8_BlackHole_64_226
+  - first:
+      213: -570369072857153396
+    second: Level8_BlackHole_64_227
+  - first:
+      213: 480489986076075077
+    second: Level8_BlackHole_64_228
+  - first:
+      213: 7498898531023516528
+    second: Level8_BlackHole_64_229
+  - first:
+      213: 917591477243872548
+    second: Level8_BlackHole_64_230
+  - first:
+      213: -7834794727104875138
+    second: Level8_BlackHole_64_231
+  - first:
+      213: -4070466736119352516
+    second: Level8_BlackHole_64_232
+  - first:
+      213: 8699160799762640549
+    second: Level8_BlackHole_64_233
+  - first:
+      213: 6138782393130671557
+    second: Level8_BlackHole_64_234
+  - first:
+      213: -7807030807508937219
+    second: Level8_BlackHole_64_235
+  - first:
+      213: -6759121581847922638
+    second: Level8_BlackHole_64_236
+  - first:
+      213: -6374295448435964753
+    second: Level8_BlackHole_64_237
+  - first:
+      213: 169540272325656246
+    second: Level8_BlackHole_64_238
+  - first:
+      213: 730271109704928050
+    second: Level8_BlackHole_64_239
+  - first:
+      213: -1818785924362457528
+    second: Level8_BlackHole_64_240
+  - first:
+      213: 8207682858705648820
+    second: Level8_BlackHole_64_241
+  - first:
+      213: 7154912600848899187
+    second: Level8_BlackHole_64_242
+  - first:
+      213: 2806991890205530236
+    second: Level8_BlackHole_64_243
+  - first:
+      213: -2501919993470622060
+    second: Level8_BlackHole_64_244
+  - first:
+      213: -53561308090346465
+    second: Level8_BlackHole_64_245
+  - first:
+      213: -4765146515960173230
+    second: Level8_BlackHole_64_246
+  - first:
+      213: 275876168453731770
+    second: Level8_BlackHole_64_247
+  - first:
+      213: 1881548465612666160
+    second: Level8_BlackHole_64_248
+  - first:
+      213: 1611575136967371892
+    second: Level8_BlackHole_64_249
+  - first:
+      213: -2186943619010415851
+    second: Level8_BlackHole_64_250
+  - first:
+      213: -1434303418023045711
+    second: Level8_BlackHole_64_251
+  - first:
+      213: -1610052609035168138
+    second: Level8_BlackHole_64_252
+  - first:
+      213: -8673739223794261873
+    second: Level8_BlackHole_64_253
+  - first:
+      213: 6626805025493235641
+    second: Level8_BlackHole_64_254
+  - first:
+      213: 813068844146768838
+    second: Level8_BlackHole_64_255
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f5161d57165d1310800000000000000
+      internalID: 1377351719391204848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71884f0ab61c90930800000000000000
+      internalID: 4110028802958329879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a9d34eb977a914a0800000000000000
+      internalID: -6622077635746604635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b96276e2fcef4800800000000000000
+      internalID: 598957803456063922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa91f8f319b55a10800000000000000
+      internalID: 1897626313438632697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4efc4425cbbd7cf0800000000000000
+      internalID: -252839548670902707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acee5c62fbaebd6a0800000000000000
+      internalID: -6423282336803721526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68594cbba03ff7ce0800000000000000
+      internalID: -1405137331290860154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6a9fa3389c4c050800000000000000
+      internalID: 5819998183936861912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c440c6cd7cf869c10800000000000000
+      internalID: 2059991968127910988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4299c31933401b490800000000000000
+      internalID: -7732394465691920092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e09007aed95d120800000000000000
+      internalID: 2438028403518541390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349c2469b182e1bc0800000000000000
+      internalID: -3810564135758673597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb3555002e26d2a0800000000000000
+      internalID: -6713127479485842506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7648ef4240b98ce30800000000000000
+      internalID: 4524036267796497511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_15
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f7bb628cf800950800000000000000
+      internalID: 6413283959181639519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afbab780bb7f5d580800000000000000
+      internalID: -8802857513952498694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32bfb8b3550e7f30800000000000000
+      internalID: 4575100128594997822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f15456dce36cd60800000000000000
+      internalID: 7910078847411101493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd96127a926770d80800000000000000
+      internalID: -8284523068255016485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6eb71d25744bfb50800000000000000
+      internalID: 6627966546664210026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_21
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd32d37e7993fa80800000000000000
+      internalID: -8434228908746719797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_22
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c756b3a33ecf16c0800000000000000
+      internalID: -4170388008736499767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_23
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a7bbb21f83aca80800000000000000
+      internalID: -8445875542707963372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_24
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5543609a1593af2f0800000000000000
+      internalID: -938374549462436779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_25
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442919fc57817fd90800000000000000
+      internalID: -7064150596234669500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_26
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f73e748619007cd0800000000000000
+      internalID: -2562538195657017351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_27
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1612b154bf3dc2d0800000000000000
+      internalID: -3256876911821711842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_28
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd230a6d15f9c1750800000000000000
+      internalID: 6277067154489619167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_29
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eabda5bc4ef29150800000000000000
+      internalID: 5878040069090949865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_30
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 789beb1e0be522e20800000000000000
+      internalID: 3324323588747475335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_31
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dfd1313312e19a90800000000000000
+      internalID: -7308812148187996205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3446dd55d60a32be0800000000000000
+      internalID: -1503181459159161789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ecf8f6dbedc74680800000000000000
+      internalID: -8770815336473101080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d424bb96ba6f800800000000000000
+      internalID: 645892067175845231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 128a2c952d99a3050800000000000000
+      internalID: 5781102200411564065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_36
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2249835253309faa0800000000000000
+      internalID: -6126862291268234206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_37
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a37feae0a9e15b790800000000000000
+      internalID: -7515066756177660102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_38
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1a92ad0fee49b70800000000000000
+      internalID: 8905005081438036463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_39
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe254a2e8e302390800000000000000
+      internalID: -7845201770563948811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_40
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9453c7f6df261fa00800000000000000
+      internalID: 788520250403206473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_41
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d992c819a37fdfe10800000000000000
+      internalID: 2233212821167679901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_42
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840bf980878ded1e0800000000000000
+      internalID: -2171059960293642168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_43
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f092045c13df55c70800000000000000
+      internalID: 8959345423928011023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_44
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1153408b9aea56190800000000000000
+      internalID: -7969771921602235119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_45
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f77b342432eb9db0800000000000000
+      internalID: -4783981465576966154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_46
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e60ba0d392875890800000000000000
+      internalID: -7469357885598005536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_47
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8fb72b58acdc2df0800000000000000
+      internalID: -203545267496566899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4ea674b674dd090800000000000000
+      internalID: -8008166036309613380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_49
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e33567ef3184ec040800000000000000
+      internalID: 4669749114340528958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_50
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233bc9de113a13360800000000000000
+      internalID: 7147673381009929010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_51
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b067f3b41cb9606b0800000000000000
+      internalID: -5330401854452959733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_52
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da2f317df1d5fe50800000000000000
+      internalID: 6842606095316232917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_53
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5edacadc8d49f990800000000000000
+      internalID: -7351759649344135589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_54
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285c3007f2d13be70800000000000000
+      internalID: 9129672959190091138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_55
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5294c77fdb22360800000000000000
+      internalID: 7143480829602768296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_56
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06656ab01260ef50800000000000000
+      internalID: 6908629652372547087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_57
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99839d0321505ce30800000000000000
+      internalID: 4523026976450623641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_58
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ba269367cc16ba0800000000000000
+      internalID: -6097367612341966059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_59
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14cd18654c692c1e0800000000000000
+      internalID: -2179013499684791231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_60
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ff87552926283a0800000000000000
+      internalID: -6664656117916172434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_61
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d98b1756b7640af0800000000000000
+      internalID: -431105631477593647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_62
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2e5fad63f399400800000000000000
+      internalID: 331365552422773446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_63
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e55313c04eb34390800000000000000
+      internalID: -7835209741334522396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e64f43a90c753410800000000000000
+      internalID: 1456206435360655080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_65
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc923d6ec4ea079f0800000000000000
+      internalID: -472686315560556081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_66
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca9fa97a63ef19f80800000000000000
+      internalID: -8101414743969171028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_67
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72cc03edf1fcdf030800000000000000
+      internalID: 3530205418707012647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_68
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713dd5fca342c1e80800000000000000
+      internalID: -8206644585970150633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_69
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e3efd44baa6c140800000000000000
+      internalID: 4739663349233368583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_70
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06873b98f75207f0800000000000000
+      internalID: -647858671120316914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_71
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2d3d18e6b70b660800000000000000
+      internalID: 7399549902324486842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_72
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f71bbe8c591a2f0800000000000000
+      internalID: -963324155100299369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_73
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf60fad8fcef92710800000000000000
+      internalID: 1669145304306222844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_74
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98121bf5190d28860800000000000000
+      internalID: 7530810849711169929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_75
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38fd21e93b4ce94b0800000000000000
+      internalID: -5431687824832012413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_76
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17fea0cfc030345a0800000000000000
+      internalID: -6538378879708762255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_77
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967fb2aecf10ac670800000000000000
+      internalID: 8559656227543185257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_78
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33676ddb4dc728b0800000000000000
+      internalID: -5176943520918314181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_79
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed31630d9ee9a4220800000000000000
+      internalID: 2470962072623911902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d0c76debd8ebdc0800000000000000
+      internalID: -3621301199577543350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_81
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a47ffc15286d7920800000000000000
+      internalID: 2989660236253459623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_82
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b65d581f031b6a0800000000000000
+      internalID: -6435308578645120179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_83
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92f61ddde19b2980800000000000000
+      internalID: -8562589815712320868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_84
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 399969b9d2433d110800000000000000
+      internalID: 1284427689219234195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_85
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e11833e629c8910800000000000000
+      internalID: 1841007349695848026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_86
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dabe96979a26c62b0800000000000000
+      internalID: -5589984557447648339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_87
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb32c64afd26289c0800000000000000
+      internalID: -3926467212437871681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_88
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03050ab23b724ad70800000000000000
+      internalID: 9053404801406095408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_89
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40abc887c9b93470800000000000000
+      internalID: 8374929248716824653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_90
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f40c2482f02c7040800000000000000
+      internalID: 4646625141511161074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_91
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996a8ca59a4605a70800000000000000
+      internalID: 8813655149299410585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_92
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676132b0e24769150800000000000000
+      internalID: 5879014104682927734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_93
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7fcb1743b291190800000000000000
+      internalID: -7991308559545731115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_94
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698bc4b9dc095f9e0800000000000000
+      internalID: -1588204080830039914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_95
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334bb3a0f5d1168c0800000000000000
+      internalID: -4007889899352247245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762d852f4a73fd870800000000000000
+      internalID: 8709741385937900135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_97
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a36ec63d1758ec20800000000000000
+      internalID: 3235932115250865057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_98
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af17d8dfdb47014b0800000000000000
+      internalID: -5471745187903606278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_99
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69fa803a0355a46e0800000000000000
+      internalID: -1852574629327491178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_100
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d0783d159693570800000000000000
+      internalID: 8446898376272186760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_101
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff1dc648e0d07c5b0800000000000000
+      internalID: -5348291676476747265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_102
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ee8bc0db8018750800000000000000
+      internalID: 6305330561350692398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_103
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 924e3fbafb5c768c0800000000000000
+      internalID: -4006015916508453847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_104
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb6000a7808b7430800000000000000
+      internalID: 3781757632100985780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_105
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84719de61802df790800000000000000
+      internalID: -7494798464592046264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_106
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb6c802210636a70800000000000000
+      internalID: 8818998126293314496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_107
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb094a963d5600a0800000000000000
+      internalID: -6915737688682722324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_108
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ed830d5731940e0800000000000000
+      internalID: -2285273939188326839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_109
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6debcf37585f35000800000000000000
+      internalID: 23632376592383702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_110
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edeb2f0ba02618800800000000000000
+      internalID: 612878822356991710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_111
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713a2f1fc2f337910800000000000000
+      internalID: 1833878935540245271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c71d06d72f97d6e0800000000000000
+      internalID: -1812805331549612090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_113
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b85ebeac3a1a31e0800000000000000
+      internalID: -2217431018594477902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_114
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323a7b9181ab2a310800000000000000
+      internalID: 1414897845621203747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_115
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60fc36a15f6854e90800000000000000
+      internalID: -7042074055056044282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_116
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6cc5235a442a3720800000000000000
+      internalID: 2826611617769573487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_117
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ec46c03221cbd20800000000000000
+      internalID: 3295528969069448804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_118
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89cf253ded2ce6e0800000000000000
+      internalID: -1807018853659588210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_119
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82645c675c502c60800000000000000
+      internalID: 7791328885900337806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_120
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 307735c421de640a0800000000000000
+      internalID: -6897565116425603325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_121
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ea99f2cf63bf6d0800000000000000
+      internalID: -2955708273680339444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_122
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e0550c7716808f0800000000000000
+      internalID: -574101785533936013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_123
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dce46ca7bd876720800000000000000
+      internalID: 2839393910091214040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_124
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12257e4149104fc0800000000000000
+      internalID: -3512779941069118947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_125
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a8cb284847250b0800000000000000
+      internalID: -5741398462466061733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_126
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6561ad93f316452b0800000000000000
+      internalID: -5596741512733256106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_127
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97649a5f5684aa400800000000000000
+      internalID: 336160724942931577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da45271b1ac0b5af0800000000000000
+      internalID: -406717452740569939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_129
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaaa8fbde4c6a7710800000000000000
+      internalID: 1691783695984798382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_130
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dfa54a757b5eba60800000000000000
+      internalID: 7691685773716074454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_131
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b4e9040bbd97b310800000000000000
+      internalID: 1420777634010883256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_132
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7aad60edf1739310800000000000000
+      internalID: 1410596443503045245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_133
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d801732fc53913930800000000000000
+      internalID: 4121237161430683789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_134
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ffe97e3cf7bbf920800000000000000
+      internalID: 3025213868717240312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_135
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdca7448236502e20800000000000000
+      internalID: 3323751299967069404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_136
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d1e8bf9a2fb72d0800000000000000
+      internalID: -3279761091725484651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_137
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb61daace1192940800000000000000
+      internalID: 5271764546989681597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_138
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086c944d98a757d80800000000000000
+      internalID: -8253556009695852928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_139
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153ee242dfa5408b0800000000000000
+      internalID: -5186920827543690415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_140
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88eabee7fa8046a50800000000000000
+      internalID: 6513340510926253704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_141
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ac515188f356f10800000000000000
+      internalID: 2262284241525394013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_142
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d10f0e11f4f8bf0800000000000000
+      internalID: -319950110313144933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_143
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c4d86d99965194d0800000000000000
+      internalID: -3129625048274905916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a638bba8beac25250800000000000000
+      internalID: 5932026772194034538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_145
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d3a85ad4b342fc50800000000000000
+      internalID: 6697490039889765332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_146
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2d3b818c9507c90800000000000000
+      internalID: -7174135490458430765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_147
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6149a71ba43be880800000000000000
+      internalID: -8580706755583327891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_148
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e21a394cbd7cf080800000000000000
+      internalID: -9152302095087824160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_149
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69bfce603b9ef6690800000000000000
+      internalID: -7606604290480866410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_150
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8db47cf29bad1da0800000000000000
+      internalID: -5972428883034325620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_151
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80c56257c0c5c4e0800000000000000
+      internalID: -1961950100336557941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_152
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2dddf9e5fcc9fc0800000000000000
+      internalID: -3486684006175616320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_153
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e78b674a56b3b8b0800000000000000
+      internalID: -5137562251038062617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_154
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a179426910fca90800000000000000
+      internalID: -7291607527318939134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_155
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed398a748729f7a70800000000000000
+      internalID: 8826934839965422558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_156
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5bc0407de516f3f0800000000000000
+      internalID: -867481768687514789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_157
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc396813995670210800000000000000
+      internalID: 1299118726154982348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_158
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf5dd98047492260800000000000000
+      internalID: 7073263032278540221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_159
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39c7bdac4fdbb210800000000000000
+      internalID: 1349918033752607036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dafa5288b586b930800000000000000
+      internalID: 4158658333430708949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_161
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcdb0eaf56ced5820800000000000000
+      internalID: 2908740857096093131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_162
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feaa92907fa5b4ad0800000000000000
+      internalID: -2716977933130814737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_163
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5fe5222be95c75b0800000000000000
+      internalID: -5369317789307375780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_164
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d235ae7a13f4da8c0800000000000000
+      internalID: -3986443020463877331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_165
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07eb783979a407b80800000000000000
+      internalID: -8399131290170311056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_166
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 203492f61b4da9ea0800000000000000
+      internalID: -5865141706157374718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_167
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e244d57624fa370800000000000000
+      internalID: 8335954446999891462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_168
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd7c9dc5cb235360800000000000000
+      internalID: 7157112361379986867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_169
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b1cb35d43e20160800000000000000
+      internalID: 6990399492889254674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_170
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f57c1a97e9c32460800000000000000
+      internalID: 7215833024537851383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_171
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a225e402a75d0fe0800000000000000
+      internalID: -1221223570569092447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_172
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9318c0885969e1310800000000000000
+      internalID: 1377704104998764857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_173
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e570e38f821ecff10800000000000000
+      internalID: 2304964675386607454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_174
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1e944bd86112040800000000000000
+      internalID: 4620999490529780186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_175
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf4d3e6a5c9e7000800000000000000
+      internalID: 35637759276044239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29716399835bd7b0800000000000000
+      internalID: -5198469494520841941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_177
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45dc79d0634704fd0800000000000000
+      internalID: -2359758429237031596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_178
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed623840dd4bca8b0800000000000000
+      internalID: -5139534213380102434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_179
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8debb54df3d9e7f00800000000000000
+      internalID: 1116502655105744600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_180
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e09dbef0504ffd80800000000000000
+      internalID: -8214776478685097756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_181
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1e6083c28bbde80800000000000000
+      internalID: -8152720200366104076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_182
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e43fb743700ee90800000000000000
+      internalID: -6998585898934514146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_183
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba78e04596387460800000000000000
+      internalID: 7239596415665076914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_184
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f338f2fb64506fab0800000000000000
+      internalID: -4974782936970722497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_185
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87bde18dd28c0e310800000000000000
+      internalID: 1432364780728802168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_186
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e879bc506e98c730800000000000000
+      internalID: 4019636804137875685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_187
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727ba55d833bc0b00800000000000000
+      internalID: 796208290816767783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_188
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7669938f564168940800000000000000
+      internalID: 5297944439836743271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_189
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 075bccf67f75cfcc0800000000000000
+      internalID: -3675966475596941968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_190
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24440b7ca3f70d50800000000000000
+      internalID: 6703594492488074287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_191
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb76bf011cf31a5c0800000000000000
+      internalID: -4206010478541183045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_192
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f57c7fa1529ab4010800000000000000
+      internalID: 1174218104691476319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_193
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2e1f9bdcb248f10800000000000000
+      internalID: 2270988274689499866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_194
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3a494e19cedc7e0800000000000000
+      internalID: -1743477369373154321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_195
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89214f21f9ff12e30800000000000000
+      internalID: 4477140563265852056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_196
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1cf3a18732a3670800000000000000
+      internalID: 8519160643868148207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_197
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30496b1d91aeae30800000000000000
+      internalID: 4516725172441006142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_198
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eccd37057e2d2a90800000000000000
+      internalID: -7337157137749127963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_199
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b462e697110e250800000000000000
+      internalID: 5971792319129996060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_200
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f075037c95127b0800000000000000
+      internalID: -5250816978492911771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_201
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b64b38c9977f22e0800000000000000
+      internalID: -2148366994859407692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_202
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90ba7fcefc14ed10800000000000000
+      internalID: 2153878402518134940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_203
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732d533b72d7e7320800000000000000
+      internalID: 2557619247856865847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_204
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e313301c254d31190800000000000000
+      internalID: -7992811461761879746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_205
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4e93ea401ee4b90800000000000000
+      internalID: -7255614539428141916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_206
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbbab7ca4dec8e4f0800000000000000
+      internalID: -799161521036088389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_207
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1cda5aa735084570800000000000000
+      internalID: 8451010437400157214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_208
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a94321af1812840800000000000000
+      internalID: 5197578356009507384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_209
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b804d28faea2d61b0800000000000000
+      internalID: -5661821967860416373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_210
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddabc2b4a91ee6c50800000000000000
+      internalID: 6660508951729978077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_211
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85109097f536a3960800000000000000
+      internalID: 7582482184335327576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_212
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5892eb7923c53cb10800000000000000
+      internalID: 2000544031846574469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_213
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a33c69068a77be0800000000000000
+      internalID: -1479528819768215002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_214
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2acde87368395e30800000000000000
+      internalID: 4492684103160547886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_215
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e73d70875af535e0800000000000000
+      internalID: -1930361611533600799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_216
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6dc9c77bd2f5020800000000000000
+      internalID: 2332633398094124744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_217
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c319bd2ef15986b00800000000000000
+      internalID: 822070896177680700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_218
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3c9c9eb7ac12200800000000000000
+      internalID: 153626495859409846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_219
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ee8b9b3c2765d00800000000000000
+      internalID: 961081755450273319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_220
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c69e9f0e60d85530800000000000000
+      internalID: 3844051453087749826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_221
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57ed6c563cb6a220800000000000000
+      internalID: 2496889985088481118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_222
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa4886c887d5f540800000000000000
+      internalID: 5041172340357483250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_223
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f15a28eda623dee60800000000000000
+      internalID: 7993100348233524511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_224
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480838abee4fd9b50800000000000000
+      internalID: 6601701934963589252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_225
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099abae319a6c6ce0800000000000000
+      internalID: -1410635411219568240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_226
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6201d270ce3dd7c80800000000000000
+      internalID: -8323263525624672218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_227
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c800b75a954a518f0800000000000000
+      internalID: -570369072857153396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_228
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544623ab81b0ba600800000000000000
+      internalID: 480489986076075077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_229
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073fa5cab70711860800000000000000
+      internalID: 7498898531023516528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_230
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4250c024690fbbc00800000000000000
+      internalID: 917591477243872548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_231
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e757fcac4b7354390800000000000000
+      internalID: -7834794727104875138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_232
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c33ff8bd11cc287c0800000000000000
+      internalID: -4070466736119352516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_233
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aeead148a0a9b870800000000000000
+      internalID: 8699160799762640549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_234
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cdd9f7df06513550800000000000000
+      internalID: 6138782393130671557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_235
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df516ef08dad7a390800000000000000
+      internalID: -7807030807508937219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_236
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23837409bb6c232a0800000000000000
+      internalID: -6759121581847922638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_237
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4c596ef04f987a0800000000000000
+      internalID: -6374295448435964753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_238
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bef71bbaf35a5200800000000000000
+      internalID: 169540272325656246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_239
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23b41b384b1722a00800000000000000
+      internalID: 730271109704928050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_240
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e25ef86df52c6e0800000000000000
+      internalID: -1818785924362457528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_241
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc7636e21c87e170800000000000000
+      internalID: 8207682858705648820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_242
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c90942a1b5b4360800000000000000
+      internalID: 7154912600848899187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_243
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c785a17804074f620800000000000000
+      internalID: 2806991890205530236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_244
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4966cbc8505674dd0800000000000000
+      internalID: -2501919993470622060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_245
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14d1992646b14ff0800000000000000
+      internalID: -53561308090346465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_246
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25de0859d7cceddb0800000000000000
+      internalID: -4765146515960173230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_247
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab53eaed9eb14d300800000000000000
+      internalID: 275876168453731770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_248
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03536805c5a9c1a10800000000000000
+      internalID: 1881548465612666160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_249
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47caacf6c077d5610800000000000000
+      internalID: 1611575136967371892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_250
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513b31d8d5a66a1e0800000000000000
+      internalID: -2186943619010415851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_251
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b59b9cf3a4581ce0800000000000000
+      internalID: -1434303418023045711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_252
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67694c8bea1f7a9e0800000000000000
+      internalID: -1610052609035168138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_253
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f80ee53a120b0a780800000000000000
+      internalID: -8673739223794261873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_254
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b73c447f0427fb50800000000000000
+      internalID: 6626805025493235641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level8_BlackHole_64_255
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb3e415ec9984b00800000000000000
+      internalID: 813068844146768838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d102812909a5fdf4da0dba46070def10
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Level8_BlackHole_64_0: 1377351719391204848
+      Level8_BlackHole_64_1: 4110028802958329879
+      Level8_BlackHole_64_10: -7732394465691920092
+      Level8_BlackHole_64_100: 8446898376272186760
+      Level8_BlackHole_64_101: -5348291676476747265
+      Level8_BlackHole_64_102: 6305330561350692398
+      Level8_BlackHole_64_103: -4006015916508453847
+      Level8_BlackHole_64_104: 3781757632100985780
+      Level8_BlackHole_64_105: -7494798464592046264
+      Level8_BlackHole_64_106: 8818998126293314496
+      Level8_BlackHole_64_107: -6915737688682722324
+      Level8_BlackHole_64_108: -2285273939188326839
+      Level8_BlackHole_64_109: 23632376592383702
+      Level8_BlackHole_64_11: 2438028403518541390
+      Level8_BlackHole_64_110: 612878822356991710
+      Level8_BlackHole_64_111: 1833878935540245271
+      Level8_BlackHole_64_112: -1812805331549612090
+      Level8_BlackHole_64_113: -2217431018594477902
+      Level8_BlackHole_64_114: 1414897845621203747
+      Level8_BlackHole_64_115: -7042074055056044282
+      Level8_BlackHole_64_116: 2826611617769573487
+      Level8_BlackHole_64_117: 3295528969069448804
+      Level8_BlackHole_64_118: -1807018853659588210
+      Level8_BlackHole_64_119: 7791328885900337806
+      Level8_BlackHole_64_12: -3810564135758673597
+      Level8_BlackHole_64_120: -6897565116425603325
+      Level8_BlackHole_64_121: -2955708273680339444
+      Level8_BlackHole_64_122: -574101785533936013
+      Level8_BlackHole_64_123: 2839393910091214040
+      Level8_BlackHole_64_124: -3512779941069118947
+      Level8_BlackHole_64_125: -5741398462466061733
+      Level8_BlackHole_64_126: -5596741512733256106
+      Level8_BlackHole_64_127: 336160724942931577
+      Level8_BlackHole_64_128: -406717452740569939
+      Level8_BlackHole_64_129: 1691783695984798382
+      Level8_BlackHole_64_13: -6713127479485842506
+      Level8_BlackHole_64_130: 7691685773716074454
+      Level8_BlackHole_64_131: 1420777634010883256
+      Level8_BlackHole_64_132: 1410596443503045245
+      Level8_BlackHole_64_133: 4121237161430683789
+      Level8_BlackHole_64_134: 3025213868717240312
+      Level8_BlackHole_64_135: 3323751299967069404
+      Level8_BlackHole_64_136: -3279761091725484651
+      Level8_BlackHole_64_137: 5271764546989681597
+      Level8_BlackHole_64_138: -8253556009695852928
+      Level8_BlackHole_64_139: -5186920827543690415
+      Level8_BlackHole_64_14: 4524036267796497511
+      Level8_BlackHole_64_140: 6513340510926253704
+      Level8_BlackHole_64_141: 2262284241525394013
+      Level8_BlackHole_64_142: -319950110313144933
+      Level8_BlackHole_64_143: -3129625048274905916
+      Level8_BlackHole_64_144: 5932026772194034538
+      Level8_BlackHole_64_145: 6697490039889765332
+      Level8_BlackHole_64_146: -7174135490458430765
+      Level8_BlackHole_64_147: -8580706755583327891
+      Level8_BlackHole_64_148: -9152302095087824160
+      Level8_BlackHole_64_149: -7606604290480866410
+      Level8_BlackHole_64_15: 6413283959181639519
+      Level8_BlackHole_64_150: -5972428883034325620
+      Level8_BlackHole_64_151: -1961950100336557941
+      Level8_BlackHole_64_152: -3486684006175616320
+      Level8_BlackHole_64_153: -5137562251038062617
+      Level8_BlackHole_64_154: -7291607527318939134
+      Level8_BlackHole_64_155: 8826934839965422558
+      Level8_BlackHole_64_156: -867481768687514789
+      Level8_BlackHole_64_157: 1299118726154982348
+      Level8_BlackHole_64_158: 7073263032278540221
+      Level8_BlackHole_64_159: 1349918033752607036
+      Level8_BlackHole_64_16: -8802857513952498694
+      Level8_BlackHole_64_160: 4158658333430708949
+      Level8_BlackHole_64_161: 2908740857096093131
+      Level8_BlackHole_64_162: -2716977933130814737
+      Level8_BlackHole_64_163: -5369317789307375780
+      Level8_BlackHole_64_164: -3986443020463877331
+      Level8_BlackHole_64_165: -8399131290170311056
+      Level8_BlackHole_64_166: -5865141706157374718
+      Level8_BlackHole_64_167: 8335954446999891462
+      Level8_BlackHole_64_168: 7157112361379986867
+      Level8_BlackHole_64_169: 6990399492889254674
+      Level8_BlackHole_64_17: 4575100128594997822
+      Level8_BlackHole_64_170: 7215833024537851383
+      Level8_BlackHole_64_171: -1221223570569092447
+      Level8_BlackHole_64_172: 1377704104998764857
+      Level8_BlackHole_64_173: 2304964675386607454
+      Level8_BlackHole_64_174: 4620999490529780186
+      Level8_BlackHole_64_175: 35637759276044239
+      Level8_BlackHole_64_176: -5198469494520841941
+      Level8_BlackHole_64_177: -2359758429237031596
+      Level8_BlackHole_64_178: -5139534213380102434
+      Level8_BlackHole_64_179: 1116502655105744600
+      Level8_BlackHole_64_18: 7910078847411101493
+      Level8_BlackHole_64_180: -8214776478685097756
+      Level8_BlackHole_64_181: -8152720200366104076
+      Level8_BlackHole_64_182: -6998585898934514146
+      Level8_BlackHole_64_183: 7239596415665076914
+      Level8_BlackHole_64_184: -4974782936970722497
+      Level8_BlackHole_64_185: 1432364780728802168
+      Level8_BlackHole_64_186: 4019636804137875685
+      Level8_BlackHole_64_187: 796208290816767783
+      Level8_BlackHole_64_188: 5297944439836743271
+      Level8_BlackHole_64_189: -3675966475596941968
+      Level8_BlackHole_64_19: -8284523068255016485
+      Level8_BlackHole_64_190: 6703594492488074287
+      Level8_BlackHole_64_191: -4206010478541183045
+      Level8_BlackHole_64_192: 1174218104691476319
+      Level8_BlackHole_64_193: 2270988274689499866
+      Level8_BlackHole_64_194: -1743477369373154321
+      Level8_BlackHole_64_195: 4477140563265852056
+      Level8_BlackHole_64_196: 8519160643868148207
+      Level8_BlackHole_64_197: 4516725172441006142
+      Level8_BlackHole_64_198: -7337157137749127963
+      Level8_BlackHole_64_199: 5971792319129996060
+      Level8_BlackHole_64_2: -6622077635746604635
+      Level8_BlackHole_64_20: 6627966546664210026
+      Level8_BlackHole_64_200: -5250816978492911771
+      Level8_BlackHole_64_201: -2148366994859407692
+      Level8_BlackHole_64_202: 2153878402518134940
+      Level8_BlackHole_64_203: 2557619247856865847
+      Level8_BlackHole_64_204: -7992811461761879746
+      Level8_BlackHole_64_205: -7255614539428141916
+      Level8_BlackHole_64_206: -799161521036088389
+      Level8_BlackHole_64_207: 8451010437400157214
+      Level8_BlackHole_64_208: 5197578356009507384
+      Level8_BlackHole_64_209: -5661821967860416373
+      Level8_BlackHole_64_21: -8434228908746719797
+      Level8_BlackHole_64_210: 6660508951729978077
+      Level8_BlackHole_64_211: 7582482184335327576
+      Level8_BlackHole_64_212: 2000544031846574469
+      Level8_BlackHole_64_213: -1479528819768215002
+      Level8_BlackHole_64_214: 4492684103160547886
+      Level8_BlackHole_64_215: -1930361611533600799
+      Level8_BlackHole_64_216: 2332633398094124744
+      Level8_BlackHole_64_217: 822070896177680700
+      Level8_BlackHole_64_218: 153626495859409846
+      Level8_BlackHole_64_219: 961081755450273319
+      Level8_BlackHole_64_22: -4170388008736499767
+      Level8_BlackHole_64_220: 3844051453087749826
+      Level8_BlackHole_64_221: 2496889985088481118
+      Level8_BlackHole_64_222: 5041172340357483250
+      Level8_BlackHole_64_223: 7993100348233524511
+      Level8_BlackHole_64_224: 6601701934963589252
+      Level8_BlackHole_64_225: -1410635411219568240
+      Level8_BlackHole_64_226: -8323263525624672218
+      Level8_BlackHole_64_227: -570369072857153396
+      Level8_BlackHole_64_228: 480489986076075077
+      Level8_BlackHole_64_229: 7498898531023516528
+      Level8_BlackHole_64_23: -8445875542707963372
+      Level8_BlackHole_64_230: 917591477243872548
+      Level8_BlackHole_64_231: -7834794727104875138
+      Level8_BlackHole_64_232: -4070466736119352516
+      Level8_BlackHole_64_233: 8699160799762640549
+      Level8_BlackHole_64_234: 6138782393130671557
+      Level8_BlackHole_64_235: -7807030807508937219
+      Level8_BlackHole_64_236: -6759121581847922638
+      Level8_BlackHole_64_237: -6374295448435964753
+      Level8_BlackHole_64_238: 169540272325656246
+      Level8_BlackHole_64_239: 730271109704928050
+      Level8_BlackHole_64_24: -938374549462436779
+      Level8_BlackHole_64_240: -1818785924362457528
+      Level8_BlackHole_64_241: 8207682858705648820
+      Level8_BlackHole_64_242: 7154912600848899187
+      Level8_BlackHole_64_243: 2806991890205530236
+      Level8_BlackHole_64_244: -2501919993470622060
+      Level8_BlackHole_64_245: -53561308090346465
+      Level8_BlackHole_64_246: -4765146515960173230
+      Level8_BlackHole_64_247: 275876168453731770
+      Level8_BlackHole_64_248: 1881548465612666160
+      Level8_BlackHole_64_249: 1611575136967371892
+      Level8_BlackHole_64_25: -7064150596234669500
+      Level8_BlackHole_64_250: -2186943619010415851
+      Level8_BlackHole_64_251: -1434303418023045711
+      Level8_BlackHole_64_252: -1610052609035168138
+      Level8_BlackHole_64_253: -8673739223794261873
+      Level8_BlackHole_64_254: 6626805025493235641
+      Level8_BlackHole_64_255: 813068844146768838
+      Level8_BlackHole_64_26: -2562538195657017351
+      Level8_BlackHole_64_27: -3256876911821711842
+      Level8_BlackHole_64_28: 6277067154489619167
+      Level8_BlackHole_64_29: 5878040069090949865
+      Level8_BlackHole_64_3: 598957803456063922
+      Level8_BlackHole_64_30: 3324323588747475335
+      Level8_BlackHole_64_31: -7308812148187996205
+      Level8_BlackHole_64_32: -1503181459159161789
+      Level8_BlackHole_64_33: -8770815336473101080
+      Level8_BlackHole_64_34: 645892067175845231
+      Level8_BlackHole_64_35: 5781102200411564065
+      Level8_BlackHole_64_36: -6126862291268234206
+      Level8_BlackHole_64_37: -7515066756177660102
+      Level8_BlackHole_64_38: 8905005081438036463
+      Level8_BlackHole_64_39: -7845201770563948811
+      Level8_BlackHole_64_4: 1897626313438632697
+      Level8_BlackHole_64_40: 788520250403206473
+      Level8_BlackHole_64_41: 2233212821167679901
+      Level8_BlackHole_64_42: -2171059960293642168
+      Level8_BlackHole_64_43: 8959345423928011023
+      Level8_BlackHole_64_44: -7969771921602235119
+      Level8_BlackHole_64_45: -4783981465576966154
+      Level8_BlackHole_64_46: -7469357885598005536
+      Level8_BlackHole_64_47: -203545267496566899
+      Level8_BlackHole_64_48: -8008166036309613380
+      Level8_BlackHole_64_49: 4669749114340528958
+      Level8_BlackHole_64_5: -252839548670902707
+      Level8_BlackHole_64_50: 7147673381009929010
+      Level8_BlackHole_64_51: -5330401854452959733
+      Level8_BlackHole_64_52: 6842606095316232917
+      Level8_BlackHole_64_53: -7351759649344135589
+      Level8_BlackHole_64_54: 9129672959190091138
+      Level8_BlackHole_64_55: 7143480829602768296
+      Level8_BlackHole_64_56: 6908629652372547087
+      Level8_BlackHole_64_57: 4523026976450623641
+      Level8_BlackHole_64_58: -6097367612341966059
+      Level8_BlackHole_64_59: -2179013499684791231
+      Level8_BlackHole_64_6: -6423282336803721526
+      Level8_BlackHole_64_60: -6664656117916172434
+      Level8_BlackHole_64_61: -431105631477593647
+      Level8_BlackHole_64_62: 331365552422773446
+      Level8_BlackHole_64_63: -7835209741334522396
+      Level8_BlackHole_64_64: 1456206435360655080
+      Level8_BlackHole_64_65: -472686315560556081
+      Level8_BlackHole_64_66: -8101414743969171028
+      Level8_BlackHole_64_67: 3530205418707012647
+      Level8_BlackHole_64_68: -8206644585970150633
+      Level8_BlackHole_64_69: 4739663349233368583
+      Level8_BlackHole_64_7: -1405137331290860154
+      Level8_BlackHole_64_70: -647858671120316914
+      Level8_BlackHole_64_71: 7399549902324486842
+      Level8_BlackHole_64_72: -963324155100299369
+      Level8_BlackHole_64_73: 1669145304306222844
+      Level8_BlackHole_64_74: 7530810849711169929
+      Level8_BlackHole_64_75: -5431687824832012413
+      Level8_BlackHole_64_76: -6538378879708762255
+      Level8_BlackHole_64_77: 8559656227543185257
+      Level8_BlackHole_64_78: -5176943520918314181
+      Level8_BlackHole_64_79: 2470962072623911902
+      Level8_BlackHole_64_8: 5819998183936861912
+      Level8_BlackHole_64_80: -3621301199577543350
+      Level8_BlackHole_64_81: 2989660236253459623
+      Level8_BlackHole_64_82: -6435308578645120179
+      Level8_BlackHole_64_83: -8562589815712320868
+      Level8_BlackHole_64_84: 1284427689219234195
+      Level8_BlackHole_64_85: 1841007349695848026
+      Level8_BlackHole_64_86: -5589984557447648339
+      Level8_BlackHole_64_87: -3926467212437871681
+      Level8_BlackHole_64_88: 9053404801406095408
+      Level8_BlackHole_64_89: 8374929248716824653
+      Level8_BlackHole_64_9: 2059991968127910988
+      Level8_BlackHole_64_90: 4646625141511161074
+      Level8_BlackHole_64_91: 8813655149299410585
+      Level8_BlackHole_64_92: 5879014104682927734
+      Level8_BlackHole_64_93: -7991308559545731115
+      Level8_BlackHole_64_94: -1588204080830039914
+      Level8_BlackHole_64_95: -4007889899352247245
+      Level8_BlackHole_64_96: 8709741385937900135
+      Level8_BlackHole_64_97: 3235932115250865057
+      Level8_BlackHole_64_98: -5471745187903606278
+      Level8_BlackHole_64_99: -1852574629327491178
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

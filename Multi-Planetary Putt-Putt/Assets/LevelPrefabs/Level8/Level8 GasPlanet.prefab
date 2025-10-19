@@ -10,11 +10,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 72137730264811527, guid: 681aa8d3cd246f74cb4e161ba5dcb572, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -2.84
       objectReference: {fileID: 0}
     - target: {fileID: 72137730264811527, guid: 681aa8d3cd246f74cb4e161ba5dcb572, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -2.5
       objectReference: {fileID: 0}
     - target: {fileID: 72137730264811527, guid: 681aa8d3cd246f74cb4e161ba5dcb572, type: 3}
       propertyPath: m_LocalPosition.z
@@ -48,24 +48,103 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3794864808765832754, guid: 681aa8d3cd246f74cb4e161ba5dcb572, type: 3}
+      propertyPath: m_HasRenderer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3834584060592216486, guid: 681aa8d3cd246f74cb4e161ba5dcb572, type: 3}
       propertyPath: m_Name
       value: Level8 GasPlanet
       objectReference: {fileID: 0}
     - target: {fileID: 6833455889039914553, guid: 681aa8d3cd246f74cb4e161ba5dcb572, type: 3}
       propertyPath: m_LocalScale.x
-      value: 16
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 6833455889039914553, guid: 681aa8d3cd246f74cb4e161ba5dcb572, type: 3}
       propertyPath: m_LocalScale.y
-      value: 16
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 6833455889039914553, guid: 681aa8d3cd246f74cb4e161ba5dcb572, type: 3}
       propertyPath: m_LocalScale.z
-      value: 16
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 8945434250687585181, guid: 681aa8d3cd246f74cb4e161ba5dcb572, type: 3}
+      propertyPath: m_Mass
+      value: 175
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 820630196121981981, guid: 681aa8d3cd246f74cb4e161ba5dcb572, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6833455889039914553, guid: 681aa8d3cd246f74cb4e161ba5dcb572, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5443359886602631862}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 681aa8d3cd246f74cb4e161ba5dcb572, type: 3}
+--- !u!4 &8570212586859656819 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6833455889039914553, guid: 681aa8d3cd246f74cb4e161ba5dcb572, type: 3}
+  m_PrefabInstance: {fileID: 2898854838360047690}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4989018367265692810
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8570212586859656819}
+    m_Modifications:
+    - target: {fileID: 1060104305048692284, guid: e662bb2433e5129478e940828972648a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060104305048692284, guid: e662bb2433e5129478e940828972648a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060104305048692284, guid: e662bb2433e5129478e940828972648a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060104305048692284, guid: e662bb2433e5129478e940828972648a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060104305048692284, guid: e662bb2433e5129478e940828972648a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060104305048692284, guid: e662bb2433e5129478e940828972648a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060104305048692284, guid: e662bb2433e5129478e940828972648a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060104305048692284, guid: e662bb2433e5129478e940828972648a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060104305048692284, guid: e662bb2433e5129478e940828972648a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060104305048692284, guid: e662bb2433e5129478e940828972648a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2380545224675845774, guid: e662bb2433e5129478e940828972648a, type: 3}
+      propertyPath: m_Name
+      value: Level8_Gas_128_0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 681aa8d3cd246f74cb4e161ba5dcb572, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: e662bb2433e5129478e940828972648a, type: 3}
+--- !u!4 &5443359886602631862 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1060104305048692284, guid: e662bb2433e5129478e940828972648a, type: 3}
+  m_PrefabInstance: {fileID: 4989018367265692810}
+  m_PrefabAsset: {fileID: 0}
