@@ -72,6 +72,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3365079227955285536}
   - component: {fileID: 7117731863527176472}
+  - component: {fileID: 6245538209196009901}
   m_Layer: 18
   m_Name: GravityOutline
   m_TagString: Untagged
@@ -116,10 +117,10 @@ SpriteRenderer:
   m_SmallMeshCulling: 1
   m_ForceMeshLod: -1
   m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 23f2f3ddaa146794db0e0591ba7756a7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -138,11 +139,11 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1197347549
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -152,6 +153,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6245538209196009901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377203866249671640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7cbf46509e63e54e800bb69dc0aaebf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GravityOutlineTweaker
+  spriteVisualRenderer: {fileID: 7117731863527176472}
 --- !u!1 &1974254743482505636
 GameObject:
   m_ObjectHideFlags: 0
@@ -663,6 +677,10 @@ PrefabInstance:
       propertyPath: circleCollider
       value: 
       objectReference: {fileID: 1444682375197724351}
+    - target: {fileID: 3055861728420694251, guid: 8cdba9501e1ebd5448da9839c2f6769c, type: 3}
+      propertyPath: outlineTweaker
+      value: 
+      objectReference: {fileID: 6245538209196009901}
     - target: {fileID: 3055861728420694251, guid: 8cdba9501e1ebd5448da9839c2f6769c, type: 3}
       propertyPath: outlineTransform
       value: 
