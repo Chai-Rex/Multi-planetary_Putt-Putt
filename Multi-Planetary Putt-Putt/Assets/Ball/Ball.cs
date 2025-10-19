@@ -62,7 +62,7 @@ public class Ball : MonoBehaviour {
         rb.bodyType = RigidbodyType2D.Dynamic;
         indicator.gameObject.SetActive(false);
         //indicator.SetPredictionLineVisible(false);
-        rb.linearDamping = 0;
+        rb.linearDamping = AtmosphereManager.PredictAtmosphereAtLocation(rb.position);
         Vector2 launchDirection = indicator.transform.up * indicator.transform.localScale.y;
         rb.AddForce(launchDirection * force, ForceMode2D.Impulse);
     }
