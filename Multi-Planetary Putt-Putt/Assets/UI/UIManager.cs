@@ -1,11 +1,17 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
     public static UIManager Instance;
 
     protected Canvas _currentUI;
+
+    [SerializeField] private Button settingsButton;
+    [SerializeField] private Button mainmenuButton;
+    [SerializeField] private Button retryButton;
+    [SerializeField] private Button quitButton;
 
     [Header("Canvas")]
     [SerializeField] private Canvas settingsCanvas;
@@ -15,11 +21,15 @@ public class UIManager : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+
+        settingsButton.onClick.AddListener(() => SetSettings());
+        settingsButton.onClick.AddListener(() => SetSettings());
     }
 
     private void OnEnable()
     {
         InputManager.Instance.MenuAction.started += MenuAction_Started;
+        
     }
 
     private void OnDisable()
@@ -37,24 +47,21 @@ public class UIManager : MonoBehaviour
         if (settingsCanvas.gameObject.activeSelf)
         {
             ToggleCurrentUI();
+            isInSettings = false;
+            Time.timeScale = 1.0f;
+
             return false;
         }
+
+        isInSettings = true;
+        Time.timeScale = 0.0f;
         SwitchCurrentUI(settingsCanvas);
         return true;
     }
 
     private void MenuAction_Started(UnityEngine.InputSystem.InputAction.CallbackContext context)
     {
-        isInSettings = !isInSettings;
-
-        if (isInSettings) 
-        { 
-            Time.timeScale = 0.0f; 
-        }
-        else
-        {
-            Time.timeScale = 1.0f;
-        }
+        SetSettings();
     }
 
 

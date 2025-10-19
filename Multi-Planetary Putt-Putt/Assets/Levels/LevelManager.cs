@@ -229,4 +229,9 @@ public class LevelManager : MonoBehaviour
             PlayerPrefs.SetInt("LevelOneResult", 0);
         }
     }
+
+    public void LoadMainMenu()
+    {
+
+    }
 }
