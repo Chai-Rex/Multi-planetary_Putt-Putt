@@ -15,6 +15,9 @@ public class Ball : MonoBehaviour {
     private Vector3 _lastStablePosition;
     private bool _isHitRoutineRunning;
 
+    private bool forceReset = false;
+    public bool ForceReset { set { forceReset = value; } }
+
     private void Start() {
         InitializeBall();
         InputManager.Instance.InteractAction.started += OnInteract;
@@ -61,7 +64,7 @@ public class Ball : MonoBehaviour {
     private void LaunchBall() {
         rb.bodyType = RigidbodyType2D.Dynamic;
         indicator.gameObject.SetActive(false);
-        //indicator.SetPredictionLineVisible(false);
+        indicator.SetPredictionLineVisible(false);
         rb.linearDamping = AtmosphereManager.PredictAtmosphereAtLocation(rb.position);
         Vector2 launchDirection = indicator.transform.up * indicator.transform.localScale.y;
         rb.AddForce(launchDirection * force, ForceMode2D.Impulse);
@@ -69,7 +72,8 @@ public class Ball : MonoBehaviour {
 
     private async Task<bool> WaitForBallToStop() {
         while (rb.linearVelocity.magnitude > stoppingVelocityThreshold) {
-            if (IsOutOfBounds()) {
+            if (IsOutOfBounds() || forceReset) {
+                forceReset = false;
                 return true; // Signal to reset
             }
             await Task.Yield();
@@ -101,7 +105,7 @@ public class Ball : MonoBehaviour {
     }
 
     private bool IsOutOfBounds() {
-
+        
         if (GravityManager.Instance.HasAttractors()) return false;      
         
         Vector3 viewportPos = Camera.main.WorldToViewportPoint(transform.position);

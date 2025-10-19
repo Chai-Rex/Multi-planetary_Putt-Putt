@@ -94,7 +94,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1010204039510285754, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
       propertyPath: m_Name
-      value: NameMe_Sun Variant
+      value: Star Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1124153514156341806, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
       propertyPath: m_CastingOption
@@ -208,10 +208,30 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4193856449073630235, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5321872705298574342}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7963417969257098903, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7001795539242301203}
   m_SourcePrefab: {fileID: 100100000, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
 --- !u!4 &695355988784409053 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4193856449073630235, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
   m_PrefabInstance: {fileID: 3717146095657985478}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6707631010049461073 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7963417969257098903, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
+  m_PrefabInstance: {fileID: 3717146095657985478}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7001795539242301203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6707631010049461073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad65b5080cf5f4e40a939953011865ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SunBlackholeScript
