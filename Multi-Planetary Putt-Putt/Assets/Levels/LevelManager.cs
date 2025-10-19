@@ -75,7 +75,7 @@ public class LevelManager : MonoBehaviour
                 audioSource.Play();
             }
         }
-
+        currentLevelsList = 0;
         CreatePlayerPrefs();
         DisableAllLevelButtons();
         ShowSelectionArrows();
@@ -84,7 +84,12 @@ public class LevelManager : MonoBehaviour
 
     public void PlayLastUnlockedLevel()
     {
-        LoadLevel(PlayerPrefs.GetInt("CompletedLevels"));
+        int lastUnlockedLevel = PlayerPrefs.GetInt("CompletedLevels") + 1;
+        if (lastUnlockedLevel > levelNames.Count)
+        {
+            lastUnlockedLevel = levelNames.Count;
+        }
+        LoadLevel(lastUnlockedLevel);
     }
 
     public void CompletedLevel(ELevel levelCompleted)
@@ -163,6 +168,13 @@ public class LevelManager : MonoBehaviour
         }
         else
         {
+            
+            levelNumber -= 1;
+            if (levelNumber < 0)
+            {
+                levelNumber = 0;
+            }
+            Debug.Log($"Current Level Number {levelNumber}");
             SceneManager.LoadScene(levelNames[levelNumber]);
         }
             
@@ -190,6 +202,7 @@ public class LevelManager : MonoBehaviour
             {
                 levelButtons[availableLevels].gameObject.SetActive(true);
                 ResultsManager.Instance.ShowStars(levelStars[availableLevels], GetLevelStarResults((ELevel)availableLevels));
+                Debug.Log($"Available Levels : {availableLevels}");
                 levelButtons[availableLevels].onClick.AddListener(() => LoadLevel(availableLevels));
             }
         }
@@ -210,6 +223,20 @@ public class LevelManager : MonoBehaviour
         {
             case ELevel.LevelOne:
                 return PlayerPrefs.GetInt("LevelOneResult");
+            case ELevel.LevelTwo:
+                return PlayerPrefs.GetInt("LevelTwoResult");
+            case ELevel.LevelThree:
+                return PlayerPrefs.GetInt("LevelThreeResult");
+            case ELevel.LevelFour:
+                return PlayerPrefs.GetInt("LevelFourResult");
+            case ELevel.LevelFive:
+                return PlayerPrefs.GetInt("LevelFiveResult");
+            case ELevel.LevelSix:
+                return PlayerPrefs.GetInt("LevelSixResult");
+            case ELevel.LevelSeven:
+                return PlayerPrefs.GetInt("LevelSevenResult");
+            case ELevel.LevelEight:
+                return PlayerPrefs.GetInt("LevelEightResult");
             default:
                 return -1;
         }

@@ -17,12 +17,16 @@ public class Hole : MonoBehaviour {
 
             OnBallCompleted?.Invoke();
 
-            Ball ball;
-            if (ball = other.gameObject.GetComponent<Ball>())
+            if (!ResultsManager.Instance.GetIsInResults())
             {
-                ResultsManager.Instance.SetNumberOfPutts(ball.GetNumberOfPutts());
-                ResultsManager.Instance.ShowResultsScreen(ResultsManager.Instance.GetCurrentLevel());
-            }     
+                Ball ball;
+                if (ball = other.gameObject.GetComponent<Ball>())
+                {
+                    ResultsManager.Instance.SetNumberOfPutts(ball.GetNumberOfPutts());
+                    ResultsManager.Instance.ShowResultsScreen(ResultsManager.Instance.GetCurrentLevel());
+                }
+            }
+             
         }
     }
 }

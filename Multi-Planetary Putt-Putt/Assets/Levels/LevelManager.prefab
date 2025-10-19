@@ -45,3 +45,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelManager
   levelButtons: []
+  levelStars: []
+  rightArrowButton: {fileID: 0}
+  leftArrowButton: {fileID: 0}
+  maxLevelsPerList: 8
+  maxExtraLevelsList: 0
+  musicTracks:
+  - {fileID: 8300000, guid: 1c5900ce8d1a6d944b4ae0d24cd82d18, type: 3}
+  - {fileID: 8300000, guid: b48fbddee4c59b641ab6c6e3e12c868d, type: 3}
+  - {fileID: 8300000, guid: f6b7ee7863d1e1a439b0ab206882ed3a, type: 3}
