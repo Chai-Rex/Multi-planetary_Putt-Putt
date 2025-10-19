@@ -11,7 +11,10 @@ public enum ELevel
     LevelTwo,
     LevelThree,
     LevelFour,
-    LevelFive
+    LevelFive,
+    LevelSix,
+    LevelSeven,
+    LevelEight
 }
 
 [Serializable]
@@ -30,7 +33,7 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private Button rightArrowButton;
     [SerializeField] private Button leftArrowButton;
     [SerializeField] private int maxLevelsPerList = 8;
-    [SerializeField] private int maxLevelsList = 2;
+    [SerializeField] private int maxExtraLevelsList = 0;
     private int currentLevelsList = 0;
 
     private List<string> levelNames = new List<string>
@@ -175,7 +178,7 @@ public class LevelManager : MonoBehaviour
 
     public void NextLevelList()
     {
-        if (currentLevelsList < maxLevelsList) { currentLevelsList++; }
+        if (currentLevelsList < maxExtraLevelsList) { currentLevelsList++; }
         DisableAllLevelButtons();
         ShowSelectionArrows();
         AvailableLevels();
@@ -201,7 +204,7 @@ public class LevelManager : MonoBehaviour
             leftArrowButton.gameObject.SetActive(false);
         }
 
-        if (currentLevelsList < maxLevelsList)
+        if (currentLevelsList < maxExtraLevelsList)
         {
             rightArrowButton.gameObject.SetActive(true);
         }

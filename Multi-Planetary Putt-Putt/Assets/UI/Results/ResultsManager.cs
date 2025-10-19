@@ -8,7 +8,7 @@ public class ResultsManager : MonoBehaviour
 
     [SerializeField] private StarData currentLevelStars = new StarData();
     [SerializeField] private GameObject resultsCanvas;
-    [SerializeField] private TextMeshProUGUI numberOfPuttsText = new TextMeshProUGUI();
+    [SerializeField] private TextMeshProUGUI numberOfPuttsText;
     [SerializeField] private Button retryButton;
     [SerializeField] private Button nextHoleButton;
     private Color starGold;
