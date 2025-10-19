@@ -63,8 +63,8 @@ public class ResultsManager : MonoBehaviour
             retryButton.onClick.AddListener(() => LevelManager.Instance.ReloadCurrentLevel());
             nextHoleButton.onClick.AddListener(() => LevelManager.Instance.PlayLastUnlockedLevel());
         }
-        CheckLevelResults();
-        ShowStars(currentLevelStars, LevelManager.Instance.GetLevelStarResults(resultsForLevel));
+
+        ShowStars(currentLevelStars, CheckLevelResults());
     }
 
     // CALL Before Show Results Screen
@@ -93,20 +93,22 @@ public class ResultsManager : MonoBehaviour
         isInResults = _isInResults;
     }
 
-    private void CheckLevelResults()
+    private int CheckLevelResults()
     {
         if (numberOfPutts <= threeStarPutts)
         {
             SetLevelResult(CURRENTLEVEL, 3);
+            return 3;
         }
         else if (numberOfPutts <= twoStarPutts)
         {
             SetLevelResult(CURRENTLEVEL, 2);
-
+            return 2;
         }
         else
         {
             SetLevelResult(CURRENTLEVEL, 1);
+            return 1;
         }
     }
 
