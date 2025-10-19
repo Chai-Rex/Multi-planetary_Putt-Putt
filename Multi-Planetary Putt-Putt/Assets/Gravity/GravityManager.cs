@@ -1,10 +1,7 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
-using static UnityEngine.CullingGroup;
-using static UnityEngine.GraphicsBuffer;
-using static UnityEditor.FilePathAttribute;
+
+
 
 public class GravityManager : MonoBehaviour {
 
