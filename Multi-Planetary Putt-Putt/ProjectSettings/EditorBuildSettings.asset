@@ -17,6 +17,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/Intro/Level3.unity
     guid: f0b71a3073acb584bac66d9a2423d959
+  - enabled: 1
+    path: Assets/Scenes/Levels/Gas Planets/Level 4.unity
+    guid: ee9206853c5f26a4387db378bbb8df7d
+  - enabled: 1
+    path: Assets/Scenes/Levels/Gas Planets/Level 5.unity
+    guid: 55d9c69c5e3481e429261be0ac57e9ec
+  - enabled: 1
+    path: Assets/Scenes/Levels/Suns and BlackHoles/Level6.unity
+    guid: e91df366a2961834aab283879812372b
+  - enabled: 1
+    path: Assets/Scenes/Levels/Suns and BlackHoles/Level7.unity
+    guid: c3ecde0302a1473419ce1b5f79b25aef
+  - enabled: 1
+    path: Assets/Scenes/Levels/Suns and BlackHoles/Level8.unity
+    guid: 6aa1f4d4ec385d541ac02766b3f476c9
+  - enabled: 1
+    path: Assets/Scenes/Levels/Atmosphere/LevelExtra1.unity
+    guid: 5d944ea06d70a6c42868b4215e77d88c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
