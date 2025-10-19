@@ -2,10 +2,11 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using System;
 
 public enum ELevel
 {
-    None,
+    // ORDER MATTERS HERE
     LevelOne,
     LevelTwo,
     LevelThree,
@@ -13,11 +14,19 @@ public enum ELevel
     LevelFive
 }
 
+[Serializable]
+public struct StarData
+{
+    public ELevel level;
+    public List<Image> stars;
+}
+
 public class LevelManager : MonoBehaviour
 {
     public static LevelManager Instance;
 
     [SerializeField] private List<Button> levelButtons = new List<Button>();
+    [SerializeField] private List<StarData> levelStars = new List<StarData>();
     private List<string> levelNames = new List<string>
     {
         "SampleScene"
@@ -34,11 +43,8 @@ public class LevelManager : MonoBehaviour
             Destroy(gameObject);
         }
 
-        if (!PlayerPrefs.HasKey("CompletedLevels"))
-        {
-            PlayerPrefs.SetInt("CompletedLevels", 0);
-        }
 
+        CreatePlayerPrefs();
         AvailableLevels();
     }
 
@@ -92,6 +98,11 @@ public class LevelManager : MonoBehaviour
         }
     }
 
+    public void ReloadCurrentLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
     private void LoadLevel(int levelNumber)
     {
         if (!(levelNumber >= 0 && levelNumber < levelNames.Count)) { return; }
@@ -107,7 +118,6 @@ public class LevelManager : MonoBehaviour
     }
 
 
-
     private void AvailableLevels()
     {
         if (levelButtons.Count == 0) { return; }
@@ -115,12 +125,13 @@ public class LevelManager : MonoBehaviour
         int availableLevels;
         int unAvailableLevels;
 
-        for (availableLevels = 0; availableLevels <=
+        for (availableLevels = 0; availableLevels <
             PlayerPrefs.GetInt("CompletedLevels"); availableLevels++)
         {
             if (availableLevels >= 0 && availableLevels < levelButtons.Count)
             {
                 levelButtons[availableLevels].gameObject.SetActive(true);
+                ResultsManager.Instance.ShowStars(levelStars[availableLevels], GetLevelStarResults((ELevel)availableLevels));
                 levelButtons[availableLevels].onClick.AddListener(() => LoadLevel(availableLevels));
             }
         }
@@ -130,7 +141,34 @@ public class LevelManager : MonoBehaviour
             if (unAvailableLevels >= 0 && unAvailableLevels < levelButtons.Count)
             {
                 levelButtons[unAvailableLevels].gameObject.SetActive(false);
+                ResultsManager.Instance.ShowStars(levelStars[unAvailableLevels], GetLevelStarResults((ELevel)unAvailableLevels));
             }
+        }
+    }
+
+    public int GetLevelStarResults(ELevel levelForResult)
+    {
+        switch(levelForResult)
+        {
+            case ELevel.LevelOne:
+                return PlayerPrefs.GetInt("LevelOneResult");
+            default:
+                return -1;
+        }
+    }
+
+    private void CreatePlayerPrefs()
+    {
+        // COMPLETED LEVELS
+        if (!PlayerPrefs.HasKey("CompletedLevels"))
+        {
+            PlayerPrefs.SetInt("CompletedLevels", 0);
+        }
+
+        // LEVEL RESULTS
+        if (!PlayerPrefs.HasKey("LevelOneResult"))
+        {
+            PlayerPrefs.SetInt("LevelOneResult", 0);
         }
     }
 }
