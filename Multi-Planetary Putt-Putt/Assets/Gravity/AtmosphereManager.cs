@@ -26,7 +26,7 @@ public class AtmosphereManager : MonoBehaviour {
             float distance = ((Vector3)location - atmosphere.gameObject.transform.position).magnitude;
             if(atmosphere.Radius >= distance)
             {
-                totalDrag += atmosphere.LinearDrag;
+                totalDrag = atmosphere.LinearDrag;
             }
         }
 
