@@ -12,13 +12,13 @@ public class Gravity : MonoBehaviour {
         get {
             if (circleCollider != null)
             {
-                return circleCollider.radius;
+                return circleCollider.radius * transform.localScale.x;
             }
             return 0f;
         } 
     }
 
-    void Start() {
+    void Awake() {
         GravityManager.gravityObjects.Add(this);
 
         circleCollider = GetComponent<CircleCollider2D>();
@@ -30,12 +30,20 @@ public class Gravity : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision) {
         if (!CompareTag("Gravity")) return;
-        GravityManager.attractors.Add(rigidbody2d);
+        if (collision.tag == "Ball")
+        {
+            Debug.Log("adding");
+            GravityManager.attractors.Add(rigidbody2d);
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision) {
         if (!CompareTag("Gravity")) return;
-        GravityManager.attractors.Remove(rigidbody2d);
+        if (collision.tag == "Ball")
+        {
+            Debug.Log("removing");
+            GravityManager.attractors.Remove(rigidbody2d);
+        }
     }
 
 

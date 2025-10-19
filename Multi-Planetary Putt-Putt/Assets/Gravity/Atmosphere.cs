@@ -27,11 +27,19 @@ public class Atmosphere : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision) {
         if (!CompareTag("Atmosphere")) return;
-        collision.attachedRigidbody.linearDamping += linearDamping;
+        if(collision.tag == "Ball")
+        {
+            collision.attachedRigidbody.linearDamping = linearDamping;
+        }
+       
     }
 
     private void OnTriggerExit2D(Collider2D collision) {
         if (!CompareTag("Atmosphere")) return;
-        collision.attachedRigidbody.linearDamping = Mathf.Max(collision.attachedRigidbody.linearDamping - linearDamping, 0);
+        if (collision.tag == "Ball")
+        {
+            collision.attachedRigidbody.linearDamping =  linearDamping;
+        }
+        
     }
 }

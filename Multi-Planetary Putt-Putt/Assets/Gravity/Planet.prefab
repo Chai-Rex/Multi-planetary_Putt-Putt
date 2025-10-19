@@ -199,7 +199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19612dbf142a59f41bb6827be8c5717a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Atmosphere
-  linearDamping: 1
+  linearDamping: 0.2
 --- !u!58 &5990658853597340134
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -441,7 +441,7 @@ GameObject:
   - component: {fileID: 3481471673165336577}
   - component: {fileID: 7112366778868714866}
   - component: {fileID: 1124153514156341806}
-  m_Layer: 18
+  m_Layer: 17
   m_Name: PlanetCircle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -605,8 +605,8 @@ MonoBehaviour:
   m_ShadowMesh:
     m_Mesh: {fileID: 0}
     m_LocalBounds:
-      m_Center: {x: 0.0000076293945, y: 0, z: 0}
-      m_Extent: {x: 0.39803314, y: 0.39804077, z: 0}
+      m_Center: {x: 0, y: -0.0000076293945, z: 0}
+      m_Extent: {x: 0.39804077, y: 0.39803314, z: 0}
     m_EdgeProcessing: 1
     m_TrimEdge: 0.1
     m_FlipX: 0

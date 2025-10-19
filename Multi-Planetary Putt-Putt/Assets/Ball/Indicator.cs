@@ -124,7 +124,7 @@ public class Indicator : MonoBehaviour {
         Vector2 appliedForce = transform.up * transform.localScale.y * targetBall.LaunchForce;
         
         Vector2 predictedLocation = targetBall.RB.position;
-        Vector2 predictedVelocity = (appliedForce + GravityManager.PredictGravityForceAtLocation(predictedLocation, targetBall.RB.mass) ) / targetBall.RB.mass;
+        Vector2 predictedVelocity = appliedForce / targetBall.RB.mass;
         Vector2 nextLocation;
         Vector2 nextVelocity;
 
