@@ -6,15 +6,20 @@ public class ResultsManager : MonoBehaviour
 {
     public static ResultsManager Instance;
 
+    [SerializeField] private ELevel CURRENTLEVEL; 
     [SerializeField] private StarData currentLevelStars = new StarData();
     [SerializeField] private GameObject resultsCanvas;
     [SerializeField] private TextMeshProUGUI numberOfPuttsText;
     [SerializeField] private Button retryButton;
     [SerializeField] private Button nextHoleButton;
+    [SerializeField] private int twoStarPutts = 5;
+    [SerializeField] private int threeStarPutts = 1;
+
     private Color starGold;
     private Color starGray;
 
     private int numberOfPutts = 0;
+    private bool isInResults = false;
 
     private void Awake()
     {
@@ -36,17 +41,33 @@ public class ResultsManager : MonoBehaviour
         ColorUtility.TryParseHtmlString("#797979", out starGray);
     }
 
+    private void Start()
+    {
+        if (retryButton == null) { return; }
+        if (nextHoleButton == null) { return; }
+
+        retryButton.onClick.AddListener(() => LevelManager.Instance.ReloadCurrentLevel());
+        nextHoleButton.onClick.AddListener(() => LevelManager.Instance.PlayLastUnlockedLevel());
+    }
+
     public void ShowResultsScreen(ELevel resultsForLevel)
     {
+        if (UIManager.Instance.GetIsInSettings())
+        {
+            UIManager.Instance.SetSettings();
+        }
+        isInResults = true;
         resultsCanvas.SetActive(true);
         if (retryButton != null && nextHoleButton != null)
         {
             retryButton.onClick.AddListener(() => LevelManager.Instance.ReloadCurrentLevel());
             nextHoleButton.onClick.AddListener(() => LevelManager.Instance.PlayLastUnlockedLevel());
         }
+        CheckLevelResults();
         ShowStars(currentLevelStars, LevelManager.Instance.GetLevelStarResults(resultsForLevel));
     }
 
+    // CALL Before Show Results Screen
     public void SetNumberOfPutts(int _numberOfPutts)
     {
         numberOfPutts = _numberOfPutts;
@@ -59,6 +80,88 @@ public class ResultsManager : MonoBehaviour
         {
             starData.stars[star].gameObject.SetActive(true);
             starData.stars[star].color = starGold;
+        }
+    }
+
+    public bool GetIsInResults()
+    {
+        return isInResults;
+    }
+
+    public void SetIsInResults(bool _isInResults)
+    {
+        isInResults = _isInResults;
+    }
+
+    private void CheckLevelResults()
+    {
+        if (numberOfPutts <= threeStarPutts)
+        {
+            SetLevelResult(CURRENTLEVEL, 3);
+        }
+        else if (numberOfPutts <= twoStarPutts)
+        {
+            SetLevelResult(CURRENTLEVEL, 2);
+
+        }
+        else
+        {
+            SetLevelResult(CURRENTLEVEL, 1);
+        }
+    }
+
+    public void SetLevelResult(ELevel currentLevel, int levelResult)
+    {
+        switch (currentLevel)
+        {
+            case ELevel.LevelOne:
+                if (PlayerPrefs.GetInt("LevelOneResult") < levelResult)
+                {
+                    PlayerPrefs.SetInt("LevelOneResult", levelResult);
+                }
+                break;
+            case ELevel.LevelTwo:
+                if (PlayerPrefs.GetInt("LevelTwoResult") < levelResult)
+                {
+                    PlayerPrefs.SetInt("LevelTwoResult", levelResult);
+                }
+                break;
+            case ELevel.LevelThree:
+                if (PlayerPrefs.GetInt("LevelThreeResult") < levelResult)
+                {
+                    PlayerPrefs.SetInt("LevelThreeResult", levelResult);
+                }
+                break;
+            case ELevel.LevelFour:
+                if (PlayerPrefs.GetInt("LevelFourResult") < levelResult)
+                {
+                    PlayerPrefs.SetInt("LevelFourResult", levelResult);
+                }
+                break;
+            case ELevel.LevelFive:
+                if (PlayerPrefs.GetInt("LevelFiveResult") < levelResult)
+                {
+                    PlayerPrefs.SetInt("LevelFiveResult", levelResult);
+                }
+                break;
+            case ELevel.LevelSix:
+                if (PlayerPrefs.GetInt("LevelSixResult") < levelResult)
+                {
+                    PlayerPrefs.SetInt("LevelSixResult", levelResult);
+                }
+                break;
+            case ELevel.LevelSeven:
+                if (PlayerPrefs.GetInt("LevelSevenResult") < levelResult)
+                {
+                    PlayerPrefs.SetInt("LevelSevenResult", levelResult);
+                }
+                break;
+            case ELevel.LevelEight:
+                if (PlayerPrefs.GetInt("LevelEightResult") < levelResult)
+                {
+                    PlayerPrefs.SetInt("LevelEightResult", levelResult);
+                }
+                break;
         }
     }
 }
