@@ -12,6 +12,7 @@ public class Ball : MonoBehaviour {
     public float StopVelocity { get { return stoppingVelocityThreshold; } }
     [SerializeField] private Indicator indicator;
     [SerializeField] private Rigidbody2D rb;
+    private int numberOfPutts = 0;
     public Rigidbody2D RB { get { return rb; } }
 
     private Vector3 _lastStablePosition;
@@ -44,6 +45,7 @@ public class Ball : MonoBehaviour {
     }
 
     private void InitializeBall() {
+        numberOfPutts = 0;
         rb.bodyType = RigidbodyType2D.Kinematic;
         _lastStablePosition = transform.position;
         GravityManager.attractees.Add(rb);
@@ -74,13 +76,14 @@ public class Ball : MonoBehaviour {
     }
 
     private void LaunchBall() {
-        if(audioSource)
+        numberOfPutts++;
+
+   		if(audioSource)
         {
             audioSource.resource = hitBallSound;
             audioSource.Play();
         }
-
-        rb.bodyType = RigidbodyType2D.Dynamic;
+     	rb.bodyType = RigidbodyType2D.Dynamic;
         indicator.gameObject.SetActive(false);
         indicator.SetPredictionLineVisible(false);
         rb.linearDamping = AtmosphereManager.PredictAtmosphereAtLocation(rb.position);
@@ -107,6 +110,11 @@ public class Ball : MonoBehaviour {
             await Task.Yield();
         }
         return false; // Ball stopped naturally
+    }
+
+    public int GetNumberOfPutts()
+    {
+        return numberOfPutts;
     }
 
     private void ResetBall() {
