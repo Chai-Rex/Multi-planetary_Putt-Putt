@@ -32,8 +32,8 @@ public class Ball : MonoBehaviour {
         rb.bodyType = RigidbodyType2D.Kinematic;
         _lastStablePosition = transform.position;
         GravityManager.attractees.Add(rb);
-        UpdateIndicatorPosition();
         indicator.TargetBall = this;
+        UpdateIndicatorPosition();
     }
 
     private void OnInteract(UnityEngine.InputSystem.InputAction.CallbackContext obj) {
