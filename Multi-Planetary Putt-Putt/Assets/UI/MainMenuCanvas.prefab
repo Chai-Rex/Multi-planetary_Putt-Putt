@@ -1932,6 +1932,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarThreeL2
       objectReference: {fileID: 0}
+    - target: {fileID: 5380834576460453480, guid: 63e5125b87326ec428c3319fe949fa5a, type: 3}
+      propertyPath: m_text
+      value: 'Level Two
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 5708786408740283877, guid: 63e5125b87326ec428c3319fe949fa5a, type: 3}
       propertyPath: m_Name
       value: LevelButtonL2
