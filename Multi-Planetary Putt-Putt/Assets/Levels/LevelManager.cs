@@ -3,6 +3,9 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 using System;
+using UnityEngine.Audio;
+using Unity.Mathematics;
+using Random = UnityEngine.Random;
 
 public enum ELevel
 {
@@ -36,6 +39,10 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private int maxExtraLevelsList = 0;
     private int currentLevelsList = 0;
 
+    [SerializeField]
+    private List<AudioResource> musicTracks = new List<AudioResource>();
+    private AudioSource audioSource;
+
     private List<string> levelNames = new List<string>
     {
         "Level1",
@@ -59,6 +66,15 @@ public class LevelManager : MonoBehaviour
             Destroy(gameObject);
         }
 
+        audioSource = GetComponentInChildren<AudioSource>();
+        if(audioSource)
+        {
+            if(musicTracks.Count > 0)
+            {
+                audioSource.resource = musicTracks[Random.Range(0, musicTracks.Count)];
+                audioSource.Play();
+            }
+        }
 
         CreatePlayerPrefs();
         DisableAllLevelButtons();

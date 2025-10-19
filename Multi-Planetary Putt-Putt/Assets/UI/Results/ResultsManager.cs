@@ -1,6 +1,10 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using static Unity.VisualScripting.Member;
+using UnityEngine.Audio;
+using NUnit.Framework;
+using System.Collections.Generic;
 
 public class ResultsManager : MonoBehaviour
 {
@@ -21,6 +25,8 @@ public class ResultsManager : MonoBehaviour
     private int numberOfPutts = 0;
     private bool isInResults = false;
 
+    private AudioSource audioSource;
+
     private void Awake()
     {
         if (Instance == null)
@@ -39,6 +45,8 @@ public class ResultsManager : MonoBehaviour
 
         ColorUtility.TryParseHtmlString("#949400", out starGold);
         ColorUtility.TryParseHtmlString("#797979", out starGray);
+
+        audioSource = GetComponentInChildren<AudioSource>();
     }
 
     private void Start()
@@ -52,6 +60,11 @@ public class ResultsManager : MonoBehaviour
 
     public void ShowResultsScreen(ELevel resultsForLevel)
     {
+        if (audioSource)
+        {
+            audioSource.Play();
+        }
+
         if (UIManager.Instance.GetIsInSettings())
         {
             UIManager.Instance.SetSettings();
