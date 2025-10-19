@@ -12,7 +12,7 @@ public class Gravity : MonoBehaviour {
         get {
             if (circleCollider != null)
             {
-                return circleCollider.radius * transform.localScale.x;
+                return circleCollider.radius;
             }
             return 0f;
         } 
@@ -26,6 +26,7 @@ public class Gravity : MonoBehaviour {
 
     private void OnDestroy() {
         GravityManager.attractors.Remove(rigidbody2d);
+        GravityManager.gravityObjects.Remove(this);
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {

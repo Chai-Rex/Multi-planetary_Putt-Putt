@@ -25,6 +25,11 @@ public class Atmosphere : MonoBehaviour {
         circleCollider = GetComponent<CircleCollider2D>();
     }
 
+    private void OnDestroy()
+    {
+        AtmosphereManager.atmosphereObjects.Remove(this);
+    }
+
     private void OnTriggerEnter2D(Collider2D collision) {
         if (!CompareTag("Atmosphere")) return;
         if(collision.tag == "Ball")
