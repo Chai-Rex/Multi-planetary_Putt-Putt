@@ -28,15 +28,13 @@ public class Indicator : MonoBehaviour {
     private Ball targetBall;
     public Ball TargetBall { set { targetBall = value; } }
 
-    private List<GameObject> predictionObjects;
-    private float gravityPredictionFactor;
+    private List<GameObject> predictionObjects = new List<GameObject>();
 
     private void Start()
     {
         //gravityPredictionFactor = 2;// physicsPredictionInterval / Time.fixedDeltaTime;
         physicsPredictionInterval = Time.fixedDeltaTime;
 
-        predictionObjects = new List<GameObject>();
         for(int i = 0; i < maxVisualPredictionIterations; i++)
         {
             predictionObjects.Add(Instantiate(predictionObject));
@@ -121,7 +119,7 @@ public class Indicator : MonoBehaviour {
 
     private void UpdatePredictionLine()
     {
-        if (targetBall == null) return;
+        if (targetBall == null || predictionObjects.Count == 0) return;
 
         Vector2 appliedForce = transform.up * transform.localScale.y * targetBall.LaunchForce;
         
@@ -133,10 +131,13 @@ public class Indicator : MonoBehaviour {
         float visualPredictionTime = 0;
         int visualIteration = 0;
         Vector2 gravityForce;
+        float atmosphereDrag;
         while (visualIteration < maxVisualPredictionIterations && predictedVelocity.magnitude > targetBall.StopVelocity)
         {
-            gravityForce = GravityManager.GetGravityForceAtLocation(predictedLocation, targetBall.RB.mass);
-            PredictLocation(predictedLocation, predictedVelocity, gravityForce / targetBall.RB.mass, targetBall.RB.linearDamping, physicsPredictionInterval, out nextLocation, out nextVelocity);
+            gravityForce = GravityManager.PredictGravityForceAtLocation(predictedLocation, targetBall.RB.mass);
+            atmosphereDrag = AtmosphereManager.PredictAtmosphereAtLocation(predictedLocation);
+            //atmosphereDrag = atmosphereDrag * 0.5f;
+            PredictLocation(predictedLocation, predictedVelocity, gravityForce / targetBall.RB.mass, atmosphereDrag, physicsPredictionInterval, out nextLocation, out nextVelocity);
 
             predictedLocation = nextLocation;
             predictedVelocity = nextVelocity;
@@ -150,9 +151,8 @@ public class Indicator : MonoBehaviour {
                 visualIteration++;
             }
 
-            RaycastHit hit;
-            // If hit something do idk
-            if (Physics2D.Raycast(predictedLocation, predictedVelocity.normalized, predictedVelocity.magnitude * physicsPredictionInterval, LayerMask.GetMask("Planet")))
+            // If hit something stop the prediction line
+            if (Physics2D.Raycast(predictedLocation, predictedVelocity.normalized, predictedVelocity.magnitude * physicsPredictionInterval, LayerMask.GetMask("PlanetCollider")))
             {
                 break;
             }
@@ -167,10 +167,14 @@ public class Indicator : MonoBehaviour {
 
     private void PredictLocation(Vector2 startLocation, Vector2 startVelocity, Vector2 acceleration, float damping, float timeStep, out Vector2 resultLocation, out Vector2 resultVelocity)
     {
+        float dampFactor = Mathf.Clamp01(1f - damping * timeStep);
+
         resultVelocity = startVelocity + acceleration * timeStep;
-        resultVelocity *= Mathf.Clamp01(1f - damping * timeStep);
-        resultLocation = startLocation + (startVelocity + resultVelocity) * 0.5f * timeStep + 0.5f * acceleration * Mathf.Pow(timeStep, 2f);
-        
+        Vector2 dragForce = (startVelocity - (resultVelocity * dampFactor)) / timeStep;
+
+        resultLocation = startLocation + (startVelocity + resultVelocity) * dampFactor * 0.5f * timeStep + 0.5f * (acceleration - dragForce)  * Mathf.Pow(timeStep, 2f);
+
+        resultVelocity *= dampFactor;
     }
 
 }

@@ -5,9 +5,25 @@ public class Gravity : MonoBehaviour {
 
     [Header("References")]
     [SerializeField] private Rigidbody2D rigidbody2d;
+    public Rigidbody2D RB { get {  return rigidbody2d; } }
+
+    private CircleCollider2D circleCollider;
+    public float Radius {
+        get {
+            if (circleCollider != null)
+            {
+                return circleCollider.radius;
+            }
+            return 0f;
+        } 
+    }
+
+    private float atmosphereDrag = 0;
 
     void Start() {
-        GravityManager.attractors.Add(rigidbody2d);
+        GravityManager.gravityObjects.Add(this);
+
+        circleCollider = GetComponent<CircleCollider2D>();
     }
 
     private void OnDestroy() {
@@ -15,15 +31,13 @@ public class Gravity : MonoBehaviour {
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {
-        // Commented out because we need these to always be active for the prediction line
-        //if (!CompareTag("Gravity")) return;
-        //GravityManager.attractors.Add(rigidbody2d);
+        if (!CompareTag("Gravity")) return;
+        GravityManager.attractors.Add(rigidbody2d);
     }
 
     private void OnTriggerExit2D(Collider2D collision) {
-        // Commented out because we need these to always be active for the prediction line
-        //if (!CompareTag("Gravity")) return;
-        //GravityManager.attractors.Remove(rigidbody2d);
+        if (!CompareTag("Gravity")) return;
+        GravityManager.attractors.Remove(rigidbody2d);
     }
 
 

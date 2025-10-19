@@ -4,6 +4,7 @@ using UnityEngine;
 using System;
 using static UnityEngine.CullingGroup;
 using static UnityEngine.GraphicsBuffer;
+using static UnityEditor.FilePathAttribute;
 
 public class GravityManager : MonoBehaviour {
 
@@ -15,6 +16,7 @@ public class GravityManager : MonoBehaviour {
     public static List<Rigidbody2D> attractors = new List<Rigidbody2D>();
     public static List<Rigidbody2D> attractees = new List<Rigidbody2D>();
 
+    public static List<Gravity> gravityObjects = new List<Gravity>();
     public bool HasAttractors() => attractors.Count > 0;
 
     private void Awake() {
@@ -37,17 +39,21 @@ public class GravityManager : MonoBehaviour {
     }
 
     public static void AddGravityForce(Rigidbody2D attractor, Rigidbody2D target) {
-
+        
         target.AddForce(GetGravityForce(attractor.position, attractor.mass, target.position, target.mass));
     }
 
-    public static Vector3 GetGravityForceAtLocation(Vector2 location, float targetMass)
+    public static Vector3 PredictGravityForceAtLocation(Vector2 location, float targetMass)
     {
         Vector2 totalForce = Vector2.zero;
 
-        foreach(Rigidbody2D attractor in attractors)
+        foreach(Gravity attractor in gravityObjects)
         {
-            totalForce += GetGravityForce(attractor.position, attractor.mass, location, targetMass);
+            float distance = (location - attractor.RB.position).magnitude;
+            if(attractor.Radius >= distance)
+            {
+                totalForce += GetGravityForce(attractor.RB.position, attractor.RB.mass, location, targetMass);
+            }
         }
 
         return totalForce;
