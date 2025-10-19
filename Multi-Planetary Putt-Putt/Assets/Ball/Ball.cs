@@ -4,10 +4,13 @@ using UnityEngine;
 public class Ball : MonoBehaviour {
 
     [SerializeField] private float force = 1f;
+    public float LaunchForce {  get { return force; } }
     [SerializeField] private float outOfBoundsPadding = 0.1f;
     [SerializeField] private float stoppingVelocityThreshold = 0.1f;
+    public float StopVelocity { get { return stoppingVelocityThreshold; } }
     [SerializeField] private Indicator indicator;
     [SerializeField] private Rigidbody2D rb;
+    public Rigidbody2D RB {  get { return rb; } }
 
     private Vector3 _lastStablePosition;
     private bool _isHitRoutineRunning;
@@ -30,6 +33,7 @@ public class Ball : MonoBehaviour {
         _lastStablePosition = transform.position;
         GravityManager.attractees.Add(rb);
         UpdateIndicatorPosition();
+        indicator.TargetBall = this;
     }
 
     private void OnInteract(UnityEngine.InputSystem.InputAction.CallbackContext obj) {
@@ -60,7 +64,7 @@ public class Ball : MonoBehaviour {
         indicator.gameObject.SetActive(false);
 
         Vector2 launchDirection = indicator.transform.up * indicator.transform.localScale.y;
-        rb.AddForce(launchDirection * force);
+        rb.AddForce(launchDirection * force, ForceMode2D.Impulse);
     }
 
     private async Task<bool> WaitForBallToStop() {
