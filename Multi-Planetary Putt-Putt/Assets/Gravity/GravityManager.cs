@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using static UnityEngine.CullingGroup;
+using static UnityEngine.GraphicsBuffer;
 
 public class GravityManager : MonoBehaviour {
 
@@ -37,21 +38,38 @@ public class GravityManager : MonoBehaviour {
 
     public static void AddGravityForce(Rigidbody2D attractor, Rigidbody2D target) {
 
-        float massProduct = attractor.mass * target.mass * G;
+        target.AddForce(GetGravityForce(attractor.position, attractor.mass, target.position, target.mass));
+    }
+
+    public static Vector3 GetGravityForceAtLocation(Vector2 location, float targetMass)
+    {
+        Vector2 totalForce = Vector2.zero;
+
+        foreach(Rigidbody2D attractor in attractors)
+        {
+            totalForce += GetGravityForce(attractor.position, attractor.mass, location, targetMass);
+        }
+
+        return totalForce;
+    }
+
+    private static Vector2 GetGravityForce(Vector2 location1, float mass1, Vector2 location2, float mass2)
+    {
+        float massProduct = mass1 * mass2 * G;
 
         //float distance = Vector3.Distance(attractor.position,target.position.
-        Vector3 difference = attractor.position - target.position;
+        Vector2 difference = location1 - location2;
         float distance = difference.magnitude; // r = Mathf.Sqrt((x*x)+(y*y))
 
         //F = G * ((m1*m2)/r^2)
         float unScaledforceMagnitude = massProduct / distance;
         float forceMagnitude = G * unScaledforceMagnitude;
 
-        Vector3 forceDirection = difference.normalized;
+        Vector2 forceDirection = difference.normalized;
 
-        Vector3 forceVector = forceDirection * forceMagnitude;
+        Vector2 forceVector = forceDirection * forceMagnitude;
 
-        target.AddForce(forceVector);
+        return forceVector;
     }
 
 }

@@ -1,3 +1,5 @@
+using NUnit.Framework;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
 
@@ -14,9 +16,35 @@ public class Indicator : MonoBehaviour {
     [SerializeField] private float minScale = 0.5f;
     [SerializeField] private float maxScale = 3f;
 
+    [SerializeField] private int maxVisualPredictionIterations = 15;
+    [SerializeField] private float physicsPredictionInterval = 0.02f;
+    [SerializeField] private float visualPredictionInterval = 0.5f;
+    [SerializeField] private GameObject predictionObject = null;
+
     private bool isMoving = false;
     private float rotationElapsedTime = 0f;
     private float scaleElapsedTime = 0f;
+
+    private Ball targetBall;
+    public Ball TargetBall { set { targetBall = value; } }
+
+    private List<GameObject> predictionObjects;
+    private float gravityPredictionFactor;
+
+    private void Start()
+    {
+        //gravityPredictionFactor = 2;// physicsPredictionInterval / Time.fixedDeltaTime;
+        physicsPredictionInterval = Time.fixedDeltaTime;
+
+        predictionObjects = new List<GameObject>();
+        for(int i = 0; i < maxVisualPredictionIterations; i++)
+        {
+            predictionObjects.Add(Instantiate(predictionObject));
+            predictionObjects[i].SetActive(false);
+        }
+
+        UpdatePredictionLine();
+    }
 
     private void OnEnable() {
         InputManager.Instance.MoveAction.started += MoveAction_started;
@@ -70,7 +98,79 @@ public class Indicator : MonoBehaviour {
                 scaleElapsedTime = 0f;
             }
 
+            UpdatePredictionLine();
+
             await Task.Yield();
         }
     }
+
+    public void SetPredictionLineVisible(bool visible)
+    {
+        if (!visible)
+        {
+            for (int i = 0; i < maxVisualPredictionIterations; i++)
+            {
+                predictionObjects[i].SetActive(false);
+            }
+        }
+        else
+        {
+            UpdatePredictionLine();
+        }
+    }
+
+    private void UpdatePredictionLine()
+    {
+        if (targetBall == null) return;
+
+        Vector2 appliedForce = transform.up * transform.localScale.y * targetBall.LaunchForce;
+        
+        Vector2 predictedLocation = targetBall.RB.position;
+        Vector2 predictedVelocity = appliedForce / targetBall.RB.mass;
+        Vector2 nextLocation;
+        Vector2 nextVelocity;
+
+        float visualPredictionTime = 0;
+        int visualIteration = 0;
+        Vector2 gravityForce;
+        while (visualIteration < maxVisualPredictionIterations && predictedVelocity.magnitude > targetBall.StopVelocity)
+        {
+            gravityForce = GravityManager.GetGravityForceAtLocation(predictedLocation, targetBall.RB.mass);
+            PredictLocation(predictedLocation, predictedVelocity, gravityForce / targetBall.RB.mass, targetBall.RB.linearDamping, physicsPredictionInterval, out nextLocation, out nextVelocity);
+
+            predictedLocation = nextLocation;
+            predictedVelocity = nextVelocity;
+            visualPredictionTime += physicsPredictionInterval;
+
+            if (visualPredictionTime >= visualPredictionInterval)
+            {
+                predictionObjects[visualIteration].transform.position = predictedLocation;
+                predictionObjects[visualIteration].SetActive(true);
+                visualPredictionTime -= visualPredictionInterval;
+                visualIteration++;
+            }
+
+            RaycastHit hit;
+            // If hit something do idk
+            if (Physics2D.Raycast(predictedLocation, predictedVelocity.normalized, predictedVelocity.magnitude * physicsPredictionInterval, LayerMask.GetMask("Planet")))
+            {
+                break;
+            }
+
+        }
+
+        for(; visualIteration < maxVisualPredictionIterations; visualIteration++)
+        {
+            predictionObjects[visualIteration].SetActive(false);
+        }
+    }
+
+    private void PredictLocation(Vector2 startLocation, Vector2 startVelocity, Vector2 acceleration, float damping, float timeStep, out Vector2 resultLocation, out Vector2 resultVelocity)
+    {
+        resultVelocity = startVelocity + acceleration * timeStep;
+        resultVelocity *= Mathf.Clamp01(1f - damping * timeStep);
+        resultLocation = startLocation + (startVelocity + resultVelocity) * 0.5f * timeStep + 0.5f * acceleration * Mathf.Pow(timeStep, 2f);
+        
+    }
+
 }
