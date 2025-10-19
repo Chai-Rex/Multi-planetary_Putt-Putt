@@ -32,7 +32,7 @@ Transform:
   m_Children:
   - {fileID: 7342720307067875877}
   - {fileID: 6153401548776178137}
-  - {fileID: 5220864385592826767}
+  - {fileID: 3512591274493636716}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &5122646475541389185
@@ -73,6 +73,7 @@ GameObject:
   - component: {fileID: 6153401548776178137}
   - component: {fileID: 292165693639597006}
   - component: {fileID: 5990658853597340134}
+  - component: {fileID: 7203577381818948780}
   - component: {fileID: 8630158721176790596}
   m_Layer: 18
   m_Name: AtmosphereCircle
@@ -108,11 +109,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19612dbf142a59f41bb6827be8c5717a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Atmosphere
-  spriteRenderer: {fileID: 8630158721176790596}
-  atmosphereColor: {r: 0, g: 1, b: 0, a: 1}
-  planetColor: {r: 1, g: 0, b: 0, a: 1}
-  planetTransform: {fileID: 7342720307067875877}
-  atmosphereStrength: 0.15
 --- !u!58 &5990658853597340134
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -149,6 +145,23 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!114 &7203577381818948780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974254743482505636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4adcfebc54f5afa498178868d7812a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AtmosphereShaderTweaker
+  spriteRenderer: {fileID: 8630158721176790596}
+  atmosphereColor: {r: 0, g: 1, b: 0, a: 1}
+  planetColor: {r: 1, g: 0, b: 0, a: 1}
+  planetTransform: {fileID: 7342720307067875877}
+  atmosphereStrength: 0.15
 --- !u!212 &8630158721176790596
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -207,6 +220,89 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &6891353276843310538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3512591274493636716}
+  - component: {fileID: 7689533638201768840}
+  - component: {fileID: 1444682375197724351}
+  m_Layer: 18
+  m_Name: GravityCircle
+  m_TagString: Gravity
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3512591274493636716
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6891353276843310538}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5220864385592826767}
+  m_Father: {fileID: 4193856449073630235}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7689533638201768840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6891353276843310538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fee044e41ea9fe46a431de87a2a9fa2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HasGravity
+  rigidbody2d: {fileID: 5122646475541389185}
+--- !u!58 &1444682375197724351
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6891353276843310538}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 25
 --- !u!1 &7963417969257098903
 GameObject:
   m_ObjectHideFlags: 0
@@ -216,6 +312,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7342720307067875877}
+  - component: {fileID: 3684531633163938242}
   - component: {fileID: 3481471673165336577}
   - component: {fileID: 7112366778868714866}
   m_Layer: 18
@@ -240,6 +337,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4193856449073630235}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3684531633163938242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7963417969257098903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa4bca3af1a581243b7deb0333728ab6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Planet
+  rigidbody2d: {fileID: 5122646475541389185}
 --- !u!212 &3481471673165336577
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -340,7 +450,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 4193856449073630235}
+    m_TransformParent: {fileID: 3512591274493636716}
     m_Modifications:
     - target: {fileID: 692308098364231994, guid: 8cdba9501e1ebd5448da9839c2f6769c, type: 3}
       propertyPath: m_Name
@@ -369,7 +479,7 @@ PrefabInstance:
     - target: {fileID: 3055861728420694251, guid: 8cdba9501e1ebd5448da9839c2f6769c, type: 3}
       propertyPath: circleCollider
       value: 
-      objectReference: {fileID: 8013835435852984480}
+      objectReference: {fileID: 1444682375197724351}
     - target: {fileID: 5684427626269112733, guid: 8cdba9501e1ebd5448da9839c2f6769c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -388,15 +498,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5684427626269112733, guid: 8cdba9501e1ebd5448da9839c2f6769c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5684427626269112733, guid: 8cdba9501e1ebd5448da9839c2f6769c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5684427626269112733, guid: 8cdba9501e1ebd5448da9839c2f6769c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5684427626269112733, guid: 8cdba9501e1ebd5448da9839c2f6769c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -437,68 +547,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 692308098364231994, guid: 8cdba9501e1ebd5448da9839c2f6769c, type: 3}
-      insertIndex: 1
-      addedObject: {fileID: 834225132830075650}
-    - targetCorrespondingSourceObject: {fileID: 692308098364231994, guid: 8cdba9501e1ebd5448da9839c2f6769c, type: 3}
-      insertIndex: 3
-      addedObject: {fileID: 8013835435852984480}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cdba9501e1ebd5448da9839c2f6769c, type: 3}
---- !u!1 &1084393602516267816 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 692308098364231994, guid: 8cdba9501e1ebd5448da9839c2f6769c, type: 3}
-  m_PrefabInstance: {fileID: 474875431322935826}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &834225132830075650
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1084393602516267816}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fee044e41ea9fe46a431de87a2a9fa2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HasGravity
-  rigidbody2d: {fileID: 5122646475541389185}
---- !u!58 &8013835435852984480
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1084393602516267816}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 25
 --- !u!4 &5220864385592826767 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5684427626269112733, guid: 8cdba9501e1ebd5448da9839c2f6769c, type: 3}
