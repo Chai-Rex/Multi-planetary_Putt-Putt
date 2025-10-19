@@ -27,6 +27,12 @@ public class LevelManager : MonoBehaviour
 
     [SerializeField] private List<Button> levelButtons = new List<Button>();
     [SerializeField] private List<StarData> levelStars = new List<StarData>();
+    [SerializeField] private Button rightArrowButton;
+    [SerializeField] private Button leftArrowButton;
+    [SerializeField] private int maxLevelsPerList = 8;
+    [SerializeField] private int maxLevelsList = 2;
+    private int currentLevelsList = 0;
+
     private List<string> levelNames = new List<string>
     {
         "SampleScene"
@@ -45,6 +51,8 @@ public class LevelManager : MonoBehaviour
 
 
         CreatePlayerPrefs();
+        DisableAllLevelButtons();
+        ShowSelectionArrows();
         AvailableLevels();
     }
 
@@ -117,7 +125,6 @@ public class LevelManager : MonoBehaviour
         } 
     }
 
-
     private void AvailableLevels()
     {
         if (levelButtons.Count == 0) { return; }
@@ -125,7 +132,7 @@ public class LevelManager : MonoBehaviour
         int availableLevels;
         int unAvailableLevels;
 
-        for (availableLevels = 0; availableLevels <
+        for (availableLevels = currentLevelsList * maxLevelsPerList; availableLevels <
             PlayerPrefs.GetInt("CompletedLevels"); availableLevels++)
         {
             if (availableLevels >= 0 && availableLevels < levelButtons.Count)
@@ -155,6 +162,53 @@ public class LevelManager : MonoBehaviour
             default:
                 return -1;
         }
+    }
+
+    private void DisableAllLevelButtons()
+    {
+        foreach (Button levelButton in levelButtons)
+        {
+            levelButton.gameObject.SetActive(false);
+        }
+    }
+
+    public void NextLevelList()
+    {
+        if (currentLevelsList < maxLevelsList) { currentLevelsList++; }
+        DisableAllLevelButtons();
+        ShowSelectionArrows();
+        AvailableLevels();
+        
+    }
+
+    public void PrevLevelList()
+    {
+        if (currentLevelsList > 0) { currentLevelsList--; }
+        DisableAllLevelButtons();
+        ShowSelectionArrows();
+        AvailableLevels();
+    }
+
+    public void ShowSelectionArrows()
+    {
+        if (currentLevelsList > 0)
+        {
+            leftArrowButton.gameObject.SetActive(true);
+        }
+        else
+        {
+            leftArrowButton.gameObject.SetActive(false);
+        }
+
+        if (currentLevelsList < maxLevelsList)
+        {
+            rightArrowButton.gameObject.SetActive(true);
+        }
+        else
+        {
+            rightArrowButton.gameObject.SetActive(false);
+        }
+
     }
 
     private void CreatePlayerPrefs()
