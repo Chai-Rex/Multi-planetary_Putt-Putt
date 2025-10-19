@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1010204039510285754, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
       propertyPath: m_Name
-      value: Planet Variant
+      value: Level8 Planet
       objectReference: {fileID: 0}
     - target: {fileID: 1124153514156341806, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
       propertyPath: m_ShadowMesh.m_InitialTrim
@@ -18,7 +18,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1124153514156341806, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
       propertyPath: m_ShadowMesh.m_LocalBounds.m_Center.x
-      value: -0.0000076293945
+      value: 0.0000076293945
       objectReference: {fileID: 0}
     - target: {fileID: 1124153514156341806, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
       propertyPath: m_ShadowMesh.m_LocalBounds.m_Center.y
@@ -86,15 +86,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7342720307067875877, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
       propertyPath: m_LocalScale.x
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7342720307067875877, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
       propertyPath: m_LocalScale.y
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7342720307067875877, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
       propertyPath: m_LocalScale.z
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
