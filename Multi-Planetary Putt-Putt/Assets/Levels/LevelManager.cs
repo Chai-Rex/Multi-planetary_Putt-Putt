@@ -17,7 +17,8 @@ public enum ELevel
     LevelFive,
     LevelSix,
     LevelSeven,
-    LevelEight
+    LevelEight,
+    LevelNine
 }
 
 [Serializable]
@@ -52,7 +53,8 @@ public class LevelManager : MonoBehaviour
         "Level5",
         "Level6",
         "Level7",
-        "Level8"
+        "Level8",
+        "LevelExtra1"
     };
 
     private void Awake()
@@ -120,6 +122,9 @@ public class LevelManager : MonoBehaviour
             case ELevel.LevelEight:
                 UpdateLevelCompletedProgress(8);
                 break;
+            case ELevel.LevelNine:
+                UpdateLevelCompletedProgress(9);
+                break;
         }
     }
 
@@ -151,6 +156,9 @@ public class LevelManager : MonoBehaviour
                 break;
             case ELevel.LevelEight:
                 LoadLevel(7);
+                break;
+            case ELevel.LevelNine:
+                LoadLevel(8);
                 break;
         }
     }
@@ -237,6 +245,8 @@ public class LevelManager : MonoBehaviour
                 return PlayerPrefs.GetInt("LevelSevenResult");
             case ELevel.LevelEight:
                 return PlayerPrefs.GetInt("LevelEightResult");
+            case ELevel.LevelNine:
+                return PlayerPrefs.GetInt("LevelNineResult");
             default:
                 return -1;
         }
@@ -340,6 +350,11 @@ public class LevelManager : MonoBehaviour
         if (!PlayerPrefs.HasKey("LevelEightResult"))
         {
             PlayerPrefs.SetInt("LevelEightResult", 0);
+        }
+
+        if (!PlayerPrefs.HasKey("LevelNineResult"))
+        {
+            PlayerPrefs.SetInt("LevelNineResult", 0);
         }
     }
 

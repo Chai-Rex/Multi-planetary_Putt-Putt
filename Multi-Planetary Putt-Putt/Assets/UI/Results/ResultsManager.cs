@@ -176,6 +176,13 @@ public class ResultsManager : MonoBehaviour
                     PlayerPrefs.SetInt("LevelEightResult", levelResult);
                 }
                 break;
+            case ELevel.LevelNine:
+                if (PlayerPrefs.GetInt("LevelNineResult") < levelResult)
+                {
+                    PlayerPrefs.SetInt("LevelNineResult", levelResult);
+                }
+                break;
+
         }
     }
 
