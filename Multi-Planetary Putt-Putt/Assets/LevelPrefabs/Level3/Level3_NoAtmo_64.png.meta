@@ -1,0 +1,6790 @@
+fileFormatVersion: 2
+guid: ac5f8f962501a4f48ad99a2dda33fe48
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5059639120780305434
+    second: Level3_NoAtmo_64_0
+  - first:
+      213: 7644447727652291375
+    second: Level3_NoAtmo_64_1
+  - first:
+      213: -711902213972334025
+    second: Level3_NoAtmo_64_2
+  - first:
+      213: -3942324768258582443
+    second: Level3_NoAtmo_64_3
+  - first:
+      213: 5446815395340211308
+    second: Level3_NoAtmo_64_4
+  - first:
+      213: -8528484171854065150
+    second: Level3_NoAtmo_64_5
+  - first:
+      213: -5638533665808361585
+    second: Level3_NoAtmo_64_6
+  - first:
+      213: -9192421955295017453
+    second: Level3_NoAtmo_64_7
+  - first:
+      213: 7941622821964700147
+    second: Level3_NoAtmo_64_8
+  - first:
+      213: 7906135461775967577
+    second: Level3_NoAtmo_64_9
+  - first:
+      213: 3338755673258179731
+    second: Level3_NoAtmo_64_10
+  - first:
+      213: 3287039505812667905
+    second: Level3_NoAtmo_64_11
+  - first:
+      213: -8191331574577721820
+    second: Level3_NoAtmo_64_12
+  - first:
+      213: -1847801963651475213
+    second: Level3_NoAtmo_64_13
+  - first:
+      213: -5389170185169264851
+    second: Level3_NoAtmo_64_14
+  - first:
+      213: -4114904038505064310
+    second: Level3_NoAtmo_64_15
+  - first:
+      213: -5253687716511086744
+    second: Level3_NoAtmo_64_16
+  - first:
+      213: -7474940383895214470
+    second: Level3_NoAtmo_64_17
+  - first:
+      213: -7019834010720159446
+    second: Level3_NoAtmo_64_18
+  - first:
+      213: -1466232851588878405
+    second: Level3_NoAtmo_64_19
+  - first:
+      213: 2782290285404087293
+    second: Level3_NoAtmo_64_20
+  - first:
+      213: -8475728614805210562
+    second: Level3_NoAtmo_64_21
+  - first:
+      213: -7115784424766847521
+    second: Level3_NoAtmo_64_22
+  - first:
+      213: 4632551854802152319
+    second: Level3_NoAtmo_64_23
+  - first:
+      213: -1604339679301943528
+    second: Level3_NoAtmo_64_24
+  - first:
+      213: 6654569750563921787
+    second: Level3_NoAtmo_64_25
+  - first:
+      213: 1374224938786892839
+    second: Level3_NoAtmo_64_26
+  - first:
+      213: -3773204493889548308
+    second: Level3_NoAtmo_64_27
+  - first:
+      213: -6320123326462221611
+    second: Level3_NoAtmo_64_28
+  - first:
+      213: -107304176303820349
+    second: Level3_NoAtmo_64_29
+  - first:
+      213: -5424877073234800549
+    second: Level3_NoAtmo_64_30
+  - first:
+      213: 8310107974709149532
+    second: Level3_NoAtmo_64_31
+  - first:
+      213: 2979553742040636395
+    second: Level3_NoAtmo_64_32
+  - first:
+      213: 6275952779336851511
+    second: Level3_NoAtmo_64_33
+  - first:
+      213: 4700531281293716537
+    second: Level3_NoAtmo_64_34
+  - first:
+      213: 2534953857708176832
+    second: Level3_NoAtmo_64_35
+  - first:
+      213: -7127004941274477942
+    second: Level3_NoAtmo_64_36
+  - first:
+      213: 5285714799853470611
+    second: Level3_NoAtmo_64_37
+  - first:
+      213: -3528676115076791475
+    second: Level3_NoAtmo_64_38
+  - first:
+      213: 1183930539611939290
+    second: Level3_NoAtmo_64_39
+  - first:
+      213: -7467563655419378037
+    second: Level3_NoAtmo_64_40
+  - first:
+      213: 3728179769581254309
+    second: Level3_NoAtmo_64_41
+  - first:
+      213: -472719733842028588
+    second: Level3_NoAtmo_64_42
+  - first:
+      213: -6966789564788356001
+    second: Level3_NoAtmo_64_43
+  - first:
+      213: 8630538071728413384
+    second: Level3_NoAtmo_64_44
+  - first:
+      213: 4396258501526063078
+    second: Level3_NoAtmo_64_45
+  - first:
+      213: -7208326230611787398
+    second: Level3_NoAtmo_64_46
+  - first:
+      213: -6690358673968064916
+    second: Level3_NoAtmo_64_47
+  - first:
+      213: -2071977031178758942
+    second: Level3_NoAtmo_64_48
+  - first:
+      213: 7383202232024951943
+    second: Level3_NoAtmo_64_49
+  - first:
+      213: -570066692622412005
+    second: Level3_NoAtmo_64_50
+  - first:
+      213: -2830156376311920342
+    second: Level3_NoAtmo_64_51
+  - first:
+      213: -7350425721511574025
+    second: Level3_NoAtmo_64_52
+  - first:
+      213: 1947899085510953908
+    second: Level3_NoAtmo_64_53
+  - first:
+      213: -4068761856840329451
+    second: Level3_NoAtmo_64_54
+  - first:
+      213: -65814325565441906
+    second: Level3_NoAtmo_64_55
+  - first:
+      213: -1136637046602128708
+    second: Level3_NoAtmo_64_56
+  - first:
+      213: 4640836867942900779
+    second: Level3_NoAtmo_64_57
+  - first:
+      213: -8701882960365999148
+    second: Level3_NoAtmo_64_58
+  - first:
+      213: -6530585952921723305
+    second: Level3_NoAtmo_64_59
+  - first:
+      213: -7841706424673444327
+    second: Level3_NoAtmo_64_60
+  - first:
+      213: -3771607926953676853
+    second: Level3_NoAtmo_64_61
+  - first:
+      213: 3672640037061605349
+    second: Level3_NoAtmo_64_62
+  - first:
+      213: 5659831693609181872
+    second: Level3_NoAtmo_64_63
+  - first:
+      213: -3751759068157426542
+    second: Level3_NoAtmo_64_64
+  - first:
+      213: -2085501950886122713
+    second: Level3_NoAtmo_64_65
+  - first:
+      213: -6204080195033630452
+    second: Level3_NoAtmo_64_66
+  - first:
+      213: 8509344284722646968
+    second: Level3_NoAtmo_64_67
+  - first:
+      213: 709966126401862381
+    second: Level3_NoAtmo_64_68
+  - first:
+      213: -6299318952029685111
+    second: Level3_NoAtmo_64_69
+  - first:
+      213: 5375421434355714238
+    second: Level3_NoAtmo_64_70
+  - first:
+      213: -1232388652395865832
+    second: Level3_NoAtmo_64_71
+  - first:
+      213: -7238734853578875342
+    second: Level3_NoAtmo_64_72
+  - first:
+      213: -1312008945901673008
+    second: Level3_NoAtmo_64_73
+  - first:
+      213: 9102656273803210743
+    second: Level3_NoAtmo_64_74
+  - first:
+      213: -2317819265333190045
+    second: Level3_NoAtmo_64_75
+  - first:
+      213: -8454647339502602457
+    second: Level3_NoAtmo_64_76
+  - first:
+      213: -6976018994155339590
+    second: Level3_NoAtmo_64_77
+  - first:
+      213: -8369502141607674334
+    second: Level3_NoAtmo_64_78
+  - first:
+      213: 7644814091527028357
+    second: Level3_NoAtmo_64_79
+  - first:
+      213: -6916817737967592494
+    second: Level3_NoAtmo_64_80
+  - first:
+      213: -7122878792682290152
+    second: Level3_NoAtmo_64_81
+  - first:
+      213: -8867271439105968590
+    second: Level3_NoAtmo_64_82
+  - first:
+      213: -7674701227319236419
+    second: Level3_NoAtmo_64_83
+  - first:
+      213: 2392406021391907832
+    second: Level3_NoAtmo_64_84
+  - first:
+      213: 547131461187665048
+    second: Level3_NoAtmo_64_85
+  - first:
+      213: 6616816079566869513
+    second: Level3_NoAtmo_64_86
+  - first:
+      213: -8274608646871859994
+    second: Level3_NoAtmo_64_87
+  - first:
+      213: 925209189772224394
+    second: Level3_NoAtmo_64_88
+  - first:
+      213: -8857586400373526187
+    second: Level3_NoAtmo_64_89
+  - first:
+      213: -4038281550027082047
+    second: Level3_NoAtmo_64_90
+  - first:
+      213: -9209758155121849795
+    second: Level3_NoAtmo_64_91
+  - first:
+      213: 2056399186270474664
+    second: Level3_NoAtmo_64_92
+  - first:
+      213: -928200060047785142
+    second: Level3_NoAtmo_64_93
+  - first:
+      213: -8817177394634561176
+    second: Level3_NoAtmo_64_94
+  - first:
+      213: 8735804566457844218
+    second: Level3_NoAtmo_64_95
+  - first:
+      213: 3486658377097922720
+    second: Level3_NoAtmo_64_96
+  - first:
+      213: -5838043094935688551
+    second: Level3_NoAtmo_64_97
+  - first:
+      213: 3745999515240391297
+    second: Level3_NoAtmo_64_98
+  - first:
+      213: -1236432460077839321
+    second: Level3_NoAtmo_64_99
+  - first:
+      213: 3805406115057842798
+    second: Level3_NoAtmo_64_100
+  - first:
+      213: 6721357652727957523
+    second: Level3_NoAtmo_64_101
+  - first:
+      213: 8370268669600946924
+    second: Level3_NoAtmo_64_102
+  - first:
+      213: 7288712999273088634
+    second: Level3_NoAtmo_64_103
+  - first:
+      213: -6078114758719642803
+    second: Level3_NoAtmo_64_104
+  - first:
+      213: 4744010856467572773
+    second: Level3_NoAtmo_64_105
+  - first:
+      213: -5237187627169129412
+    second: Level3_NoAtmo_64_106
+  - first:
+      213: 8021951776124731664
+    second: Level3_NoAtmo_64_107
+  - first:
+      213: -8240254199468380435
+    second: Level3_NoAtmo_64_108
+  - first:
+      213: -1195723378564747293
+    second: Level3_NoAtmo_64_109
+  - first:
+      213: -2605384241334803642
+    second: Level3_NoAtmo_64_110
+  - first:
+      213: -7844862518263887258
+    second: Level3_NoAtmo_64_111
+  - first:
+      213: 6937043204335496228
+    second: Level3_NoAtmo_64_112
+  - first:
+      213: 4345501698207667367
+    second: Level3_NoAtmo_64_113
+  - first:
+      213: 1254846044197877574
+    second: Level3_NoAtmo_64_114
+  - first:
+      213: -2032765215316731288
+    second: Level3_NoAtmo_64_115
+  - first:
+      213: -17321263206817445
+    second: Level3_NoAtmo_64_116
+  - first:
+      213: 5510873957165340039
+    second: Level3_NoAtmo_64_117
+  - first:
+      213: 8148881392941358189
+    second: Level3_NoAtmo_64_118
+  - first:
+      213: 8226182317977666384
+    second: Level3_NoAtmo_64_119
+  - first:
+      213: -5593328422753481186
+    second: Level3_NoAtmo_64_120
+  - first:
+      213: 4308589074989469180
+    second: Level3_NoAtmo_64_121
+  - first:
+      213: 8370989285073169813
+    second: Level3_NoAtmo_64_122
+  - first:
+      213: 5473940398876779828
+    second: Level3_NoAtmo_64_123
+  - first:
+      213: 4985061009153300985
+    second: Level3_NoAtmo_64_124
+  - first:
+      213: -190621429718666882
+    second: Level3_NoAtmo_64_125
+  - first:
+      213: -1806182986533462215
+    second: Level3_NoAtmo_64_126
+  - first:
+      213: -3416432853901091162
+    second: Level3_NoAtmo_64_127
+  - first:
+      213: -525569556587273688
+    second: Level3_NoAtmo_64_128
+  - first:
+      213: 2862920220119197526
+    second: Level3_NoAtmo_64_129
+  - first:
+      213: 4133437789629671707
+    second: Level3_NoAtmo_64_130
+  - first:
+      213: 5212813083596183178
+    second: Level3_NoAtmo_64_131
+  - first:
+      213: 674350303403766966
+    second: Level3_NoAtmo_64_132
+  - first:
+      213: 6966690295527252705
+    second: Level3_NoAtmo_64_133
+  - first:
+      213: -4781871767971047109
+    second: Level3_NoAtmo_64_134
+  - first:
+      213: 1566826795284571767
+    second: Level3_NoAtmo_64_135
+  - first:
+      213: 7080618652668014102
+    second: Level3_NoAtmo_64_136
+  - first:
+      213: -7126006019247688110
+    second: Level3_NoAtmo_64_137
+  - first:
+      213: -612516483580627315
+    second: Level3_NoAtmo_64_138
+  - first:
+      213: 3842131089874898786
+    second: Level3_NoAtmo_64_139
+  - first:
+      213: 2554149589058101349
+    second: Level3_NoAtmo_64_140
+  - first:
+      213: 8067867734304886068
+    second: Level3_NoAtmo_64_141
+  - first:
+      213: -4155762393055216272
+    second: Level3_NoAtmo_64_142
+  - first:
+      213: 4380748528699462966
+    second: Level3_NoAtmo_64_143
+  - first:
+      213: -3044990490804079859
+    second: Level3_NoAtmo_64_144
+  - first:
+      213: -6152351301018108243
+    second: Level3_NoAtmo_64_145
+  - first:
+      213: 4635457415504133673
+    second: Level3_NoAtmo_64_146
+  - first:
+      213: -9094091841828876961
+    second: Level3_NoAtmo_64_147
+  - first:
+      213: 1590171444812890445
+    second: Level3_NoAtmo_64_148
+  - first:
+      213: -4629485481996833471
+    second: Level3_NoAtmo_64_149
+  - first:
+      213: 427288459785458806
+    second: Level3_NoAtmo_64_150
+  - first:
+      213: -121641323100199228
+    second: Level3_NoAtmo_64_151
+  - first:
+      213: 395199112517068803
+    second: Level3_NoAtmo_64_152
+  - first:
+      213: 7529658616225673704
+    second: Level3_NoAtmo_64_153
+  - first:
+      213: -2944682794218770493
+    second: Level3_NoAtmo_64_154
+  - first:
+      213: -8223213080210705339
+    second: Level3_NoAtmo_64_155
+  - first:
+      213: 1583671268199513720
+    second: Level3_NoAtmo_64_156
+  - first:
+      213: -6540505139400614155
+    second: Level3_NoAtmo_64_157
+  - first:
+      213: 700625152593855700
+    second: Level3_NoAtmo_64_158
+  - first:
+      213: -6322388946381465561
+    second: Level3_NoAtmo_64_159
+  - first:
+      213: 4948967183929750688
+    second: Level3_NoAtmo_64_160
+  - first:
+      213: -6040858598036624340
+    second: Level3_NoAtmo_64_161
+  - first:
+      213: -8736823206583709304
+    second: Level3_NoAtmo_64_162
+  - first:
+      213: 1586670891718407555
+    second: Level3_NoAtmo_64_163
+  - first:
+      213: -1979720018197396839
+    second: Level3_NoAtmo_64_164
+  - first:
+      213: 1819123875949490925
+    second: Level3_NoAtmo_64_165
+  - first:
+      213: 4424303107350185433
+    second: Level3_NoAtmo_64_166
+  - first:
+      213: -7740450784248749395
+    second: Level3_NoAtmo_64_167
+  - first:
+      213: -8224437499990056597
+    second: Level3_NoAtmo_64_168
+  - first:
+      213: -1333489620909679718
+    second: Level3_NoAtmo_64_169
+  - first:
+      213: -5220478432927746836
+    second: Level3_NoAtmo_64_170
+  - first:
+      213: -4718505165394433474
+    second: Level3_NoAtmo_64_171
+  - first:
+      213: 7293135780982638452
+    second: Level3_NoAtmo_64_172
+  - first:
+      213: 439150042638627212
+    second: Level3_NoAtmo_64_173
+  - first:
+      213: -2085748677312176746
+    second: Level3_NoAtmo_64_174
+  - first:
+      213: 6748196778779973187
+    second: Level3_NoAtmo_64_175
+  - first:
+      213: -5850533831539939787
+    second: Level3_NoAtmo_64_176
+  - first:
+      213: -5162000224675097602
+    second: Level3_NoAtmo_64_177
+  - first:
+      213: -3225358859680853994
+    second: Level3_NoAtmo_64_178
+  - first:
+      213: -2325896542220704007
+    second: Level3_NoAtmo_64_179
+  - first:
+      213: -3291907787441229167
+    second: Level3_NoAtmo_64_180
+  - first:
+      213: 5083270649517018014
+    second: Level3_NoAtmo_64_181
+  - first:
+      213: -9160460878327976384
+    second: Level3_NoAtmo_64_182
+  - first:
+      213: -5582348593456271042
+    second: Level3_NoAtmo_64_183
+  - first:
+      213: -8290957794802361753
+    second: Level3_NoAtmo_64_184
+  - first:
+      213: 3354071473167508258
+    second: Level3_NoAtmo_64_185
+  - first:
+      213: 5215124754436786236
+    second: Level3_NoAtmo_64_186
+  - first:
+      213: -1687029294624754201
+    second: Level3_NoAtmo_64_187
+  - first:
+      213: 3679456212156838802
+    second: Level3_NoAtmo_64_188
+  - first:
+      213: 5336572336911749072
+    second: Level3_NoAtmo_64_189
+  - first:
+      213: -8530598941696994545
+    second: Level3_NoAtmo_64_190
+  - first:
+      213: 6928219277676941070
+    second: Level3_NoAtmo_64_191
+  - first:
+      213: 3042166824177034370
+    second: Level3_NoAtmo_64_192
+  - first:
+      213: -4442638074675442456
+    second: Level3_NoAtmo_64_193
+  - first:
+      213: -7055230910419777626
+    second: Level3_NoAtmo_64_194
+  - first:
+      213: -8210265419699946909
+    second: Level3_NoAtmo_64_195
+  - first:
+      213: -6710967987768738817
+    second: Level3_NoAtmo_64_196
+  - first:
+      213: 6320677234988906490
+    second: Level3_NoAtmo_64_197
+  - first:
+      213: -2586637232855480338
+    second: Level3_NoAtmo_64_198
+  - first:
+      213: 4779011404038322514
+    second: Level3_NoAtmo_64_199
+  - first:
+      213: -6816773767498888208
+    second: Level3_NoAtmo_64_200
+  - first:
+      213: -482821497234917420
+    second: Level3_NoAtmo_64_201
+  - first:
+      213: -3454848632927033573
+    second: Level3_NoAtmo_64_202
+  - first:
+      213: 7547194246933577370
+    second: Level3_NoAtmo_64_203
+  - first:
+      213: 7514231947999358154
+    second: Level3_NoAtmo_64_204
+  - first:
+      213: 5005994023570952749
+    second: Level3_NoAtmo_64_205
+  - first:
+      213: -8257359950937968199
+    second: Level3_NoAtmo_64_206
+  - first:
+      213: -8914467308841007712
+    second: Level3_NoAtmo_64_207
+  - first:
+      213: -2313560580481807391
+    second: Level3_NoAtmo_64_208
+  - first:
+      213: 3529730121768906506
+    second: Level3_NoAtmo_64_209
+  - first:
+      213: 8411148720082586520
+    second: Level3_NoAtmo_64_210
+  - first:
+      213: -9212277058033718811
+    second: Level3_NoAtmo_64_211
+  - first:
+      213: 6349442571005442962
+    second: Level3_NoAtmo_64_212
+  - first:
+      213: 8210139402986755868
+    second: Level3_NoAtmo_64_213
+  - first:
+      213: 3919227822619417999
+    second: Level3_NoAtmo_64_214
+  - first:
+      213: 552000565677822105
+    second: Level3_NoAtmo_64_215
+  - first:
+      213: 9002673442524224120
+    second: Level3_NoAtmo_64_216
+  - first:
+      213: -2356028340061401514
+    second: Level3_NoAtmo_64_217
+  - first:
+      213: 1873554796448820074
+    second: Level3_NoAtmo_64_218
+  - first:
+      213: -3660599523510990409
+    second: Level3_NoAtmo_64_219
+  - first:
+      213: 8903547347024805974
+    second: Level3_NoAtmo_64_220
+  - first:
+      213: 1230758045513054122
+    second: Level3_NoAtmo_64_221
+  - first:
+      213: 4991367238729299884
+    second: Level3_NoAtmo_64_222
+  - first:
+      213: 7634085583058513905
+    second: Level3_NoAtmo_64_223
+  - first:
+      213: 2910055645891106784
+    second: Level3_NoAtmo_64_224
+  - first:
+      213: -1320342135916132748
+    second: Level3_NoAtmo_64_225
+  - first:
+      213: -3586903157958849378
+    second: Level3_NoAtmo_64_226
+  - first:
+      213: -8760924906871696551
+    second: Level3_NoAtmo_64_227
+  - first:
+      213: 959212186483829909
+    second: Level3_NoAtmo_64_228
+  - first:
+      213: 6903770805979004656
+    second: Level3_NoAtmo_64_229
+  - first:
+      213: -3330169357567357992
+    second: Level3_NoAtmo_64_230
+  - first:
+      213: -6259239746304113167
+    second: Level3_NoAtmo_64_231
+  - first:
+      213: 7603997435556354541
+    second: Level3_NoAtmo_64_232
+  - first:
+      213: -3380621668347071693
+    second: Level3_NoAtmo_64_233
+  - first:
+      213: -1589539215337181942
+    second: Level3_NoAtmo_64_234
+  - first:
+      213: 7518590628055628930
+    second: Level3_NoAtmo_64_235
+  - first:
+      213: -8456739358721486300
+    second: Level3_NoAtmo_64_236
+  - first:
+      213: 6876347295637047738
+    second: Level3_NoAtmo_64_237
+  - first:
+      213: -662585843246833422
+    second: Level3_NoAtmo_64_238
+  - first:
+      213: -3187592266787667267
+    second: Level3_NoAtmo_64_239
+  - first:
+      213: -6289829372071998457
+    second: Level3_NoAtmo_64_240
+  - first:
+      213: -1879341207893899284
+    second: Level3_NoAtmo_64_241
+  - first:
+      213: 773110398640663860
+    second: Level3_NoAtmo_64_242
+  - first:
+      213: -2187568804353341583
+    second: Level3_NoAtmo_64_243
+  - first:
+      213: -5195875752457581870
+    second: Level3_NoAtmo_64_244
+  - first:
+      213: -7972069586271049224
+    second: Level3_NoAtmo_64_245
+  - first:
+      213: 4780469576005595092
+    second: Level3_NoAtmo_64_246
+  - first:
+      213: 4966708822957652240
+    second: Level3_NoAtmo_64_247
+  - first:
+      213: -9066635442950768407
+    second: Level3_NoAtmo_64_248
+  - first:
+      213: -6156528864526759726
+    second: Level3_NoAtmo_64_249
+  - first:
+      213: -1071287670452121535
+    second: Level3_NoAtmo_64_250
+  - first:
+      213: -2479902622958800638
+    second: Level3_NoAtmo_64_251
+  - first:
+      213: -3616626237862680323
+    second: Level3_NoAtmo_64_252
+  - first:
+      213: 1615334172370580627
+    second: Level3_NoAtmo_64_253
+  - first:
+      213: -490378191135372965
+    second: Level3_NoAtmo_64_254
+  - first:
+      213: -5895681858524582209
+    second: Level3_NoAtmo_64_255
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a14a7c529f2773640800000000000000
+      internalID: 5059639120780305434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f23c1cec4b8861a60800000000000000
+      internalID: 7644447727652291375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73a6d5d45b0de16f0800000000000000
+      internalID: -711902213972334025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55819b6b28c0a49c0800000000000000
+      internalID: -3942324768258582443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64d16c5eb9f69b40800000000000000
+      internalID: 5446815395340211308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 202d810e4dcb4a980800000000000000
+      internalID: -8528484171854065150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8759635187efb1b0800000000000000
+      internalID: -5638533665808361585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31683296fe4fd6080800000000000000
+      internalID: -9192421955295017453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9575b41ef463e60800000000000000
+      internalID: 7941622821964700147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9558641605c38bd60800000000000000
+      internalID: 7906135461775967577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39cbf586894a55e20800000000000000
+      internalID: 3338755673258179731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10eb3aad309ed9d20800000000000000
+      internalID: 3287039505812667905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e8adb155b825e80800000000000000
+      internalID: -8191331574577721820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8d84577e94b56e0800000000000000
+      internalID: -1847801963651475213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f1cd60542d535b0800000000000000
+      internalID: -5389170185169264851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88d514249ce4e6c0800000000000000
+      internalID: -4114904038505064310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86706886bd62717b0800000000000000
+      internalID: -5253687716511086744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7624b4235da34890800000000000000
+      internalID: -7474940383895214470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29b1d0f82a849e90800000000000000
+      internalID: -7019834010720159446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf690b6df4e6abe0800000000000000
+      internalID: -1466232851588878405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3e78bf54eac9620800000000000000
+      internalID: 2782290285404087293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_21
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3afbed2bb9206a80800000000000000
+      internalID: -8475728614805210562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5c38744c7af3d90800000000000000
+      internalID: -7115784424766847521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_23
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b2f0d1e512a4040800000000000000
+      internalID: 4632551854802152319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_24
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81fb424df8d3cb9e0800000000000000
+      internalID: -1604339679301943528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_25
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f1c634ee7c95c50800000000000000
+      internalID: 6654569750563921787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_26
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c20e50d4a321310800000000000000
+      internalID: 1374224938786892839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_27
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef4ecc0182e2abc0800000000000000
+      internalID: -3773204493889548308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_28
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d22f8de1596a48a0800000000000000
+      internalID: -6320123326462221611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_29
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1be709b67c28ef0800000000000000
+      internalID: -107304176303820349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_30
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50ddab4b07f6b4b0800000000000000
+      internalID: -5424877073234800549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_31
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ffda59c2f635370800000000000000
+      internalID: 8310107974709149532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb948f8750895920800000000000000
+      internalID: 2979553742040636395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730af772dc9a81750800000000000000
+      internalID: 6275952779336851511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93caf1dbb44ab3140800000000000000
+      internalID: 4700531281293716537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5b3b25a17fd2320800000000000000
+      internalID: 2534953857708176832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_36
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a81e234cac71d90800000000000000
+      internalID: -7127004941274477942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_37
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3938a450b91aa5940800000000000000
+      internalID: 5285714799853470611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d434171e4cf970fc0800000000000000
+      internalID: -3528676115076791475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_39
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad16e449d8a2e6010800000000000000
+      internalID: 1183930539611939290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_40
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b864c159b62ed5890800000000000000
+      internalID: -7467563655419378037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_41
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a630b86fb72db330800000000000000
+      internalID: 3728179769581254309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_42
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7570a18ef8079f0800000000000000
+      internalID: -472719733842028588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_43
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c44ed6dcdf05f90800000000000000
+      internalID: -6966789564788356001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_44
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca5bd156a4d5c770800000000000000
+      internalID: 8630538071728413384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_45
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7804490d5a20d30800000000000000
+      internalID: 4396258501526063078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_46
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71014f0c71e6fb90800000000000000
+      internalID: -7208326230611787398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_47
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c661e2aab321723a0800000000000000
+      internalID: -6690358673968064916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e452d13edbde33e0800000000000000
+      internalID: -2071977031178758942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ce7b8ef47667660800000000000000
+      internalID: 7383202232024951943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_50
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1795f70d57b618f0800000000000000
+      internalID: -570066692622412005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_51
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a290f1345c349b8d0800000000000000
+      internalID: -2830156376311920342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_52
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f5886120ca0ef990800000000000000
+      internalID: -7350425721511574025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_53
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb403ad5e3580b10800000000000000
+      internalID: 1947899085510953908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_54
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5179f5ff5aad887c0800000000000000
+      internalID: -4068761856840329451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_55
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e883a87383e261ff0800000000000000
+      internalID: -65814325565441906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_56
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb22bb6d0aad930f0800000000000000
+      internalID: -1136637046602128708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_57
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24e54e0b80976040800000000000000
+      internalID: 4640836867942900779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_58
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db2c565d83bc3780800000000000000
+      internalID: -8701882960365999148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_59
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ed1f42da2be55a0800000000000000
+      internalID: -6530585952921723305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_60
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ed07ccd89ac2390800000000000000
+      internalID: -7841706424673444327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_61
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcfe0e1c29e88abc0800000000000000
+      internalID: -3771607926953676853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_62
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e73fecb7a6d7f230800000000000000
+      internalID: 3672640037061605349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_63
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b2a21230f2cb8e40800000000000000
+      internalID: 5659831693609181872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29440a351031febc0800000000000000
+      internalID: -3751759068157426542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_65
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b6c0f660fce03e0800000000000000
+      internalID: -2085501950886122713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_66
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09fbf8eeeda6e9a0800000000000000
+      internalID: -6204080195033630452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_67
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bfc462ea83471670800000000000000
+      internalID: 8509344284722646968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_68
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea3ebe2e6e4ad900800000000000000
+      internalID: 709966126401862381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_69
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a7261d9c25498a0800000000000000
+      internalID: -6299318952029685111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_70
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb80bc87055599a40800000000000000
+      internalID: 5375421434355714238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_71
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819d8b4dc0da5eee0800000000000000
+      internalID: -1232388652395865832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_72
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e113dc009da8b90800000000000000
+      internalID: -7238734853578875342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_73
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d56565a0decacde0800000000000000
+      internalID: -1312008945901673008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_74
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff658037a1235e70800000000000000
+      internalID: 9102656273803210743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_75
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362224498a375dfd0800000000000000
+      internalID: -2317819265333190045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_76
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727feb31a0f0baa80800000000000000
+      internalID: -8454647339502602457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_77
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab04ef27fa3303f90800000000000000
+      internalID: -6976018994155339590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_78
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e7a9e452e89db80800000000000000
+      internalID: -8369502141607674334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_79
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e7e5b89e5d71a60800000000000000
+      internalID: 7644814091527028357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db12580ae68200a0800000000000000
+      internalID: -6916817737967592494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_81
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81442080a73762d90800000000000000
+      internalID: -7122878792682290152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_82
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2363f116b9f11f480800000000000000
+      internalID: -8867271439105968590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_83
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8e16465ebfd7590800000000000000
+      internalID: -7674701227319236419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_84
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fbf197d998833120800000000000000
+      internalID: 2392406021391907832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_85
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89cf7854a2dc79700800000000000000
+      internalID: 547131461187665048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_86
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9041daeba27a3db50800000000000000
+      internalID: 6616816079566869513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_87
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ecb3d3c64faa2d80800000000000000
+      internalID: -8274608646871859994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_88
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a87ec4b2bd007dc00800000000000000
+      internalID: 925209189772224394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_89
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551b76e2918831580800000000000000
+      internalID: -8857586400373526187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_90
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c63f93735425f7c0800000000000000
+      internalID: -4038281550027082047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_91
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a84b8d0cd503080800000000000000
+      internalID: -9209758155121849795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_92
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1dd062a2cc98c10800000000000000
+      internalID: 2056399186270474664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_93
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a430b5496fe5e13f0800000000000000
+      internalID: -928200060047785142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_94
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 869e33fffd713a580800000000000000
+      internalID: -8817177394634561176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_95
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af184fa08ffcb3970800000000000000
+      internalID: 8735804566457844218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8cf042259136030800000000000000
+      internalID: 3486658377097922720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_97
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99aafe68cba1bfea0800000000000000
+      internalID: -5838043094935688551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_98
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18260b246b67cf330800000000000000
+      internalID: 3745999515240391297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_99
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c4c4c7a3f47dee0800000000000000
+      internalID: -1236432460077839321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_100
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a3f1223b48fc430800000000000000
+      internalID: 3805406115057842798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_101
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31804338c2f074d50800000000000000
+      internalID: 6721357652727957523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_102
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea5526e10b292470800000000000000
+      internalID: 8370268669600946924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_103
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76c1770bd5b62560800000000000000
+      internalID: 7288712999273088634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_104
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d43e47684d236aba0800000000000000
+      internalID: -6078114758719642803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_105
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528a8563dbc16d140800000000000000
+      internalID: 4744010856467572773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_106
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c5384d995c157b0800000000000000
+      internalID: -5237187627169129412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_107
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0118a3563a2b35f60800000000000000
+      internalID: 8021951776124731664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_108
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee24cdd67cb4ad80800000000000000
+      internalID: -8240254199468380435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_109
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3efa4032cefe76fe0800000000000000
+      internalID: -1195723378564747293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_110
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 643a6df16d0d7dbd0800000000000000
+      internalID: -2605384241334803642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_111
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66aca1f7a13712390800000000000000
+      internalID: -7844862518263887258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c64f15a04554060800000000000000
+      internalID: 6937043204335496228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_113
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4568465c25e4c30800000000000000
+      internalID: 4345501698207667367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_114
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 647f73824db1a6110800000000000000
+      internalID: 1254846044197877574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_115
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a96458eca2ac3e0800000000000000
+      internalID: -2032765215316731288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_116
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b512f73276672cff0800000000000000
+      internalID: -17321263206817445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_117
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7859aca8aae8a7c40800000000000000
+      internalID: 5510873957165340039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_118
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c5f07c374a61170800000000000000
+      internalID: 8148881392941358189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_119
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05388a8eb35492270800000000000000
+      internalID: 8226182317977666384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_120
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ecea92f618062b0800000000000000
+      internalID: -5593328422753481186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_121
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd40e19fee2bcb30800000000000000
+      internalID: 4308589074989469180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_122
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d2363476abb2470800000000000000
+      internalID: 8370989285073169813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_123
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435e5b46ac757fb40800000000000000
+      internalID: 5473940398876779828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_124
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f99b3a639e7e2540800000000000000
+      internalID: 4985061009153300985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_125
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71ba03d1d6ca5df0800000000000000
+      internalID: -190621429718666882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_126
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f9150b4262fe6e0800000000000000
+      internalID: -1806182986533462215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_127
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae5040ab646690d0800000000000000
+      internalID: -3416432853901091162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8222bdad54dc4b8f0800000000000000
+      internalID: -525569556587273688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_129
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 657ec7495c22bb720800000000000000
+      internalID: 2862920220119197526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_130
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b196d0015cbec5930800000000000000
+      internalID: 4133437789629671707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_131
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86524081e1a75840800000000000000
+      internalID: 5212813083596183178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_132
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4fe803706cb5900800000000000000
+      internalID: 674350303403766966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_133
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e22015a9e7aea060800000000000000
+      internalID: 6966690295527252705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_134
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b39dd9466f063adb0800000000000000
+      internalID: -4781871767971047109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_135
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776208d3bac7eb510800000000000000
+      internalID: 1566826795284571767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_136
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e284e5629634260800000000000000
+      internalID: 7080618652668014102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_137
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256327bd7475b1d90800000000000000
+      internalID: -7126006019247688110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_138
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d86fa11e087ef77f0800000000000000
+      internalID: -612516483580627315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_139
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f4a78aeddf15530800000000000000
+      internalID: 3842131089874898786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_140
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560a40fc489227320800000000000000
+      internalID: 2554149589058101349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_141
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d041e75f2d6ff60800000000000000
+      internalID: 8067867734304886068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_142
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d34072f14c356c0800000000000000
+      internalID: -4155762393055216272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_143
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635527f939b8bcc30800000000000000
+      internalID: 4380748528699462966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d033e2b18450eb5d0800000000000000
+      internalID: -3044990490804079859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_145
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae376996157e9aa0800000000000000
+      internalID: -6152351301018108243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_146
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ef29ea5f3745040800000000000000
+      internalID: 4635457415504133673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_147
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d030507ab4bc180800000000000000
+      internalID: -9094091841828876961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_148
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41ca04018c611610800000000000000
+      internalID: 1590171444812890445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_149
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d20c07b73c0cfb0800000000000000
+      internalID: -4629485481996833471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_150
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674d22e17980ee500800000000000000
+      internalID: 427288459785458806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_151
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c6aa927cd7df4ef0800000000000000
+      internalID: -121641323100199228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_152
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 308212dbf770c7500800000000000000
+      internalID: 395199112517068803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_153
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1371c1e98be7860800000000000000
+      internalID: 7529658616225673704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_154
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cfa26aa9926227d0800000000000000
+      internalID: -2944682794218770493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_155
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544f1b1a54741ed80800000000000000
+      internalID: -8223213080210705339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_156
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e3606b0a45af510800000000000000
+      internalID: 1583671268199513720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_157
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fed8629a357b35a0800000000000000
+      internalID: -6540505139400614155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_158
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d48f0d3dde19b900800000000000000
+      internalID: 700625152593855700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_159
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 728931f20cc5248a0800000000000000
+      internalID: -6322388946381465561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a4b23bde634ea440800000000000000
+      internalID: 4948967183929750688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_161
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ca9a56c1f8a2ca0800000000000000
+      internalID: -6040858598036624340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_162
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8815032559190c680800000000000000
+      internalID: -8736823206583709304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_163
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385f35cf4ccf40610800000000000000
+      internalID: 1586670891718407555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_164
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9924d98e12f9684e0800000000000000
+      internalID: -1979720018197396839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_165
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2b66ce683de3910800000000000000
+      internalID: 1819123875949490925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_166
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5c3443c38466d30800000000000000
+      internalID: 4424303107350185433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_167
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2a57bb505649490800000000000000
+      internalID: -7740450784248749395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_168
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b61e0bf2badecdd80800000000000000
+      internalID: -8224437499990056597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_169
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b1202414e7e7de0800000000000000
+      internalID: -1333489620909679718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_170
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce4f0c746822d87b0800000000000000
+      internalID: -5220478432927746836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_171
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3aa1d14d80848eb0800000000000000
+      internalID: -4718505165394433474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_172
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47749242a5c663560800000000000000
+      internalID: 7293135780982638452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_173
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81b29613ac281600800000000000000
+      internalID: 439150042638627212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_174
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d1116f0aeed03e0800000000000000
+      internalID: -2085748677312176746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_175
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3469d91873966ad50800000000000000
+      internalID: 6748196778779973187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53628a84a7abecea0800000000000000
+      internalID: -5850533831539939787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_177
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef311c52524ec58b0800000000000000
+      internalID: -5162000224675097602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_178
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610509fa4393d33d0800000000000000
+      internalID: -3225358859680853994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_179
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f620a00b61c8bfd0800000000000000
+      internalID: -2325896542220704007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_180
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19239300f4bc052d0800000000000000
+      internalID: -3291907787441229167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_181
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b81a139b76b8640800000000000000
+      internalID: 5083270649517018014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_182
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ee5688d518fd080800000000000000
+      internalID: -9160460878327976384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_183
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3133a2e7838782b0800000000000000
+      internalID: -5582348593456271042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_184
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a9c0120d990fc80800000000000000
+      internalID: -8290957794802361753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_185
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223ab65fb3e0c8e20800000000000000
+      internalID: 3354071473167508258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_186
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c380d8f4558df5840800000000000000
+      internalID: 5215124754436786236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_187
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5b6387bc77698e0800000000000000
+      internalID: -1687029294624754201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_188
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293763c2eed001330800000000000000
+      internalID: 3679456212156838802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_189
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df0dcb14405f0a40800000000000000
+      internalID: 5336572336911749072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_190
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03d3d6a5793d9980800000000000000
+      internalID: -8530598941696994545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_191
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f82fbc9baf52060800000000000000
+      internalID: 6928219277676941070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_192
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284ec86cb92f73a20800000000000000
+      internalID: 3042166824177034370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_193
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ec485d85349852c0800000000000000
+      internalID: -4442638074675442456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_194
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a7c2100ed8c61e90800000000000000
+      internalID: -7055230910419777626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_195
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a7c13c9174f0e80800000000000000
+      internalID: -8210265419699946909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_196
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffbb60edb2addd2a0800000000000000
+      internalID: -6710967987768738817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_197
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af77963f47e87b750800000000000000
+      internalID: 6320677234988906490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_198
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee789dc242b6a1cd0800000000000000
+      internalID: -2586637232855480338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_199
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259be3b3d85725240800000000000000
+      internalID: 4779011404038322514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_200
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb07021064f561a0800000000000000
+      internalID: -6816773767498888208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_201
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7f367086cac49f0800000000000000
+      internalID: -482821497234917420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_202
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17e3a11979ed00d0800000000000000
+      internalID: -3454848632927033573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_203
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ef85b4e250db860800000000000000
+      internalID: 7547194246933577370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_204
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acca464052ae74860800000000000000
+      internalID: 7514231947999358154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_205
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22dca2aa0dd87540800000000000000
+      internalID: 5005994023570952749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_206
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b13ecdbfd6f76d80800000000000000
+      internalID: -8257359950937968199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_207
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a503b6a633794480800000000000000
+      internalID: -8914467308841007712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_208
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb090ae8e494efd0800000000000000
+      internalID: -2313560580481807391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_209
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f280d28de1cf030800000000000000
+      internalID: 3529730121768906506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_210
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b018d52376ab470800000000000000
+      internalID: 8411148720082586520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_211
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e96b6f03da672080800000000000000
+      internalID: -9212277058033718811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_212
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29bb586a060cd1850800000000000000
+      internalID: 6349442571005442962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_213
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17967fa94640f170800000000000000
+      internalID: 8210139402986755868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_214
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8dde0190f4e36630800000000000000
+      internalID: 3919227822619417999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_215
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9909a01079919a700800000000000000
+      internalID: 552000565677822105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_216
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87adf7a3ccbefec70800000000000000
+      internalID: 9002673442524224120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_217
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e03ed15b4bd4fd0800000000000000
+      internalID: -2356028340061401514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_218
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6baf8d2924300a10800000000000000
+      internalID: 1873554796448820074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_219
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b9c928c020f23dc0800000000000000
+      internalID: -3660599523510990409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_220
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650094c9321cf8b70800000000000000
+      internalID: 8903547347024805974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_221
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7724bebe7841110800000000000000
+      internalID: 1230758045513054122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_222
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca77bf7ee06e44540800000000000000
+      internalID: 4991367238729299884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_223
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff22230468b1f960800000000000000
+      internalID: 7634085583058513905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_224
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e795f91138926820800000000000000
+      internalID: 2910055645891106784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_225
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4760db6a2d33dade0800000000000000
+      internalID: -1320342135916132748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_226
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9cc2220592c83ec0800000000000000
+      internalID: -3586903157958849378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_227
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9535a0ee631fa6680800000000000000
+      internalID: -8760924906871696551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_228
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c2897c66ecf4d00800000000000000
+      internalID: 959212186483829909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_229
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe371568fe1fcf50800000000000000
+      internalID: 6903770805979004656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_230
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db8e400d9cd8c1d0800000000000000
+      internalID: -3330169357567357992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_231
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f589851d96b229a0800000000000000
+      internalID: -6259239746304113167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_232
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de951534163d68960800000000000000
+      internalID: 7603997435556354541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_233
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3333f22018e9511d0800000000000000
+      internalID: -3380621668347071693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_234
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d26416182d0f9e0800000000000000
+      internalID: -1589539215337181942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_235
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28c36dc4756675860800000000000000
+      internalID: 7518590628055628930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_236
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4225755eb50a3aa80800000000000000
+      internalID: -8456739358721486300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_237
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab90aa4de61bd6f50800000000000000
+      internalID: 6876347295637047738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_238
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0e114afa50ec6f0800000000000000
+      internalID: -662585843246833422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_239
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2c651d8b563c3d0800000000000000
+      internalID: -3187592266787667267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_240
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c84d3d28906b8a0800000000000000
+      internalID: -6289829372071998457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_241
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce70bbbe02d3be5e0800000000000000
+      internalID: -1879341207893899284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_242
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d232bbfc3aaba00800000000000000
+      internalID: 773110398640663860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_243
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1770bce33c134a1e0800000000000000
+      internalID: -2187568804353341583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_244
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da43b5388a84e7b0800000000000000
+      internalID: -5195875752457581870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_245
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f96e99f2f48d5190800000000000000
+      internalID: -7972069586271049224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_246
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df206950c3a75240800000000000000
+      internalID: 4780469576005595092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_247
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01970371c5b4de440800000000000000
+      internalID: 4966708822957652240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_248
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8f3fa0a17dc2280800000000000000
+      internalID: -9066635442950768407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_249
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8817ccd9d9f8aa0800000000000000
+      internalID: -6156528864526759726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_250
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14012762a850221f0800000000000000
+      internalID: -1071287670452121535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_251
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2013bf814bd959dd0800000000000000
+      internalID: -2479902622958800638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_252
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df866de29992fcdc0800000000000000
+      internalID: -3616626237862680323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_253
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 394b2b11fd1da6610800000000000000
+      internalID: 1615334172370580627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_254
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5907cf12a3d139f0800000000000000
+      internalID: -490378191135372965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level3_NoAtmo_64_255
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe6de916945e2ea0800000000000000
+      internalID: -5895681858524582209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 494359616e27a574589cc72121276e79
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures:
+    - texture: {fileID: 2800000, guid: b43884819a0b891449780c15e51908f4, type: 3}
+      name: _NormalMap
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Level3_NoAtmo_64_0: 5059639120780305434
+      Level3_NoAtmo_64_1: 7644447727652291375
+      Level3_NoAtmo_64_10: 3338755673258179731
+      Level3_NoAtmo_64_100: 3805406115057842798
+      Level3_NoAtmo_64_101: 6721357652727957523
+      Level3_NoAtmo_64_102: 8370268669600946924
+      Level3_NoAtmo_64_103: 7288712999273088634
+      Level3_NoAtmo_64_104: -6078114758719642803
+      Level3_NoAtmo_64_105: 4744010856467572773
+      Level3_NoAtmo_64_106: -5237187627169129412
+      Level3_NoAtmo_64_107: 8021951776124731664
+      Level3_NoAtmo_64_108: -8240254199468380435
+      Level3_NoAtmo_64_109: -1195723378564747293
+      Level3_NoAtmo_64_11: 3287039505812667905
+      Level3_NoAtmo_64_110: -2605384241334803642
+      Level3_NoAtmo_64_111: -7844862518263887258
+      Level3_NoAtmo_64_112: 6937043204335496228
+      Level3_NoAtmo_64_113: 4345501698207667367
+      Level3_NoAtmo_64_114: 1254846044197877574
+      Level3_NoAtmo_64_115: -2032765215316731288
+      Level3_NoAtmo_64_116: -17321263206817445
+      Level3_NoAtmo_64_117: 5510873957165340039
+      Level3_NoAtmo_64_118: 8148881392941358189
+      Level3_NoAtmo_64_119: 8226182317977666384
+      Level3_NoAtmo_64_12: -8191331574577721820
+      Level3_NoAtmo_64_120: -5593328422753481186
+      Level3_NoAtmo_64_121: 4308589074989469180
+      Level3_NoAtmo_64_122: 8370989285073169813
+      Level3_NoAtmo_64_123: 5473940398876779828
+      Level3_NoAtmo_64_124: 4985061009153300985
+      Level3_NoAtmo_64_125: -190621429718666882
+      Level3_NoAtmo_64_126: -1806182986533462215
+      Level3_NoAtmo_64_127: -3416432853901091162
+      Level3_NoAtmo_64_128: -525569556587273688
+      Level3_NoAtmo_64_129: 2862920220119197526
+      Level3_NoAtmo_64_13: -1847801963651475213
+      Level3_NoAtmo_64_130: 4133437789629671707
+      Level3_NoAtmo_64_131: 5212813083596183178
+      Level3_NoAtmo_64_132: 674350303403766966
+      Level3_NoAtmo_64_133: 6966690295527252705
+      Level3_NoAtmo_64_134: -4781871767971047109
+      Level3_NoAtmo_64_135: 1566826795284571767
+      Level3_NoAtmo_64_136: 7080618652668014102
+      Level3_NoAtmo_64_137: -7126006019247688110
+      Level3_NoAtmo_64_138: -612516483580627315
+      Level3_NoAtmo_64_139: 3842131089874898786
+      Level3_NoAtmo_64_14: -5389170185169264851
+      Level3_NoAtmo_64_140: 2554149589058101349
+      Level3_NoAtmo_64_141: 8067867734304886068
+      Level3_NoAtmo_64_142: -4155762393055216272
+      Level3_NoAtmo_64_143: 4380748528699462966
+      Level3_NoAtmo_64_144: -3044990490804079859
+      Level3_NoAtmo_64_145: -6152351301018108243
+      Level3_NoAtmo_64_146: 4635457415504133673
+      Level3_NoAtmo_64_147: -9094091841828876961
+      Level3_NoAtmo_64_148: 1590171444812890445
+      Level3_NoAtmo_64_149: -4629485481996833471
+      Level3_NoAtmo_64_15: -4114904038505064310
+      Level3_NoAtmo_64_150: 427288459785458806
+      Level3_NoAtmo_64_151: -121641323100199228
+      Level3_NoAtmo_64_152: 395199112517068803
+      Level3_NoAtmo_64_153: 7529658616225673704
+      Level3_NoAtmo_64_154: -2944682794218770493
+      Level3_NoAtmo_64_155: -8223213080210705339
+      Level3_NoAtmo_64_156: 1583671268199513720
+      Level3_NoAtmo_64_157: -6540505139400614155
+      Level3_NoAtmo_64_158: 700625152593855700
+      Level3_NoAtmo_64_159: -6322388946381465561
+      Level3_NoAtmo_64_16: -5253687716511086744
+      Level3_NoAtmo_64_160: 4948967183929750688
+      Level3_NoAtmo_64_161: -6040858598036624340
+      Level3_NoAtmo_64_162: -8736823206583709304
+      Level3_NoAtmo_64_163: 1586670891718407555
+      Level3_NoAtmo_64_164: -1979720018197396839
+      Level3_NoAtmo_64_165: 1819123875949490925
+      Level3_NoAtmo_64_166: 4424303107350185433
+      Level3_NoAtmo_64_167: -7740450784248749395
+      Level3_NoAtmo_64_168: -8224437499990056597
+      Level3_NoAtmo_64_169: -1333489620909679718
+      Level3_NoAtmo_64_17: -7474940383895214470
+      Level3_NoAtmo_64_170: -5220478432927746836
+      Level3_NoAtmo_64_171: -4718505165394433474
+      Level3_NoAtmo_64_172: 7293135780982638452
+      Level3_NoAtmo_64_173: 439150042638627212
+      Level3_NoAtmo_64_174: -2085748677312176746
+      Level3_NoAtmo_64_175: 6748196778779973187
+      Level3_NoAtmo_64_176: -5850533831539939787
+      Level3_NoAtmo_64_177: -5162000224675097602
+      Level3_NoAtmo_64_178: -3225358859680853994
+      Level3_NoAtmo_64_179: -2325896542220704007
+      Level3_NoAtmo_64_18: -7019834010720159446
+      Level3_NoAtmo_64_180: -3291907787441229167
+      Level3_NoAtmo_64_181: 5083270649517018014
+      Level3_NoAtmo_64_182: -9160460878327976384
+      Level3_NoAtmo_64_183: -5582348593456271042
+      Level3_NoAtmo_64_184: -8290957794802361753
+      Level3_NoAtmo_64_185: 3354071473167508258
+      Level3_NoAtmo_64_186: 5215124754436786236
+      Level3_NoAtmo_64_187: -1687029294624754201
+      Level3_NoAtmo_64_188: 3679456212156838802
+      Level3_NoAtmo_64_189: 5336572336911749072
+      Level3_NoAtmo_64_19: -1466232851588878405
+      Level3_NoAtmo_64_190: -8530598941696994545
+      Level3_NoAtmo_64_191: 6928219277676941070
+      Level3_NoAtmo_64_192: 3042166824177034370
+      Level3_NoAtmo_64_193: -4442638074675442456
+      Level3_NoAtmo_64_194: -7055230910419777626
+      Level3_NoAtmo_64_195: -8210265419699946909
+      Level3_NoAtmo_64_196: -6710967987768738817
+      Level3_NoAtmo_64_197: 6320677234988906490
+      Level3_NoAtmo_64_198: -2586637232855480338
+      Level3_NoAtmo_64_199: 4779011404038322514
+      Level3_NoAtmo_64_2: -711902213972334025
+      Level3_NoAtmo_64_20: 2782290285404087293
+      Level3_NoAtmo_64_200: -6816773767498888208
+      Level3_NoAtmo_64_201: -482821497234917420
+      Level3_NoAtmo_64_202: -3454848632927033573
+      Level3_NoAtmo_64_203: 7547194246933577370
+      Level3_NoAtmo_64_204: 7514231947999358154
+      Level3_NoAtmo_64_205: 5005994023570952749
+      Level3_NoAtmo_64_206: -8257359950937968199
+      Level3_NoAtmo_64_207: -8914467308841007712
+      Level3_NoAtmo_64_208: -2313560580481807391
+      Level3_NoAtmo_64_209: 3529730121768906506
+      Level3_NoAtmo_64_21: -8475728614805210562
+      Level3_NoAtmo_64_210: 8411148720082586520
+      Level3_NoAtmo_64_211: -9212277058033718811
+      Level3_NoAtmo_64_212: 6349442571005442962
+      Level3_NoAtmo_64_213: 8210139402986755868
+      Level3_NoAtmo_64_214: 3919227822619417999
+      Level3_NoAtmo_64_215: 552000565677822105
+      Level3_NoAtmo_64_216: 9002673442524224120
+      Level3_NoAtmo_64_217: -2356028340061401514
+      Level3_NoAtmo_64_218: 1873554796448820074
+      Level3_NoAtmo_64_219: -3660599523510990409
+      Level3_NoAtmo_64_22: -7115784424766847521
+      Level3_NoAtmo_64_220: 8903547347024805974
+      Level3_NoAtmo_64_221: 1230758045513054122
+      Level3_NoAtmo_64_222: 4991367238729299884
+      Level3_NoAtmo_64_223: 7634085583058513905
+      Level3_NoAtmo_64_224: 2910055645891106784
+      Level3_NoAtmo_64_225: -1320342135916132748
+      Level3_NoAtmo_64_226: -3586903157958849378
+      Level3_NoAtmo_64_227: -8760924906871696551
+      Level3_NoAtmo_64_228: 959212186483829909
+      Level3_NoAtmo_64_229: 6903770805979004656
+      Level3_NoAtmo_64_23: 4632551854802152319
+      Level3_NoAtmo_64_230: -3330169357567357992
+      Level3_NoAtmo_64_231: -6259239746304113167
+      Level3_NoAtmo_64_232: 7603997435556354541
+      Level3_NoAtmo_64_233: -3380621668347071693
+      Level3_NoAtmo_64_234: -1589539215337181942
+      Level3_NoAtmo_64_235: 7518590628055628930
+      Level3_NoAtmo_64_236: -8456739358721486300
+      Level3_NoAtmo_64_237: 6876347295637047738
+      Level3_NoAtmo_64_238: -662585843246833422
+      Level3_NoAtmo_64_239: -3187592266787667267
+      Level3_NoAtmo_64_24: -1604339679301943528
+      Level3_NoAtmo_64_240: -6289829372071998457
+      Level3_NoAtmo_64_241: -1879341207893899284
+      Level3_NoAtmo_64_242: 773110398640663860
+      Level3_NoAtmo_64_243: -2187568804353341583
+      Level3_NoAtmo_64_244: -5195875752457581870
+      Level3_NoAtmo_64_245: -7972069586271049224
+      Level3_NoAtmo_64_246: 4780469576005595092
+      Level3_NoAtmo_64_247: 4966708822957652240
+      Level3_NoAtmo_64_248: -9066635442950768407
+      Level3_NoAtmo_64_249: -6156528864526759726
+      Level3_NoAtmo_64_25: 6654569750563921787
+      Level3_NoAtmo_64_250: -1071287670452121535
+      Level3_NoAtmo_64_251: -2479902622958800638
+      Level3_NoAtmo_64_252: -3616626237862680323
+      Level3_NoAtmo_64_253: 1615334172370580627
+      Level3_NoAtmo_64_254: -490378191135372965
+      Level3_NoAtmo_64_255: -5895681858524582209
+      Level3_NoAtmo_64_26: 1374224938786892839
+      Level3_NoAtmo_64_27: -3773204493889548308
+      Level3_NoAtmo_64_28: -6320123326462221611
+      Level3_NoAtmo_64_29: -107304176303820349
+      Level3_NoAtmo_64_3: -3942324768258582443
+      Level3_NoAtmo_64_30: -5424877073234800549
+      Level3_NoAtmo_64_31: 8310107974709149532
+      Level3_NoAtmo_64_32: 2979553742040636395
+      Level3_NoAtmo_64_33: 6275952779336851511
+      Level3_NoAtmo_64_34: 4700531281293716537
+      Level3_NoAtmo_64_35: 2534953857708176832
+      Level3_NoAtmo_64_36: -7127004941274477942
+      Level3_NoAtmo_64_37: 5285714799853470611
+      Level3_NoAtmo_64_38: -3528676115076791475
+      Level3_NoAtmo_64_39: 1183930539611939290
+      Level3_NoAtmo_64_4: 5446815395340211308
+      Level3_NoAtmo_64_40: -7467563655419378037
+      Level3_NoAtmo_64_41: 3728179769581254309
+      Level3_NoAtmo_64_42: -472719733842028588
+      Level3_NoAtmo_64_43: -6966789564788356001
+      Level3_NoAtmo_64_44: 8630538071728413384
+      Level3_NoAtmo_64_45: 4396258501526063078
+      Level3_NoAtmo_64_46: -7208326230611787398
+      Level3_NoAtmo_64_47: -6690358673968064916
+      Level3_NoAtmo_64_48: -2071977031178758942
+      Level3_NoAtmo_64_49: 7383202232024951943
+      Level3_NoAtmo_64_5: -8528484171854065150
+      Level3_NoAtmo_64_50: -570066692622412005
+      Level3_NoAtmo_64_51: -2830156376311920342
+      Level3_NoAtmo_64_52: -7350425721511574025
+      Level3_NoAtmo_64_53: 1947899085510953908
+      Level3_NoAtmo_64_54: -4068761856840329451
+      Level3_NoAtmo_64_55: -65814325565441906
+      Level3_NoAtmo_64_56: -1136637046602128708
+      Level3_NoAtmo_64_57: 4640836867942900779
+      Level3_NoAtmo_64_58: -8701882960365999148
+      Level3_NoAtmo_64_59: -6530585952921723305
+      Level3_NoAtmo_64_6: -5638533665808361585
+      Level3_NoAtmo_64_60: -7841706424673444327
+      Level3_NoAtmo_64_61: -3771607926953676853
+      Level3_NoAtmo_64_62: 3672640037061605349
+      Level3_NoAtmo_64_63: 5659831693609181872
+      Level3_NoAtmo_64_64: -3751759068157426542
+      Level3_NoAtmo_64_65: -2085501950886122713
+      Level3_NoAtmo_64_66: -6204080195033630452
+      Level3_NoAtmo_64_67: 8509344284722646968
+      Level3_NoAtmo_64_68: 709966126401862381
+      Level3_NoAtmo_64_69: -6299318952029685111
+      Level3_NoAtmo_64_7: -9192421955295017453
+      Level3_NoAtmo_64_70: 5375421434355714238
+      Level3_NoAtmo_64_71: -1232388652395865832
+      Level3_NoAtmo_64_72: -7238734853578875342
+      Level3_NoAtmo_64_73: -1312008945901673008
+      Level3_NoAtmo_64_74: 9102656273803210743
+      Level3_NoAtmo_64_75: -2317819265333190045
+      Level3_NoAtmo_64_76: -8454647339502602457
+      Level3_NoAtmo_64_77: -6976018994155339590
+      Level3_NoAtmo_64_78: -8369502141607674334
+      Level3_NoAtmo_64_79: 7644814091527028357
+      Level3_NoAtmo_64_8: 7941622821964700147
+      Level3_NoAtmo_64_80: -6916817737967592494
+      Level3_NoAtmo_64_81: -7122878792682290152
+      Level3_NoAtmo_64_82: -8867271439105968590
+      Level3_NoAtmo_64_83: -7674701227319236419
+      Level3_NoAtmo_64_84: 2392406021391907832
+      Level3_NoAtmo_64_85: 547131461187665048
+      Level3_NoAtmo_64_86: 6616816079566869513
+      Level3_NoAtmo_64_87: -8274608646871859994
+      Level3_NoAtmo_64_88: 925209189772224394
+      Level3_NoAtmo_64_89: -8857586400373526187
+      Level3_NoAtmo_64_9: 7906135461775967577
+      Level3_NoAtmo_64_90: -4038281550027082047
+      Level3_NoAtmo_64_91: -9209758155121849795
+      Level3_NoAtmo_64_92: 2056399186270474664
+      Level3_NoAtmo_64_93: -928200060047785142
+      Level3_NoAtmo_64_94: -8817177394634561176
+      Level3_NoAtmo_64_95: 8735804566457844218
+      Level3_NoAtmo_64_96: 3486658377097922720
+      Level3_NoAtmo_64_97: -5838043094935688551
+      Level3_NoAtmo_64_98: 3745999515240391297
+      Level3_NoAtmo_64_99: -1236432460077839321
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,5 +1,67 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2593085104966951769
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5369695476965217798}
+    m_Modifications:
+    - target: {fileID: 3684801207660174306, guid: 1bf268c88e75acd43871a7902b79e215, type: 3}
+      propertyPath: m_Name
+      value: Level3_NoAtmo_32_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8863154573765342392, guid: 1bf268c88e75acd43871a7902b79e215, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8863154573765342392, guid: 1bf268c88e75acd43871a7902b79e215, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8863154573765342392, guid: 1bf268c88e75acd43871a7902b79e215, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8863154573765342392, guid: 1bf268c88e75acd43871a7902b79e215, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8863154573765342392, guid: 1bf268c88e75acd43871a7902b79e215, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8863154573765342392, guid: 1bf268c88e75acd43871a7902b79e215, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8863154573765342392, guid: 1bf268c88e75acd43871a7902b79e215, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8863154573765342392, guid: 1bf268c88e75acd43871a7902b79e215, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8863154573765342392, guid: 1bf268c88e75acd43871a7902b79e215, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8863154573765342392, guid: 1bf268c88e75acd43871a7902b79e215, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf268c88e75acd43871a7902b79e215, type: 3}
+--- !u!4 &6412067083688876001 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8863154573765342392, guid: 1bf268c88e75acd43871a7902b79e215, type: 3}
+  m_PrefabInstance: {fileID: 2593085104966951769}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3414406509866214435
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10,7 +72,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1010204039510285754, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
       propertyPath: m_Name
-      value: Planet (2) Variant
+      value: Level3 Planet 2
       objectReference: {fileID: 0}
     - target: {fileID: 1124153514156341806, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
       propertyPath: m_ShadowMesh.m_InitialTrim
@@ -84,12 +146,21 @@ PrefabInstance:
       propertyPath: m_Radius
       value: 9
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3481471673165336577, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
     m_RemovedGameObjects:
     - {fileID: 1974254743482505636, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7342720307067875877, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6412067083688876001}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
+--- !u!4 &5369695476965217798 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7342720307067875877, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
+  m_PrefabInstance: {fileID: 3414406509866214435}
+  m_PrefabAsset: {fileID: 0}
 --- !u!58 &5608770743846906193 stripped
 CircleCollider2D:
   m_CorrespondingSourceObject: {fileID: 7112366778868714866, guid: 777a34753e1db53468cd4f8454bae958, type: 3}

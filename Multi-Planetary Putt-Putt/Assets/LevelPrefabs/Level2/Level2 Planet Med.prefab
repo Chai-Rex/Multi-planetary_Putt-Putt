@@ -1,5 +1,67 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1965897096966953174
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3956130517455643098}
+    m_Modifications:
+    - target: {fileID: 8608488621373466314, guid: 1552410c75e7a23458d6f20f29a4acd2, type: 3}
+      propertyPath: m_Name
+      value: Level2_Moon_64_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8868631778659656710, guid: 1552410c75e7a23458d6f20f29a4acd2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8868631778659656710, guid: 1552410c75e7a23458d6f20f29a4acd2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8868631778659656710, guid: 1552410c75e7a23458d6f20f29a4acd2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8868631778659656710, guid: 1552410c75e7a23458d6f20f29a4acd2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8868631778659656710, guid: 1552410c75e7a23458d6f20f29a4acd2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8868631778659656710, guid: 1552410c75e7a23458d6f20f29a4acd2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8868631778659656710, guid: 1552410c75e7a23458d6f20f29a4acd2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8868631778659656710, guid: 1552410c75e7a23458d6f20f29a4acd2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8868631778659656710, guid: 1552410c75e7a23458d6f20f29a4acd2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8868631778659656710, guid: 1552410c75e7a23458d6f20f29a4acd2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1552410c75e7a23458d6f20f29a4acd2, type: 3}
+--- !u!4 &6943408658748292304 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8868631778659656710, guid: 1552410c75e7a23458d6f20f29a4acd2, type: 3}
+  m_PrefabInstance: {fileID: 1965897096966953174}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5980897443969324031
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10,7 +72,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1010204039510285754, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
       propertyPath: m_Name
-      value: Planet Variant
+      value: Level2 Planet Med
       objectReference: {fileID: 0}
     - target: {fileID: 1124153514156341806, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
       propertyPath: m_ShadowMesh.m_InitialTrim
@@ -80,9 +142,18 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 4.5
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3481471673165336577, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
     m_RemovedGameObjects:
     - {fileID: 1974254743482505636, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7342720307067875877, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6943408658748292304}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
+--- !u!4 &3956130517455643098 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7342720307067875877, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
+  m_PrefabInstance: {fileID: 5980897443969324031}
+  m_PrefabAsset: {fileID: 0}
