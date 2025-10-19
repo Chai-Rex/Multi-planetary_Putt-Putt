@@ -191,6 +191,9 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 8286067397879597795}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1010204039510285754, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5746213689918669949}
     - targetCorrespondingSourceObject: {fileID: 7963417969257098903, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7001795539242301203}
@@ -203,6 +206,23 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4193856449073630235, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
   m_PrefabInstance: {fileID: 3717146095657985478}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &4436331053874968700 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1010204039510285754, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
+  m_PrefabInstance: {fileID: 3717146095657985478}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5746213689918669949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4436331053874968700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad65b5080cf5f4e40a939953011865ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SunBlackholeScript
 --- !u!4 &6229430020452866019 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7342720307067875877, guid: 777a34753e1db53468cd4f8454bae958, type: 3}
