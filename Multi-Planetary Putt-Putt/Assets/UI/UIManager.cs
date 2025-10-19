@@ -21,9 +21,6 @@ public class UIManager : MonoBehaviour
     private void Awake()
     {
         Instance = this;
-
-        settingsButton.onClick.AddListener(() => SetSettings());
-        settingsButton.onClick.AddListener(() => SetSettings());
     }
 
     private void OnEnable()
@@ -39,6 +36,10 @@ public class UIManager : MonoBehaviour
 
     private void Start()
     {
+        settingsButton.onClick.AddListener(() => SetSettings());
+        mainmenuButton.onClick.AddListener(() => LevelManager.Instance.LoadMainMenu());
+        retryButton.onClick.AddListener(() => LevelManager.Instance.ReloadCurrentLevel());
+        quitButton.onClick.AddListener(() => Application.Quit());
         settingsCanvas.gameObject.SetActive(false);
     }
 
@@ -61,7 +62,10 @@ public class UIManager : MonoBehaviour
 
     private void MenuAction_Started(UnityEngine.InputSystem.InputAction.CallbackContext context)
     {
-        SetSettings();
+        if (!ResultsManager.Instance.GetIsInResults())
+        {
+            SetSettings();
+        }    
     }
 
 
@@ -114,5 +118,4 @@ public class UIManager : MonoBehaviour
     {
         return isInSettings;
     }
-
 }

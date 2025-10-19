@@ -1,5 +1,7 @@
 using System.Threading.Tasks;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class Ball : MonoBehaviour {
 
@@ -10,6 +12,7 @@ public class Ball : MonoBehaviour {
     public float StopVelocity { get { return stoppingVelocityThreshold; } }
     [SerializeField] private Indicator indicator;
     [SerializeField] private Rigidbody2D rb;
+    private int numberOfPutts = 0;
     public Rigidbody2D RB { get { return rb; } }
 
     private Vector3 _lastStablePosition;
@@ -17,6 +20,16 @@ public class Ball : MonoBehaviour {
 
     private bool forceReset = false;
     public bool ForceReset { set { forceReset = value; } }
+
+    [SerializeField]
+    private AudioResource outOfBoundsSound;
+    [SerializeField]
+    private AudioResource hitBallSound;
+    AudioSource audioSource;
+    private void Awake()
+    {
+        audioSource = GetComponentInChildren<AudioSource>();
+    }
 
     private void Start() {
         InitializeBall();
@@ -32,6 +45,7 @@ public class Ball : MonoBehaviour {
     }
 
     private void InitializeBall() {
+        numberOfPutts = 0;
         rb.bodyType = RigidbodyType2D.Kinematic;
         _lastStablePosition = transform.position;
         GravityManager.attractees.Add(rb);
@@ -62,7 +76,14 @@ public class Ball : MonoBehaviour {
     }
 
     private void LaunchBall() {
-        rb.bodyType = RigidbodyType2D.Dynamic;
+        numberOfPutts++;
+
+   		if(audioSource)
+        {
+            audioSource.resource = hitBallSound;
+            audioSource.Play();
+        }
+     	rb.bodyType = RigidbodyType2D.Dynamic;
         indicator.gameObject.SetActive(false);
         indicator.SetPredictionLineVisible(false);
         rb.linearDamping = AtmosphereManager.PredictAtmosphereAtLocation(rb.position);
@@ -72,13 +93,28 @@ public class Ball : MonoBehaviour {
 
     private async Task<bool> WaitForBallToStop() {
         while (rb.linearVelocity.magnitude > stoppingVelocityThreshold) {
-            if (IsOutOfBounds() || forceReset) {
+            if (IsOutOfBounds()) {
+                if (audioSource)
+                {
+                    audioSource.resource = outOfBoundsSound;
+                    audioSource.Play();
+                }
+                forceReset = false;
+                return true; // Signal to reset
+            }
+            if(forceReset)
+            {
                 forceReset = false;
                 return true; // Signal to reset
             }
             await Task.Yield();
         }
         return false; // Ball stopped naturally
+    }
+
+    public int GetNumberOfPutts()
+    {
+        return numberOfPutts;
     }
 
     private void ResetBall() {

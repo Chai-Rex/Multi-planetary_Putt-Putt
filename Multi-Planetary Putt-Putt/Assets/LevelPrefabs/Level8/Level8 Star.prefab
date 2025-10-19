@@ -120,6 +120,18 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 18
       objectReference: {fileID: 0}
+    - target: {fileID: 7344692482922652448, guid: 44d34d7f23864f044be9b6373598eedf, type: 3}
+      propertyPath: DopplerLevel
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7344692482922652448, guid: 44d34d7f23864f044be9b6373598eedf, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7344692482922652448, guid: 44d34d7f23864f044be9b6373598eedf, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8395483186571885127, guid: 44d34d7f23864f044be9b6373598eedf, type: 3}
       propertyPath: m_Mass
       value: 150

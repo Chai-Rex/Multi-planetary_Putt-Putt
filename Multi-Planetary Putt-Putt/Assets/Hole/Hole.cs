@@ -1,5 +1,7 @@
+using AudioSystem;
 using System;
 using UnityEngine;
+using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
 
 public class Hole : MonoBehaviour {
@@ -12,10 +14,15 @@ public class Hole : MonoBehaviour {
             if (debugMode) {
                 Debug.Log($"Ball completed!");
             }
+
             OnBallCompleted?.Invoke();
 
-            //REMOVE
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            Ball ball;
+            if (ball = other.gameObject.GetComponent<Ball>())
+            {
+                ResultsManager.Instance.SetNumberOfPutts(ball.GetNumberOfPutts());
+                ResultsManager.Instance.ShowResultsScreen(ResultsManager.Instance.GetCurrentLevel());
+            }     
         }
     }
 }
