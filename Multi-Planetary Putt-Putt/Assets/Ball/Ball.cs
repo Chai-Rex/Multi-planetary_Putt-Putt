@@ -4,13 +4,19 @@ using UnityEngine;
 public class Ball : MonoBehaviour {
 
     [SerializeField] private float force = 1f;
+    public float LaunchForce { get { return force; } }
     [SerializeField] private float outOfBoundsPadding = 0.1f;
     [SerializeField] private float stoppingVelocityThreshold = 0.1f;
+    public float StopVelocity { get { return stoppingVelocityThreshold; } }
     [SerializeField] private Indicator indicator;
     [SerializeField] private Rigidbody2D rb;
+    public Rigidbody2D RB { get { return rb; } }
 
     private Vector3 _lastStablePosition;
     private bool _isHitRoutineRunning;
+
+    private bool forceReset = false;
+    public bool ForceReset { set { forceReset = value; } }
 
     private void Start() {
         InitializeBall();
@@ -29,13 +35,13 @@ public class Ball : MonoBehaviour {
         rb.bodyType = RigidbodyType2D.Kinematic;
         _lastStablePosition = transform.position;
         GravityManager.attractees.Add(rb);
+        indicator.TargetBall = this;
         UpdateIndicatorPosition();
     }
 
     private void OnInteract(UnityEngine.InputSystem.InputAction.CallbackContext obj) {
-        if (!_isHitRoutineRunning) {
-            HitBallAsync();
-        }
+        if (_isHitRoutineRunning) return;
+        HitBallAsync();
     }
 
     private async void HitBallAsync() {
@@ -58,14 +64,16 @@ public class Ball : MonoBehaviour {
     private void LaunchBall() {
         rb.bodyType = RigidbodyType2D.Dynamic;
         indicator.gameObject.SetActive(false);
-
+        indicator.SetPredictionLineVisible(false);
+        rb.linearDamping = AtmosphereManager.PredictAtmosphereAtLocation(rb.position);
         Vector2 launchDirection = indicator.transform.up * indicator.transform.localScale.y;
-        rb.AddForce(launchDirection * force);
+        rb.AddForce(launchDirection * force, ForceMode2D.Impulse);
     }
 
     private async Task<bool> WaitForBallToStop() {
         while (rb.linearVelocity.magnitude > stoppingVelocityThreshold) {
-            if (IsOutOfBounds()) {
+            if (IsOutOfBounds() || forceReset) {
+                forceReset = false;
                 return true; // Signal to reset
             }
             await Task.Yield();
@@ -75,6 +83,7 @@ public class Ball : MonoBehaviour {
 
     private void ResetBall() {
         rb.linearVelocity = Vector2.zero;
+        rb.totalForce = Vector2.zero;
         transform.position = _lastStablePosition;
         rb.bodyType = RigidbodyType2D.Kinematic;
         UpdateIndicatorPosition();
@@ -83,6 +92,7 @@ public class Ball : MonoBehaviour {
 
     private void StabilizeBall() {
         rb.linearVelocity = Vector2.zero;
+        rb.totalForce = Vector2.zero;
         _lastStablePosition = transform.position;
         rb.bodyType = RigidbodyType2D.Kinematic;
         UpdateIndicatorPosition();
@@ -91,9 +101,13 @@ public class Ball : MonoBehaviour {
 
     private void UpdateIndicatorPosition() {
         indicator.transform.position = transform.position;
+        indicator.SetPredictionLineVisible(true);
     }
 
     private bool IsOutOfBounds() {
+        
+        if (GravityManager.Instance.HasAttractors()) return false;      
+        
         Vector3 viewportPos = Camera.main.WorldToViewportPoint(transform.position);
 
         return viewportPos.x < -outOfBoundsPadding || viewportPos.x > 1 + outOfBoundsPadding ||

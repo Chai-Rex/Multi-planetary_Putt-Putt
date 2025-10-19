@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Gravity
+  - Atmosphere
+  - Ball
   layers:
   - Default
   - TransparentFX
@@ -22,9 +25,9 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - PlanetCollider
   - Planet
-  - 
+  - Atmosphere
   - 
   - 
   - 
@@ -40,6 +43,27 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 4169608111
+    locked: 0
+  - name: Gravity
+    uniqueID: 3097619747
+    locked: 0
+  - name: Atmosphere
+    uniqueID: 3363956943
+    locked: 0
+  - name: Planet
+    uniqueID: 2438789723
+    locked: 0
+  - name: Clouds
+    uniqueID: 322769035
+    locked: 0
+  - name: Ball
+    uniqueID: 3115894079
+    locked: 0
+  - name: Hole
+    uniqueID: 2152405763
     locked: 0
   m_RenderingLayers:
   - Default

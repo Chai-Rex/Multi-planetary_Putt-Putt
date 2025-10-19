@@ -100,6 +100,10 @@ MonoBehaviour:
     m_RotationOrder: 4
   minScale: 0.5
   maxScale: 3
+  maxVisualPredictionIterations: 30
+  physicsPredictionInterval: 0.02
+  visualPredictionInterval: 0.1
+  predictionObject: {fileID: 8863104787476331028, guid: e452b93fadc8a85448530575d9a5ef46, type: 3}
 --- !u!1 &4041006512731965196
 GameObject:
   m_ObjectHideFlags: 0
