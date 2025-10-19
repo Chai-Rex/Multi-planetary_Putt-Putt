@@ -663,7 +663,7 @@ PrefabInstance:
       objectReference: {fileID: 799498286}
     - target: {fileID: 8699369756154491150, guid: e3c5cd86141f2d841a7ddd60b2d447ad, type: 3}
       propertyPath: stoppingVelocityThreshold
-      value: 1
+      value: 0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

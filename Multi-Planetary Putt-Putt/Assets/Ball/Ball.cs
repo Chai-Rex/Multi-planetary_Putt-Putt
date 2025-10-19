@@ -62,6 +62,7 @@ public class Ball : MonoBehaviour {
     private void LaunchBall() {
         rb.bodyType = RigidbodyType2D.Dynamic;
         indicator.gameObject.SetActive(false);
+        indicator.SetPredictionLineVisible(false);
 
         Vector2 launchDirection = indicator.transform.up * indicator.transform.localScale.y;
         rb.AddForce(launchDirection * force, ForceMode2D.Impulse);
@@ -95,6 +96,7 @@ public class Ball : MonoBehaviour {
 
     private void UpdateIndicatorPosition() {
         indicator.transform.position = transform.position;
+        indicator.SetPredictionLineVisible(true);
     }
 
     private bool IsOutOfBounds() {

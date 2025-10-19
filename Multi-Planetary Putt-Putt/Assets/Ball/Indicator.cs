@@ -104,8 +104,25 @@ public class Indicator : MonoBehaviour {
         }
     }
 
+    public void SetPredictionLineVisible(bool visible)
+    {
+        if (!visible)
+        {
+            for (int i = 0; i < maxVisualPredictionIterations; i++)
+            {
+                predictionObjects[i].SetActive(false);
+            }
+        }
+        else
+        {
+            UpdatePredictionLine();
+        }
+    }
+
     private void UpdatePredictionLine()
     {
+        if (targetBall == null) return;
+
         Vector2 appliedForce = transform.up * transform.localScale.y * targetBall.LaunchForce;
         
         Vector2 predictedLocation = targetBall.RB.position;
@@ -154,7 +171,6 @@ public class Indicator : MonoBehaviour {
         resultVelocity *= Mathf.Clamp01(1f - damping * timeStep);
         resultLocation = startLocation + (startVelocity + resultVelocity) * 0.5f * timeStep + 0.5f * acceleration * Mathf.Pow(timeStep, 2f);
         
-
     }
 
 }
