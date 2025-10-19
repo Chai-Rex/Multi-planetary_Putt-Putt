@@ -58,10 +58,10 @@ public class ResultsManager : MonoBehaviour
 
     public void ShowResultsScreen(ELevel resultsForLevel)
     {
-        /*if (audioSource)
+        if (audioSource)
         {
             audioSource.Play();
-        }*/
+        }
 
         if (UIManager.Instance.GetIsInSettings())
         {
