@@ -1,9 +1,7 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
-using static Unity.VisualScripting.Member;
 using UnityEngine.Audio;
-using NUnit.Framework;
 using System.Collections.Generic;
 
 public class ResultsManager : MonoBehaviour
@@ -16,8 +14,8 @@ public class ResultsManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI numberOfPuttsText;
     [SerializeField] private Button retryButton;
     [SerializeField] private Button nextHoleButton;
-    [SerializeField] private int twoStarPutts = 5;
-    [SerializeField] private int threeStarPutts = 1;
+    [SerializeField] private int twoStarPutts = 6;
+    [SerializeField] private int threeStarPutts = 3;
 
     private Color starGold;
     private Color starGray;
@@ -77,6 +75,7 @@ public class ResultsManager : MonoBehaviour
             nextHoleButton.onClick.AddListener(() => LevelManager.Instance.PlayLastUnlockedLevel());
         }
 
+        LevelManager.Instance.CompletedLevel(CURRENTLEVEL);
         ShowStars(currentLevelStars, CheckLevelResults());
     }
 
@@ -177,6 +176,13 @@ public class ResultsManager : MonoBehaviour
                     PlayerPrefs.SetInt("LevelEightResult", levelResult);
                 }
                 break;
+            case ELevel.LevelNine:
+                if (PlayerPrefs.GetInt("LevelNineResult") < levelResult)
+                {
+                    PlayerPrefs.SetInt("LevelNineResult", levelResult);
+                }
+                break;
+
         }
     }
 

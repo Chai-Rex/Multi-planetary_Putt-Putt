@@ -855,12 +855,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1821801962}
     - target: {fileID: 8588170234390432032, guid: c7f75ae6c4d83d24b8e42142b3a919fa, type: 3}
+      propertyPath: maxExtraLevelsList
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8588170234390432032, guid: c7f75ae6c4d83d24b8e42142b3a919fa, type: 3}
       propertyPath: levelStars.Array.size
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8588170234390432032, guid: c7f75ae6c4d83d24b8e42142b3a919fa, type: 3}
       propertyPath: levelButtons.Array.size
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8588170234390432032, guid: c7f75ae6c4d83d24b8e42142b3a919fa, type: 3}
       propertyPath: 'levelButtons.Array.data[0]'
@@ -895,6 +899,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1157101252}
     - target: {fileID: 8588170234390432032, guid: c7f75ae6c4d83d24b8e42142b3a919fa, type: 3}
+      propertyPath: 'levelButtons.Array.data[8]'
+      value: 
+      objectReference: {fileID: 5898599985925721945}
+    - target: {fileID: 8588170234390432032, guid: c7f75ae6c4d83d24b8e42142b3a919fa, type: 3}
       propertyPath: levelStars.Array.data[1].level
       value: 1
       objectReference: {fileID: 0}
@@ -920,7 +928,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8588170234390432032, guid: c7f75ae6c4d83d24b8e42142b3a919fa, type: 3}
       propertyPath: levelStars.Array.data[7].level
-      value: 4
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8588170234390432032, guid: c7f75ae6c4d83d24b8e42142b3a919fa, type: 3}
+      propertyPath: levelStars.Array.data[8].level
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8588170234390432032, guid: c7f75ae6c4d83d24b8e42142b3a919fa, type: 3}
       propertyPath: levelStars.Array.data[0].stars.Array.size
@@ -952,6 +964,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8588170234390432032, guid: c7f75ae6c4d83d24b8e42142b3a919fa, type: 3}
       propertyPath: levelStars.Array.data[7].stars.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8588170234390432032, guid: c7f75ae6c4d83d24b8e42142b3a919fa, type: 3}
+      propertyPath: levelStars.Array.data[8].stars.Array.size
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8588170234390432032, guid: c7f75ae6c4d83d24b8e42142b3a919fa, type: 3}
@@ -1054,6 +1070,18 @@ PrefabInstance:
       propertyPath: 'levelStars.Array.data[7].stars.Array.data[2]'
       value: 
       objectReference: {fileID: 1297325025}
+    - target: {fileID: 8588170234390432032, guid: c7f75ae6c4d83d24b8e42142b3a919fa, type: 3}
+      propertyPath: 'levelStars.Array.data[8].stars.Array.data[0]'
+      value: 
+      objectReference: {fileID: 5898599985925721944}
+    - target: {fileID: 8588170234390432032, guid: c7f75ae6c4d83d24b8e42142b3a919fa, type: 3}
+      propertyPath: 'levelStars.Array.data[8].stars.Array.data[1]'
+      value: 
+      objectReference: {fileID: 5898599985925721943}
+    - target: {fileID: 8588170234390432032, guid: c7f75ae6c4d83d24b8e42142b3a919fa, type: 3}
+      propertyPath: 'levelStars.Array.data[8].stars.Array.data[2]'
+      value: 
+      objectReference: {fileID: 5898599985925721942}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1070,6 +1098,10 @@ PrefabInstance:
     - target: {fileID: 2489203390231151122, guid: acc80cdbb46fe1e4c85753ce8606b115, type: 3}
       propertyPath: m_Name
       value: MainMenuCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3279923769580362319, guid: acc80cdbb46fe1e4c85753ce8606b115, type: 3}
+      propertyPath: m_text
+      value: Level Nine
       objectReference: {fileID: 0}
     - target: {fileID: 4128662870352860634, guid: acc80cdbb46fe1e4c85753ce8606b115, type: 3}
       propertyPath: m_Pivot.x
@@ -1176,6 +1208,50 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acc80cdbb46fe1e4c85753ce8606b115, type: 3}
+--- !u!114 &5898599985925721942 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 656597107877036953, guid: acc80cdbb46fe1e4c85753ce8606b115, type: 3}
+  m_PrefabInstance: {fileID: 5898599985925721941}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+--- !u!114 &5898599985925721943 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7696725420872836004, guid: acc80cdbb46fe1e4c85753ce8606b115, type: 3}
+  m_PrefabInstance: {fileID: 5898599985925721941}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+--- !u!114 &5898599985925721944 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1109563776191898129, guid: acc80cdbb46fe1e4c85753ce8606b115, type: 3}
+  m_PrefabInstance: {fileID: 5898599985925721941}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+--- !u!114 &5898599985925721945 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8079278207225149854, guid: acc80cdbb46fe1e4c85753ce8606b115, type: 3}
+  m_PrefabInstance: {fileID: 5898599985925721941}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1001 &6270315563425870039
 PrefabInstance:
   m_ObjectHideFlags: 0

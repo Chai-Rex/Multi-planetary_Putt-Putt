@@ -17,7 +17,8 @@ public enum ELevel
     LevelFive,
     LevelSix,
     LevelSeven,
-    LevelEight
+    LevelEight,
+    LevelNine
 }
 
 [Serializable]
@@ -52,7 +53,8 @@ public class LevelManager : MonoBehaviour
         "Level5",
         "Level6",
         "Level7",
-        "Level8"
+        "Level8",
+        "LevelExtra1"
     };
 
     private void Awake()
@@ -75,7 +77,7 @@ public class LevelManager : MonoBehaviour
                 audioSource.Play();
             }
         }
-
+        currentLevelsList = 0;
         CreatePlayerPrefs();
         DisableAllLevelButtons();
         ShowSelectionArrows();
@@ -84,7 +86,12 @@ public class LevelManager : MonoBehaviour
 
     public void PlayLastUnlockedLevel()
     {
-        LoadLevel(PlayerPrefs.GetInt("CompletedLevels"));
+        int lastUnlockedLevel = PlayerPrefs.GetInt("CompletedLevels") + 1;
+        if (lastUnlockedLevel > levelNames.Count)
+        {
+            lastUnlockedLevel = levelNames.Count;
+        }
+        LoadLevel(lastUnlockedLevel);
     }
 
     public void CompletedLevel(ELevel levelCompleted)
@@ -114,6 +121,9 @@ public class LevelManager : MonoBehaviour
                 break;
             case ELevel.LevelEight:
                 UpdateLevelCompletedProgress(8);
+                break;
+            case ELevel.LevelNine:
+                UpdateLevelCompletedProgress(9);
                 break;
         }
     }
@@ -147,6 +157,9 @@ public class LevelManager : MonoBehaviour
             case ELevel.LevelEight:
                 LoadLevel(7);
                 break;
+            case ELevel.LevelNine:
+                LoadLevel(8);
+                break;
         }
     }
 
@@ -163,6 +176,13 @@ public class LevelManager : MonoBehaviour
         }
         else
         {
+            
+            levelNumber -= 1;
+            if (levelNumber < 0)
+            {
+                levelNumber = 0;
+            }
+            Debug.Log($"Current Level Number {levelNumber}");
             SceneManager.LoadScene(levelNames[levelNumber]);
         }
             
@@ -190,6 +210,7 @@ public class LevelManager : MonoBehaviour
             {
                 levelButtons[availableLevels].gameObject.SetActive(true);
                 ResultsManager.Instance.ShowStars(levelStars[availableLevels], GetLevelStarResults((ELevel)availableLevels));
+                Debug.Log($"Available Levels : {availableLevels}");
                 levelButtons[availableLevels].onClick.AddListener(() => LoadLevel(availableLevels));
             }
         }
@@ -210,6 +231,22 @@ public class LevelManager : MonoBehaviour
         {
             case ELevel.LevelOne:
                 return PlayerPrefs.GetInt("LevelOneResult");
+            case ELevel.LevelTwo:
+                return PlayerPrefs.GetInt("LevelTwoResult");
+            case ELevel.LevelThree:
+                return PlayerPrefs.GetInt("LevelThreeResult");
+            case ELevel.LevelFour:
+                return PlayerPrefs.GetInt("LevelFourResult");
+            case ELevel.LevelFive:
+                return PlayerPrefs.GetInt("LevelFiveResult");
+            case ELevel.LevelSix:
+                return PlayerPrefs.GetInt("LevelSixResult");
+            case ELevel.LevelSeven:
+                return PlayerPrefs.GetInt("LevelSevenResult");
+            case ELevel.LevelEight:
+                return PlayerPrefs.GetInt("LevelEightResult");
+            case ELevel.LevelNine:
+                return PlayerPrefs.GetInt("LevelNineResult");
             default:
                 return -1;
         }
@@ -313,6 +350,11 @@ public class LevelManager : MonoBehaviour
         if (!PlayerPrefs.HasKey("LevelEightResult"))
         {
             PlayerPrefs.SetInt("LevelEightResult", 0);
+        }
+
+        if (!PlayerPrefs.HasKey("LevelNineResult"))
+        {
+            PlayerPrefs.SetInt("LevelNineResult", 0);
         }
     }
 
