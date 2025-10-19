@@ -54,7 +54,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3834584060592216486, guid: 681aa8d3cd246f74cb4e161ba5dcb572, type: 3}
       propertyPath: m_Name
-      value: GasPlanet Variant (1) Variant
+      value: Level5 GasPlanet 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6833455889039914553, guid: 681aa8d3cd246f74cb4e161ba5dcb572, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6833455889039914553, guid: 681aa8d3cd246f74cb4e161ba5dcb572, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6833455889039914553, guid: 681aa8d3cd246f74cb4e161ba5dcb572, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 8945434250687585181, guid: 681aa8d3cd246f74cb4e161ba5dcb572, type: 3}
       propertyPath: m_Mass
