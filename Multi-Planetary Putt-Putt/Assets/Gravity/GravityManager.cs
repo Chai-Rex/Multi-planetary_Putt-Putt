@@ -14,6 +14,7 @@ public class GravityManager : MonoBehaviour {
     public static List<Rigidbody2D> attractors = new List<Rigidbody2D>();
     public static List<Rigidbody2D> attractees = new List<Rigidbody2D>();
 
+    public bool HasAttractors() => attractors.Count > 0;
 
     private void Awake() {
         Instance = this;
@@ -52,4 +53,5 @@ public class GravityManager : MonoBehaviour {
 
         target.AddForce(forceVector);
     }
+
 }

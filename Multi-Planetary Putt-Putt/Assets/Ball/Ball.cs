@@ -94,6 +94,9 @@ public class Ball : MonoBehaviour {
     }
 
     private bool IsOutOfBounds() {
+
+        if (GravityManager.Instance.HasAttractors()) return false;      
+        
         Vector3 viewportPos = Camera.main.WorldToViewportPoint(transform.position);
 
         return viewportPos.x < -outOfBoundsPadding || viewportPos.x > 1 + outOfBoundsPadding ||

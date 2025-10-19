@@ -33,4 +33,18 @@ public class Atmosphere : MonoBehaviour {
 
         spriteRenderer.SetPropertyBlock(_materialPropertyBlock);
     }
+
+
+
+    private void OnTriggerEnter2D(Collider2D collision) {
+        if (!CompareTag("Atmosphere")) return;
+        Debug.Log("ATMO enter");
+        collision.attachedRigidbody.linearDamping = 1.0f;
+    }
+
+    private void OnTriggerExit2D(Collider2D collision) {
+        if (!CompareTag("Atmosphere")) return;
+        Debug.Log("ATMO exit");
+        collision.attachedRigidbody.linearDamping = 0.0f;
+    }
 }

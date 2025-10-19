@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4193856449073630235}
   - component: {fileID: 5122646475541389185}
-  - component: {fileID: 4218162538138471460}
   m_Layer: 18
   m_Name: Planet
   m_TagString: Untagged
@@ -63,19 +62,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &4218162538138471460
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1010204039510285754}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fee044e41ea9fe46a431de87a2a9fa2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HasGravity
-  rigidbody2d: {fileID: 5122646475541389185}
 --- !u!1 &1974254743482505636
 GameObject:
   m_ObjectHideFlags: 0
@@ -88,9 +74,9 @@ GameObject:
   - component: {fileID: 292165693639597006}
   - component: {fileID: 5990658853597340134}
   - component: {fileID: 8630158721176790596}
-  m_Layer: 19
+  m_Layer: 18
   m_Name: AtmosphereCircle
-  m_TagString: Untagged
+  m_TagString: Atmosphere
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -360,6 +346,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: ConvergenceParticle
       objectReference: {fileID: 0}
+    - target: {fileID: 692308098364231994, guid: 8cdba9501e1ebd5448da9839c2f6769c, type: 3}
+      propertyPath: m_Layer
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 692308098364231994, guid: 8cdba9501e1ebd5448da9839c2f6769c, type: 3}
+      propertyPath: m_TagString
+      value: Gravity
+      objectReference: {fileID: 0}
     - target: {fileID: 3055861728420694251, guid: 8cdba9501e1ebd5448da9839c2f6769c, type: 3}
       propertyPath: startSize
       value: 0.1
@@ -445,7 +439,10 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 692308098364231994, guid: 8cdba9501e1ebd5448da9839c2f6769c, type: 3}
-      insertIndex: 2
+      insertIndex: 1
+      addedObject: {fileID: 834225132830075650}
+    - targetCorrespondingSourceObject: {fileID: 692308098364231994, guid: 8cdba9501e1ebd5448da9839c2f6769c, type: 3}
+      insertIndex: 3
       addedObject: {fileID: 8013835435852984480}
   m_SourcePrefab: {fileID: 100100000, guid: 8cdba9501e1ebd5448da9839c2f6769c, type: 3}
 --- !u!1 &1084393602516267816 stripped
@@ -453,6 +450,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 692308098364231994, guid: 8cdba9501e1ebd5448da9839c2f6769c, type: 3}
   m_PrefabInstance: {fileID: 474875431322935826}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &834225132830075650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084393602516267816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fee044e41ea9fe46a431de87a2a9fa2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HasGravity
+  rigidbody2d: {fileID: 5122646475541389185}
 --- !u!58 &8013835435852984480
 CircleCollider2D:
   m_ObjectHideFlags: 0

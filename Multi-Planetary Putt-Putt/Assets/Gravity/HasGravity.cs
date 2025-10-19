@@ -1,6 +1,5 @@
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D))]
 public class HasGravity : MonoBehaviour {
 
 
@@ -17,10 +16,14 @@ public class HasGravity : MonoBehaviour {
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {
+        if (!CompareTag("Gravity")) return;
+        Debug.Log("Gravity enter");
         GravityManager.attractors.Add(rigidbody2d);
     }
 
     private void OnTriggerExit2D(Collider2D collision) {
+        if (!CompareTag("Gravity")) return;
+        Debug.Log("Gravity exit");
         GravityManager.attractors.Remove(rigidbody2d);
     }
 
