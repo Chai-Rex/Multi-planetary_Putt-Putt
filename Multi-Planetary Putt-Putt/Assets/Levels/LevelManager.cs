@@ -116,12 +116,13 @@ public class LevelManager : MonoBehaviour
 
     public void PlayLastUnlockedLevel()
     {
-        int lastUnlockedLevel = PlayerPrefs.GetInt("CompletedLevels") + 1;
-        if (lastUnlockedLevel > levelNames.Count)
-        {
-            lastUnlockedLevel = levelNames.Count;
-        }
+        int lastUnlockedLevel = PlayerPrefs.GetInt("CompletedLevels");
         LoadLevel(lastUnlockedLevel);
+    }
+
+    public void PlayFirstLevel()
+    {
+        LoadLevel(0);
     }
 
     public void CompletedLevel(ELevel levelCompleted)

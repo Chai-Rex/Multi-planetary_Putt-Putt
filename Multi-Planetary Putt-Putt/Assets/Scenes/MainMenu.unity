@@ -1187,6 +1187,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1607296471}
+    - target: {fileID: 4484279230847676197, guid: acc80cdbb46fe1e4c85753ce8606b115, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayFirstLevel
+      objectReference: {fileID: 0}
     - target: {fileID: 4885243844805457815, guid: acc80cdbb46fe1e4c85753ce8606b115, type: 3}
       propertyPath: m_fontAsset
       value: 
