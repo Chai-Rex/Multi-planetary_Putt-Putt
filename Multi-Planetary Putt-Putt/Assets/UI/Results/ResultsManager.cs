@@ -8,7 +8,8 @@ public class ResultsManager : MonoBehaviour
 {
     public static ResultsManager Instance;
 
-    [SerializeField] private ELevel CURRENTLEVEL; 
+    [SerializeField] private ELevel CURRENTLEVEL;
+    [SerializeField] private ELevel NEXTLEVEL;
     [SerializeField] private StarData currentLevelStars = new StarData();
     [SerializeField] private GameObject resultsCanvas;
     [SerializeField] private TextMeshProUGUI numberOfPuttsText;
@@ -53,9 +54,8 @@ public class ResultsManager : MonoBehaviour
         if (nextHoleButton == null) { return; }
 
         retryButton.onClick.AddListener(() => LevelManager.Instance.ReloadCurrentLevel());
-        nextHoleButton.onClick.AddListener(() => LevelManager.Instance.PlayLastUnlockedLevel());
+        nextHoleButton.onClick.AddListener(() => LevelManager.Instance.OpenLevel(NEXTLEVEL));
     }
-
     public void ShowResultsScreen(ELevel resultsForLevel)
     {
         if (audioSource)
@@ -72,7 +72,7 @@ public class ResultsManager : MonoBehaviour
         if (retryButton != null && nextHoleButton != null)
         {
             retryButton.onClick.AddListener(() => LevelManager.Instance.ReloadCurrentLevel());
-            nextHoleButton.onClick.AddListener(() => LevelManager.Instance.PlayLastUnlockedLevel());
+            nextHoleButton.onClick.AddListener(() => LevelManager.Instance.OpenLevel(NEXTLEVEL));
         }
 
         LevelManager.Instance.CompletedLevel(CURRENTLEVEL);

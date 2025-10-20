@@ -18,7 +18,8 @@ public enum ELevel
     LevelSix,
     LevelSeven,
     LevelEight,
-    LevelNine
+    LevelNine,
+    MainMenu
 }
 
 [Serializable]
@@ -49,8 +50,8 @@ public class LevelManager : MonoBehaviour
         "Level1",
         "Level2",
         "Level3",
-        "Level4",
-        "Level5",
+        "Level 4",
+        "Level 5",
         "Level6",
         "Level7",
         "Level8",
@@ -160,6 +161,9 @@ public class LevelManager : MonoBehaviour
             case ELevel.LevelNine:
                 LoadLevel(8);
                 break;
+            case ELevel.MainMenu:
+                LoadMainMenu();
+                break;
         }
     }
 
@@ -170,18 +174,19 @@ public class LevelManager : MonoBehaviour
 
     private void LoadLevel(int levelNumber)
     {
-        if (!(levelNumber >= 0 && levelNumber < levelNames.Count)) 
+
+        if (!(levelNumber >=  0 && levelNumber < levelNames.Count)) 
         {
             LoadMainMenu();
         }
         else
         {
-            
-            levelNumber -= 1;
-            if (levelNumber < 0)
-            {
-                levelNumber = 0;
-            }
+            //levelNumber -= 1;
+            //if (levelNumber < 0)
+            //{
+            //    levelNumber = 0;
+            //}
+
             Debug.Log($"Current Level Number {levelNumber}");
             SceneManager.LoadScene(levelNames[levelNumber]);
         }
