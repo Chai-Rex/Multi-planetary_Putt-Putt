@@ -6,6 +6,7 @@ using System;
 using UnityEngine.Audio;
 using Unity.Mathematics;
 using Random = UnityEngine.Random;
+using Unity.VisualScripting;
 
 public enum ELevel
 {
@@ -39,6 +40,7 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private Button leftArrowButton;
     [SerializeField] private int maxLevelsPerList = 8;
     [SerializeField] private int maxExtraLevelsList = 0;
+    private Dictionary<int, List<string>> LevelsDictionary = new Dictionary<int, List<string>>();
     private int currentLevelsList = 0;
 
     [SerializeField]
@@ -79,10 +81,37 @@ public class LevelManager : MonoBehaviour
             }
         }
         currentLevelsList = 0;
+        for (int i = 0; i <= maxExtraLevelsList; i++)
+        {
+            for(int j = 0; j < maxLevelsPerList; j++)
+            {
+                int index = j;
+                index += i * maxLevelsPerList;
+
+                
+
+                if (index < levelNames.Count)
+                {
+                    if (!LevelsDictionary.ContainsKey(i))
+                    {
+                        LevelsDictionary.Add(i, new List<string>());
+                    }
+
+                    LevelsDictionary[i].Add(levelNames[index]);
+                }
+            }
+        }
+
         CreatePlayerPrefs();
-        DisableAllLevelButtons();
-        ShowSelectionArrows();
+        DisableAllLevelButtons();   
         AvailableLevels();
+    }
+
+    private void Start()
+    {
+        leftArrowButton.onClick.AddListener(() => PrevLevelList());
+        rightArrowButton.onClick.AddListener(() => NextLevelList());
+        ShowSelectionArrows();
     }
 
     public void PlayLastUnlockedLevel()
@@ -181,13 +210,7 @@ public class LevelManager : MonoBehaviour
         }
         else
         {
-            //levelNumber -= 1;
-            //if (levelNumber < 0)
-            //{
-            //    levelNumber = 0;
-            //}
 
-            Debug.Log($"Current Level Number {levelNumber}");
             SceneManager.LoadScene(levelNames[levelNumber]);
         }
             
@@ -206,26 +229,21 @@ public class LevelManager : MonoBehaviour
         if (levelButtons.Count == 0) { return; }
 
         int availableLevels;
-        int unAvailableLevels;
+        int updatedAvailableIndex = 0;
+        List<string> currentLevels = LevelsDictionary[currentLevelsList];
 
-        for (availableLevels = currentLevelsList * maxLevelsPerList; availableLevels <
-            PlayerPrefs.GetInt("CompletedLevels"); availableLevels++)
+        for (availableLevels = 0; availableLevels < currentLevels.Count; availableLevels++)
         {
-            if (availableLevels >= 0 && availableLevels < levelButtons.Count)
+            updatedAvailableIndex = availableLevels + (currentLevelsList * maxLevelsPerList);
+            if (updatedAvailableIndex < PlayerPrefs.GetInt("CompletedLevels"))
             {
-                levelButtons[availableLevels].gameObject.SetActive(true);
-                ResultsManager.Instance.ShowStars(levelStars[availableLevels], GetLevelStarResults((ELevel)availableLevels));
-                Debug.Log($"Available Levels : {availableLevels}");
-                levelButtons[availableLevels].onClick.AddListener(() => LoadLevel(availableLevels));
-            }
-        }
-
-        for (unAvailableLevels = availableLevels; unAvailableLevels < levelButtons.Count; unAvailableLevels++)
-        {
-            if (unAvailableLevels >= 0 && unAvailableLevels < levelButtons.Count)
-            {
-                levelButtons[unAvailableLevels].gameObject.SetActive(false);
-                ResultsManager.Instance.ShowStars(levelStars[unAvailableLevels], GetLevelStarResults((ELevel)unAvailableLevels));
+                if (updatedAvailableIndex >= 0 && updatedAvailableIndex < levelButtons.Count)
+                {
+                    int levelToSelect = updatedAvailableIndex;
+                    levelButtons[levelToSelect].gameObject.SetActive(true);
+                    ResultsManager.Instance.ShowStars(levelStars[levelToSelect], GetLevelStarResults((ELevel)levelToSelect));
+                    levelButtons[levelToSelect].onClick.AddListener(() => LoadLevel(levelToSelect));
+                }
             }
         }
     }
@@ -270,6 +288,7 @@ public class LevelManager : MonoBehaviour
     public void NextLevelList()
     {
         if (currentLevelsList < maxExtraLevelsList) { currentLevelsList++; }
+        Debug.Log($"Incremenet {currentLevelsList}");
         DisableAllLevelButtons();
         ShowSelectionArrows();
         AvailableLevels();
